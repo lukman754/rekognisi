@@ -349,7 +349,9 @@ class DataExtractor {
   formatActivityName(jenisKegiatan) {
     return jenisKegiatan
       .replace("Berperan Aktif Sebagai ", "")
-      .replace(" Dalam Suatu Kegiatan", "")
+      .replace(" Dalam Suatu Kegiatan ", "")
+      .replace(" Sebagai Ketua/Sekretaris/Bendahara/Kabid", "")
+      .replace("Sekretaris/Bendahara/Kabid/Steering ", "")
       .trim();
   }
 
@@ -468,6 +470,8 @@ class DataExtractionApp {
     jenisKegiatan = jenisKegiatan
       .replace("Berperan Aktif Sebagai ", "")
       .replace(" Dalam Suatu Kegiatan", "")
+      .replace(" Sebagai Ketua/Sekretaris/Bendahara/Kabid", "")
+      .replace("Sekretaris/Bendahara/Kabid/Steering ", "")
       .trim();
 
     const sanitizeForFilename = (str) => {
@@ -512,3 +516,4 @@ class DataExtractionApp {
 // Initialize application
 const app = new DataExtractionApp();
 console.log('Script ready. Click "Ekstrak Data" button to start.');
+
