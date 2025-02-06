@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Rekognisi Extractor",
+  "version": "1.0",
+  "description": "Run JavaScript files in browser console",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://sispema.unpam.ac.id/*"],
+      "js": ["blob_download.js"]
+    }
+  ],
+  "action": {
+    "default_title": "Console Runner"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["sispema.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
