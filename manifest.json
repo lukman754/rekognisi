@@ -6,10 +6,19 @@
   "permissions": ["scripting", "activeTab"],
   "content_scripts": [
     {
+      "matches": [
+        "http://simkatmawa.kemdikbud.go.id/v5/kegiatan_mhs/non_lomba/*"
+      ],
+      "js": ["hide_form.js", "json_input.js", "style.js"],
+      "run_at": "document_idle"
+    },
+    {
       "matches": ["https://sispema.unpam.ac.id/*"],
-      "js": ["blob_download.js"]
+      "js": ["blob_download.js"],
+      "run_at": "document_idle"
     }
   ],
+
   "action": {
     "default_title": "Console Runner"
   },
