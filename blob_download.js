@@ -1,128 +1,177 @@
-const popup = document.createElement("div");
-popup.style.cssText = `
+// Create container for semester buttons and copy button
+const buttonContainer = document.createElement("div");
+buttonContainer.style.cssText = `
   position: fixed;
-  top: 50%;
+  bottom: 24px;
   left: 50%;
-  transform: translate(-50%, -50%);
-  background: #ffffff;
-  padding: 24px;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
   z-index: 1000;
-  display: none;
-  max-width: 500px;
-  width: 90%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 `;
 
-// Popup content with modern styling
-popup.innerHTML = `
-  <h3 style="margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; color: #111827;">Download Files</h3>
-  
-  <div style="margin-bottom: 20px;">
-    <select id="inputMethod" style="width: 100%; padding: 8px 12px; border: 1px solid #e5e7eb; border-radius: 6px; font-size: 0.875rem; background: #f9fafb; color: #374151; outline: none;">
-      <option value="">Select Input Method</option>
-      <option value="singleLink">Single Link</option>
-      <option value="jsonText">JSON Text Input</option>
-      <option value="jsonFile">JSON File Upload</option>
-    </select>
-  </div>
+// Cache management for file downloader
+const FileDownloaderCache = {
+  CACHE_KEY: "sispema_file_downloader_state",
 
-  <div id="singleLinkInput" style="display: none;">
-    <input type="text" id="linkUrl" placeholder="Enter URL" style="width: 100%; padding: 8px 12px; border: 1px solid #e5e7eb; border-radius: 6px; margin-bottom: 8px; font-size: 0.875rem;">
-    <input type="text" id="customFileName" placeholder="Enter file name (optional)" style="width: 100%; padding: 8px 12px; border: 1px solid #e5e7eb; border-radius: 6px; margin-bottom: 12px; font-size: 0.875rem;">
-  </div>
+  saveState() {
+    const jsonText = document.getElementById("jsonText").value;
+    const jsonPrefix = document.getElementById("jsonPrefixInput").value;
 
-  <div id="jsonTextInput" style="display: none;">
-    <div style="margin-bottom: 12px;">
-        <label style="display: block; margin-bottom: 6px; font-size: 0.875rem; color: #374151;">JSON Format:</label>
-        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; color: #6b7280; padding: 8px; background: #f9fafb; border-radius: 6px;">
-            <span>Format: [{"name": "filename", "url": "url"}, ...]</span>
-            <button id="pasteJsonBtn" style="padding: 5px 8px; background: #3b82f6; color: white; border: none; border-radius: 6px; font-size: 0.75rem; cursor: pointer;">
-                Paste JSON
-            </button>
-        </div>
-    </div>
-    <textarea id="jsonText" placeholder="Paste JSON array" style="width: 100%; height: 120px; padding: 8px 12px; border: 1px solid #e5e7eb; border-radius: 6px; margin-bottom: 12px; font-size: 0.875rem; resize: vertical;"></textarea>
-    <input type="text" id="jsonPrefixInput" placeholder="Enter prefix for all files (optional)" style="width: 100%; padding: 8px 12px; border: 1px solid #e5e7eb; border-radius: 6px; font-size: 0.875rem; margin-top: 8px;">
+    localStorage.setItem(
+      this.CACHE_KEY,
+      JSON.stringify({
+        jsonText,
+        jsonPrefix,
+      })
+    );
+  },
 
-    
-  </div>
+  restoreState() {
+    const cachedState = localStorage.getItem(this.CACHE_KEY);
+    if (cachedState) {
+      const { jsonText, jsonPrefix } = JSON.parse(cachedState);
 
-  <div id="jsonFileInput" style="display: none;">
-    <div style="margin-bottom: 12px;">
-      <label style="display: block; margin-bottom: 6px; font-size: 0.875rem; color: #374151;">JSON Format:</label>
-      <div style="font-size: 0.75rem; color: #6b7280; padding: 8px; background: #f9fafb; border-radius: 6px;">
-        Format: {"syaratPendukung": [{"name": "filename", "url": "url"}, ...]}
-      </div>
-    </div>
-    <input type="file" id="jsonFile" accept=".json" style="width: 100%; margin-bottom: 12px; font-size: 0.875rem;">
-    <input type="text" id="jsonFilePrefixInput" placeholder="Enter prefix for all files (optional)" style="width: 100%; padding: 8px 12px; border: 1px solid #e5e7eb; border-radius: 6px; font-size: 0.875rem;">
-  </div>
+      document.getElementById("jsonText").value = jsonText;
+      document.getElementById("jsonPrefixInput").value = jsonPrefix;
 
-  <div id="urlContainer" style="max-height: 200px; overflow-y: auto; margin-top: 16px;"></div>
-  
-  <div style="display: flex; gap: 12px; margin-top: 20px;">
-    <button id="downloadAllBtn" style="flex: 1; background: #10b981; color: white; padding: 8px 16px; border: none; border-radius: 6px; font-size: 0.875rem; cursor: pointer; transition: background 0.2s;" disabled>Download All</button>
-    <button id="closePopup" style="flex: 1; background: #ef4444; color: white; padding: 8px 16px; border: none; border-radius: 6px; font-size: 0.875rem; cursor: pointer; transition: background 0.2s;">Close</button>
-  </div>
-`;
+      // Trigger input event to process the JSON
+      document.getElementById("jsonText").dispatchEvent(new Event("input"));
+    }
+  },
+};
 
-// Add popup to body
-document.body.appendChild(popup);
-
-document
-  .getElementById("pasteJsonBtn")
-  .addEventListener("click", async function () {
-    try {
-      const text = await navigator.clipboard.readText();
-      document.getElementById("jsonText").value = text;
-
-      // Trigger input event to automatically update URL container
-      const event = new Event("input", { bubbles: true });
-      document.getElementById("jsonText").dispatchEvent(event);
-    } catch (err) {
-      alert(
-        "Gagal mengambil teks dari clipboard. Pastikan Anda memberikan izin."
-      );
-      console.error(err);
+// Auto-paste functionality
+function setupAutoPasteObserver() {
+  const observer = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+      if (mutation.type === "childList") {
+        const preTags = document.querySelectorAll("pre.default_cursor_cs");
+        preTags.forEach((preTag) => {
+          const jsonContent = preTag.textContent.trim();
+          if (jsonContent) {
+            try {
+              const parsedJson = JSON.parse(jsonContent);
+              if (Array.isArray(parsedJson)) {
+                const jsonTextArea = document.getElementById("jsonText");
+                if (jsonTextArea) {
+                  jsonTextArea.value = jsonContent;
+                  jsonTextArea.dispatchEvent(new Event("input"));
+                  FileDownloaderCache.saveState();
+                }
+              }
+            } catch (error) {
+              console.error("Error parsing pre tag content:", error);
+            }
+          }
+        });
+      }
     }
   });
 
-// Create open popup button with modern styling
-const openPopupBtn = document.createElement("button");
-openPopupBtn.innerText = "Open File Downloader";
-openPopupBtn.style.cssText = `
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
-  padding: 12px 20px;
-  background: #3b82f6;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-size: 0.875rem;
-  cursor: pointer;
-  transition: background 0.2s;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-`;
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true,
+  });
+}
 
-openPopupBtn.addEventListener("click", () => {
-  popup.style.display = "block"; // Tampilkan popup
-  inputMethod.value = "jsonText"; // Set default ke JSON Text Input
-  inputMethod.dispatchEvent(new Event("change")); // Trigger perubahan
-});
+// Function untuk semester selector
+const createSemesterSelector = () => {
+  const isDropdownOpen = () => {
+    return document.querySelector(".q-menu.scroll") !== null;
+  };
+
+  const trySelectSemester = (semester, maxAttempts = 10) => {
+    let attempts = 0;
+    const attempt = () => {
+      if (attempts >= maxAttempts) {
+        console.log("Gagal memilih semester setelah", maxAttempts, "percobaan");
+        return;
+      }
+      const items = document.querySelectorAll(".q-item__label span");
+      const targetItem = Array.from(items).find(
+        (item) => item.textContent === semester
+      );
+      if (targetItem && isDropdownOpen()) {
+        targetItem.closest(".q-item").click();
+      } else {
+        attempts++;
+        setTimeout(attempt, 100);
+      }
+    };
+    attempt();
+  };
+
+  const pilihSemesterLengkap = (semester) => {
+    const semesterInput = document.querySelector(
+      'input[aria-label="Semester Registrasi"]'
+    );
+    if (semesterInput) {
+      const dropdownIcon = semesterInput
+        .closest(".q-field")
+        .querySelector(".q-select__dropdown-icon");
+      if (dropdownIcon) {
+        dropdownIcon.click();
+        setTimeout(() => trySelectSemester(semester), 100);
+      }
+    }
+  };
+
+  const baseStyle = `
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  `;
+
+  const buttonGenap = document.createElement("button");
+  buttonGenap.textContent = "GENAP 23/24";
+  buttonGenap.style.cssText = baseStyle;
+  buttonGenap.style.backgroundColor = "#3b82f6";
+  buttonGenap.addEventListener(
+    "mouseover",
+    () => (buttonGenap.style.backgroundColor = "#2563eb")
+  );
+  buttonGenap.addEventListener(
+    "mouseout",
+    () => (buttonGenap.style.backgroundColor = "#3b82f6")
+  );
+  buttonGenap.addEventListener("click", () =>
+    pilihSemesterLengkap("GENAP 2023/2024")
+  );
+
+  const buttonGanjil = document.createElement("button");
+  buttonGanjil.textContent = "GANJIL 24/25";
+  buttonGanjil.style.cssText = baseStyle;
+  buttonGanjil.style.backgroundColor = "#ef4444";
+  buttonGanjil.addEventListener(
+    "mouseover",
+    () => (buttonGanjil.style.backgroundColor = "#dc2626")
+  );
+  buttonGanjil.addEventListener(
+    "mouseout",
+    () => (buttonGanjil.style.backgroundColor = "#ef4444")
+  );
+  buttonGanjil.addEventListener("click", () =>
+    pilihSemesterLengkap("GANJIL 2024/2025")
+  );
+
+  return [buttonGenap, buttonGanjil];
+};
 
 // Create copy button
 const copyButton = document.createElement("button");
 copyButton.innerText = "Copy sispema.js";
 copyButton.style.cssText = `
-  position: fixed;
-  bottom: 24px;
-  right: 220px; /* Geser ke kiri dari openPopupBtn */
   padding: 12px 20px;
-  background: #10b981;
+  background: #6366f1;
   color: white;
   border: none;
   border-radius: 8px;
@@ -133,11 +182,197 @@ copyButton.style.cssText = `
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 `;
 
-// Append both buttons to document
-document.body.appendChild(openPopupBtn);
-document.body.appendChild(copyButton);
+// Add hover effects for copy button
+copyButton.addEventListener("mouseover", () => {
+  copyButton.style.background = "#4f46e5";
+});
+copyButton.addEventListener("mouseout", () => {
+  copyButton.style.background = "#6366f1";
+});
 
-// Function to copy sispema2.js content
+// Create and insert file downloader card
+// Modified file downloader creation and insertion
+const createFileDownloader = () => {
+  const fileDownloader = document.createElement("div");
+  fileDownloader.id = "sispema-file-downloader"; // Add unique identifier
+  fileDownloader.className = "col-lg-12 col-md-12 col-sm-12 col-xs-12";
+  fileDownloader.innerHTML = `
+    <div class="q-card bodi-content" style="margin-bottom: 16px; visibility: visible; opacity: 1;">
+      <div class="q-card__section q-card__section--vert q-pa-sm">
+        <div class="text-h6 q-mb-md">File Downloader</div>
+        <div class="q-mb-md">
+          <div style="margin-bottom: 12px;">
+            <label style="display: block; margin-bottom: 6px; font-size: 0.875rem; color: #374151;">JSON Format:</label>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; color: #6b7280; padding: 8px; background: #f9fafb; border-radius: 6px;">
+              <span>Format: [{"name": "filename", "url": "url"}, ...]</span>
+              <button id="pasteJsonBtn" style="padding: 5px 8px; background: #3b82f6; color: white; border: none; border-radius: 6px; font-size: 0.75rem; cursor: pointer;">
+                Paste JSON
+              </button>
+            </div>
+          </div>
+          <textarea id="jsonText" placeholder="Paste JSON array" style="width: 100%; height: 120px; padding: 8px 12px; border: 1px solid #e5e7eb; border-radius: 6px; margin-bottom: 12px; font-size: 0.875rem; resize: vertical;"></textarea>
+          <input type="text" id="jsonPrefixInput" placeholder="Enter prefix for all files (optional)" style="width: 100%; padding: 8px 12px; border: 1px solid #e5e7eb; border-radius: 6px; font-size: 0.875rem; margin-bottom: 12px;">
+        </div>
+        <div id="urlContainer" style="max-height: 300px; overflow-y: auto;"></div>
+        <button id="downloadAllBtn" style="width: 100%; background: #10b981; color: white; padding: 8px 16px; border: none; border-radius: 6px; font-size: 0.875rem; cursor: pointer; transition: background 0.2s;" disabled>
+          Download All
+        </button>
+      </div>
+    </div>
+  `;
+
+  // Enhanced insertion logic
+  const insertFileDownloader = () => {
+    const targetRow = document.querySelector(".row.q-col-gutter-sm");
+    if (targetRow) {
+      // Remove any existing downloader first
+      const existingDownloader = document.getElementById(
+        "sispema-file-downloader"
+      );
+      if (existingDownloader) {
+        existingDownloader.remove();
+      }
+
+      // Insert new downloader
+      targetRow.insertBefore(fileDownloader, targetRow.firstChild);
+    } else {
+      // Retry insertion after a short delay if row not found
+      setTimeout(insertFileDownloader, 500);
+    }
+  };
+
+  // Initial and repeated insertion attempts
+  insertFileDownloader();
+
+  // Additional fallback mechanism
+  const mutationObserver = new MutationObserver((mutations) => {
+    const targetRow = document.querySelector(".row.q-col-gutter-sm");
+    if (targetRow && !document.getElementById("sispema-file-downloader")) {
+      insertFileDownloader();
+    }
+  });
+
+  mutationObserver.observe(document.body, {
+    childList: true,
+    subtree: true,
+  });
+
+  return fileDownloader;
+};
+
+// Modify initialization to ensure robust insertion
+function initializeFileDownloader() {
+  const existingDownloader = document.getElementById("sispema-file-downloader");
+  if (!existingDownloader) {
+    createFileDownloader();
+  }
+}
+
+// Multiple insertion attempts
+document.addEventListener("DOMContentLoaded", initializeFileDownloader);
+window.addEventListener("load", initializeFileDownloader);
+
+// Periodic check for insertion
+setInterval(initializeFileDownloader, 1000);
+
+// Store URLs and file names
+let currentFiles = [];
+
+// Helper function for file extensions
+function getFileExtension(contentType) {
+  if (contentType.includes("pdf")) return ".pdf";
+  if (contentType.includes("image")) return ".png";
+  return ".bin";
+}
+
+// Download file function
+async function downloadFile(file, prefix, progressCallback = null) {
+  try {
+    if (file.isBlob) {
+      const response = await fetch(file.url);
+      if (!response.ok)
+        throw new Error(`HTTP error! status: ${response.status}`);
+      const blob = await response.blob();
+      const contentType = response.headers.get("content-type");
+      const ext = getFileExtension(contentType);
+      const filename = prefix
+        ? `${prefix}_${file.name}${ext}`
+        : `${file.name}${ext}`;
+
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(link.href);
+    } else {
+      const blob = new Blob([file.url], { type: "text/plain" });
+      const filename = prefix
+        ? `${prefix}_${file.name}.txt`
+        : `${file.name}.txt`;
+
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(link.href);
+    }
+
+    if (progressCallback) progressCallback();
+    return true;
+  } catch (error) {
+    console.error(`Download error for file: ${file.name}`, error);
+    return false;
+  }
+}
+
+// Update URL container function
+function updateUrlContainer() {
+  const urlContainer = document.getElementById("urlContainer");
+  const prefix = document.getElementById("jsonPrefixInput").value.trim();
+
+  urlContainer.innerHTML = "";
+  currentFiles.forEach((file) => {
+    const displayName = prefix ? `${prefix}_${file.name}` : file.name;
+
+    const downloadBtn = document.createElement("button");
+    downloadBtn.textContent = `Download ${displayName}`;
+    downloadBtn.style.cssText = `
+      width: 100%;
+      margin-bottom: 8px;
+      padding: 8px 12px;
+      background: #f3f4f6;
+      border: 1px solid #e5e7eb;
+      border-radius: 6px;
+      color: #374151;
+      font-size: 0.875rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: left;
+    `;
+
+    downloadBtn.addEventListener("mouseover", () => {
+      downloadBtn.style.background = "#e5e7eb";
+    });
+    downloadBtn.addEventListener("mouseout", () => {
+      downloadBtn.style.background = "#f3f4f6";
+    });
+
+    downloadBtn.onclick = () => downloadFile(file, prefix);
+    urlContainer.appendChild(downloadBtn);
+  });
+
+  document.getElementById("downloadAllBtn").disabled =
+    currentFiles.length === 0;
+
+  // Save state after update
+  FileDownloaderCache.saveState();
+}
+
+// Copy sispema.js function
 async function copySispema2() {
   try {
     const response = await fetch(chrome.runtime.getURL("sispema.js"));
@@ -148,7 +383,6 @@ async function copySispema2() {
       "Script sispema.js telah disalin ke clipboard! Buka console (CTRL+SHIFT+J) untuk menjalankan program."
     );
 
-    // **Memicu DevTools**
     setTimeout(() => {
       console.log(
         "%cSilakan paste script di sini dan tekan Enter.",
@@ -160,7 +394,6 @@ async function copySispema2() {
         "color: blue; font-size: 16px; font-weight: bold;",
         "color: red; font-size: 16px;"
       );
-
       console.debug("Membuka DevTools secara tidak langsung...");
     }, 100);
   } catch (error) {
@@ -169,92 +402,33 @@ async function copySispema2() {
   }
 }
 
-// Tambahkan event listener ke tombol copy
-copyButton.addEventListener("click", copySispema2);
+// Initialize the components
+document.body.appendChild(buttonContainer);
+const semesterButtons = createSemesterSelector();
+semesterButtons.forEach((button) => buttonContainer.appendChild(button));
+buttonContainer.appendChild(copyButton);
+const fileDownloader = createFileDownloader();
 
-// Hover effects
-openPopupBtn.addEventListener("mouseover", () => {
-  openPopupBtn.style.background = "#2563eb";
-});
-openPopupBtn.addEventListener("mouseout", () => {
-  openPopupBtn.style.background = "#3b82f6";
-});
-
-// Get elements
-const inputMethod = popup.querySelector("#inputMethod");
-const singleLinkInput = popup.querySelector("#singleLinkInput");
-const jsonTextInput = popup.querySelector("#jsonTextInput");
-const jsonFileInput = popup.querySelector("#jsonFileInput");
-const urlContainer = popup.querySelector("#urlContainer");
-const closePopupBtn = popup.querySelector("#closePopup");
-const downloadAllBtn = popup.querySelector("#downloadAllBtn");
-const linkUrlInput = popup.querySelector("#linkUrl");
-const customFileNameInput = popup.querySelector("#customFileName");
-const jsonTextArea = popup.querySelector("#jsonText");
-const jsonPrefixInput = popup.querySelector("#jsonPrefixInput");
-const jsonFileUpload = popup.querySelector("#jsonFile");
-const jsonFilePrefixInput = popup.querySelector("#jsonFilePrefixInput");
-
-// Store URLs and file names
-let currentFiles = [];
-
-// Custom button style for URL container
-const buttonStyle = `
-  width: 100%;
-  margin-bottom: 8px;
-  padding: 8px 12px;
-  background: #f3f4f6;
-  border: 1px solid #e5e7eb;
-  border-radius: 6px;
-  color: #374151;
-  font-size: 0.875rem;
-  cursor: pointer;
-  transition: all 0.2s;
-  text-align: left;
-`;
-
-// Input method selection handler
-inputMethod.addEventListener("change", () => {
-  singleLinkInput.style.display = "none";
-  jsonTextInput.style.display = "none";
-  jsonFileInput.style.display = "none";
-  urlContainer.innerHTML = "";
-  currentFiles = [];
-  downloadAllBtn.disabled = true;
-
-  switch (inputMethod.value) {
-    case "singleLink":
-      singleLinkInput.style.display = "block";
-      break;
-    case "jsonText":
-      jsonTextInput.style.display = "block";
-      break;
-    case "jsonFile":
-      jsonFileInput.style.display = "block";
-      break;
-  }
-});
-
-// Single link input handler
-linkUrlInput.addEventListener("input", () => {
-  const url = linkUrlInput.value.trim();
-  if (url) {
-    currentFiles = [
-      {
-        url,
-        name: customFileNameInput.value.trim() || "File 1",
-        isBlob: url.startsWith("blob:"),
-      },
-    ];
-    updateUrlContainer();
-  }
-});
+// Initialize event handlers
+document
+  .getElementById("pasteJsonBtn")
+  .addEventListener("click", async function () {
+    try {
+      const text = await navigator.clipboard.readText();
+      document.getElementById("jsonText").value = text;
+      document.getElementById("jsonText").dispatchEvent(new Event("input"));
+    } catch (err) {
+      alert(
+        "Gagal mengambil teks dari clipboard. Pastikan Anda memberikan izin."
+      );
+      console.error(err);
+    }
+  });
 
 // JSON text input handler
-// Modified JSON text input handler
-jsonTextArea.addEventListener("input", () => {
+document.getElementById("jsonText").addEventListener("input", () => {
   try {
-    const jsonData = JSON.parse(jsonTextArea.value);
+    const jsonData = JSON.parse(document.getElementById("jsonText").value);
     if (Array.isArray(jsonData)) {
       currentFiles = jsonData.map((item) => ({
         url: item.url,
@@ -264,176 +438,61 @@ jsonTextArea.addEventListener("input", () => {
       updateUrlContainer();
     }
   } catch (error) {
-    // Optional: Clear currentFiles if JSON is invalid
     currentFiles = [];
-    urlContainer.innerHTML = "";
+    document.getElementById("urlContainer").innerHTML = "";
+    document.getElementById("downloadAllBtn").disabled = true;
+  }
+});
+
+// Download all files handler
+// Download all files handler (continued)
+document
+  .getElementById("downloadAllBtn")
+  .addEventListener("click", async () => {
+    if (currentFiles.length === 0) {
+      alert("No files to download");
+      return;
+    }
+
+    const downloadAllBtn = document.getElementById("downloadAllBtn");
+    const prefix = document.getElementById("jsonPrefixInput").value.trim();
+
     downloadAllBtn.disabled = true;
-    console.error("Invalid JSON format");
-  }
-});
+    let successCount = 0;
+    const totalFiles = currentFiles.length;
 
-// Add input event listener to prefix inputs to trigger update
-jsonPrefixInput.addEventListener("input", () => {
-  if (currentFiles.length > 0) {
-    updateUrlContainer();
-  }
-});
+    for (let i = 0; i < currentFiles.length; i++) {
+      const file = currentFiles[i];
+      downloadAllBtn.textContent = `Downloading ${i + 1}/${totalFiles}...`;
 
-jsonFilePrefixInput.addEventListener("input", () => {
-  if (currentFiles.length > 0) {
-    updateUrlContainer();
-  }
-});
+      const success = await downloadFile(file, prefix, () => {
+        successCount++;
+      });
 
-// JSON file input handler
-jsonFileUpload.addEventListener("change", async (event) => {
-  const file = event.target.files[0];
-  if (!file) return;
-
-  try {
-    const jsonText = await file.text();
-    const jsonData = JSON.parse(jsonText);
-
-    if (jsonData.syaratPendukung && Array.isArray(jsonData.syaratPendukung)) {
-      currentFiles = jsonData.syaratPendukung.map((item) => ({
-        url: item.url,
-        name: item.name,
-        isBlob: item.url.startsWith("blob:"),
-      }));
-      updateUrlContainer();
+      if (i < currentFiles.length - 1) {
+        await new Promise((resolve) => setTimeout(resolve, 500));
+      }
     }
-  } catch (error) {
-    console.error("Error processing JSON:", error);
-    alert("Failed to process JSON file");
-  }
-});
 
-// Update URL container
-function updateUrlContainer() {
-  urlContainer.innerHTML = "";
-  currentFiles.forEach((file) => {
-    const prefix =
-      inputMethod.value === "jsonText"
-        ? jsonPrefixInput.value.trim()
-        : jsonFilePrefixInput.value.trim();
+    downloadAllBtn.textContent = "Download All";
+    downloadAllBtn.disabled = false;
 
-    const displayName = prefix ? `${prefix}_${file.name}` : file.name;
-
-    const downloadBtn = document.createElement("button");
-    downloadBtn.textContent = `Download ${displayName}`;
-    downloadBtn.style.cssText = buttonStyle;
-
-    downloadBtn.addEventListener("mouseover", () => {
-      downloadBtn.style.background = "#e5e7eb";
-    });
-    downloadBtn.addEventListener("mouseout", () => {
-      downloadBtn.style.background = "#f3f4f6";
-    });
-
-    downloadBtn.onclick = () => {
-      const currentPrefix =
-        inputMethod.value === "jsonText"
-          ? jsonPrefixInput.value.trim()
-          : jsonFilePrefixInput.value.trim();
-      downloadFile(file, currentPrefix);
-    };
-    urlContainer.appendChild(downloadBtn);
+    if (successCount < totalFiles) {
+      alert(
+        `Downloaded ${successCount} out of ${totalFiles} files. Some files may have failed.`
+      );
+    }
   });
-  downloadAllBtn.disabled = currentFiles.length === 0;
-}
 
-// Download file function
-// Single link input handlers
-linkUrlInput.addEventListener("input", updateSingleLinkFiles);
-customFileNameInput.addEventListener("input", updateSingleLinkFiles);
+// Copy sispema.js button event listener
+copyButton.addEventListener("click", copySispema2);
 
-function updateSingleLinkFiles() {
-  const url = linkUrlInput.value.trim();
-  const customName = customFileNameInput.value.trim();
+// Initial setup after page load
+document.addEventListener("DOMContentLoaded", () => {
+  // Restore cached state
+  FileDownloaderCache.restoreState();
 
-  if (url) {
-    currentFiles = [
-      {
-        url,
-        name: customName || "File 1", // Use custom name or default
-        isBlob: url.startsWith("blob:"),
-      },
-    ];
-    updateUrlContainer();
-  }
-}
-
-// Modify the downloadFile function to use the provided name
-async function downloadFile(file, prefix) {
-  try {
-    if (file.isBlob) {
-      const response = await fetch(file.url);
-      const blob = await response.blob();
-      const contentType = response.headers.get("content-type");
-      const ext = getFileExtension(contentType);
-
-      // Use provided name with optional prefix
-      const filename = prefix
-        ? `${prefix}_${file.name}${ext}`
-        : `${file.name}${ext}`;
-
-      const link = document.createElement("a");
-      link.href = URL.createObjectURL(blob);
-      link.download = filename;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    } else {
-      const blob = new Blob([file.url], { type: "text/plain" });
-
-      // Use provided name with optional prefix
-      const filename = prefix
-        ? `${prefix}_${file.name}.txt`
-        : `${file.name}.txt`;
-
-      const link = document.createElement("a");
-      link.href = URL.createObjectURL(blob);
-      link.download = filename;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    }
-  } catch (error) {
-    console.error(`Download error for file: ${file.name}`, error);
-    alert("Download failed");
-  }
-}
-
-// Download all files
-downloadAllBtn.addEventListener("click", async () => {
-  if (currentFiles.length === 0) {
-    alert("No files to download");
-    return;
-  }
-
-  const currentPrefix =
-    inputMethod.value === "jsonText"
-      ? jsonPrefixInput.value.trim()
-      : jsonFilePrefixInput.value.trim();
-
-  for (const file of currentFiles) {
-    await downloadFile(file, currentPrefix);
-    await new Promise((resolve) => setTimeout(resolve, 300));
-  }
+  // Setup auto-paste observer
+  setupAutoPasteObserver();
 });
 
-// Open/Close popup handlers
-openPopupBtn.addEventListener("click", () => {
-  popup.style.display = "block";
-});
-
-closePopupBtn.addEventListener("click", () => {
-  popup.style.display = "none";
-});
-
-// Get file extension helper
-function getFileExtension(contentType) {
-  if (contentType.includes("pdf")) return ".pdf";
-  if (contentType.includes("image")) return ".png";
-  return ".bin";
-}
