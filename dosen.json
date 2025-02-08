@@ -1,0 +1,8910 @@
+{
+  "total": 2226,
+  "lastUpdated": "2025-02-08T03:21:44.168Z",
+  "data": [
+    {
+      "nidn": "0428057907",
+      "name": "HERU WAHYUDI"
+    },
+    {
+      "nidn": "0411038403",
+      "name": "ILHAM MUSTOFA"
+    },
+    {
+      "nidn": "0424059301",
+      "name": "ZAKARIA HABIB AL-RA’ZIE"
+    },
+    {
+      "nidn": "8982120021",
+      "name": "DEDEN JUARDI"
+    },
+    {
+      "nidn": "0426029502",
+      "name": "FEBRYAN AJENG RAMDANI"
+    },
+    {
+      "nidn": "0425019502",
+      "name": "JAKA MAULANA"
+    },
+    {
+      "nidn": "0421108906",
+      "name": "ULVIA FADILAH"
+    },
+    {
+      "nidn": "0431128805",
+      "name": "YOHANES OCI"
+    },
+    {
+      "nidn": "8837050017",
+      "name": "ANNIE RUFEIDAH"
+    },
+    {
+      "nidn": "0414118203",
+      "name": "DENI DARMAWAN"
+    },
+    {
+      "nidn": "0419039005",
+      "name": "DYAS MULYANI BENAZIR"
+    },
+    {
+      "nidn": "0001016919",
+      "name": "EDI JUNAEDI"
+    },
+    {
+      "nidn": "0410037302",
+      "name": "ISMUL BATHNI S."
+    },
+    {
+      "nidn": "0420089301",
+      "name": "NUR RACHMAH WAHIDAH"
+    },
+    {
+      "nidn": "0430127505",
+      "name": "NURHAYATI"
+    },
+    {
+      "nidn": "0430048705",
+      "name": "RAHMAYANTI"
+    },
+    {
+      "nidn": "8893410016",
+      "name": "SUWANDI"
+    },
+    {
+      "nidn": "0412016805",
+      "name": "WALUYO"
+    },
+    {
+      "nidn": "0303028202",
+      "name": "ZAKI ZAINAL ARIFIN"
+    },
+    {
+      "nidn": "0025018701",
+      "name": "DESILIA PURNAMA DEWI"
+    },
+    {
+      "nidn": "0429057002",
+      "name": "HARJOYO"
+    },
+    {
+      "nidn": "0320065901",
+      "name": "NANI NURAINI SARAH"
+    },
+    {
+      "nidn": "0414125901",
+      "name": "SAPTO HADI IMAMBACHRI"
+    },
+    {
+      "nidn": "0425057002",
+      "name": "SUGIYARTO"
+    },
+    {
+      "nidn": "0414128505",
+      "name": "UNIK DESTHIANI"
+    },
+    {
+      "nidn": "0403029204",
+      "name": "ESTI CAHYANINGSIH"
+    },
+    {
+      "nidn": "0417037401",
+      "name": "LIEM TAU YOUNG"
+    },
+    {
+      "nidn": "0409097302",
+      "name": "RIRRIE FARDIWAN"
+    },
+    {
+      "nidn": "0431059201",
+      "name": "GANEFO SUDIRMAN"
+    },
+    {
+      "nidn": "0430119101",
+      "name": "AERLANGGA"
+    },
+    {
+      "nidn": "0405078704",
+      "name": "ARIFIN"
+    },
+    {
+      "nidn": "0405096704",
+      "name": "BUDI SETYAWAN"
+    },
+    {
+      "nidn": "0417097503",
+      "name": "DARUL FAHMI"
+    },
+    {
+      "nidn": "8857100016",
+      "name": "EDY KURNIAWAN BAYU AJI"
+    },
+    {
+      "nidn": "0402078804",
+      "name": "HENDRY SUSANTO"
+    },
+    {
+      "nidn": "0430048303",
+      "name": "HERLAMBANG"
+    },
+    {
+      "nidn": "0422089101",
+      "name": "HIDAYATUL MU’ARIFIN"
+    },
+    {
+      "nidn": "0401088407",
+      "name": "LUKMAN ANTHONI"
+    },
+    {
+      "nidn": "0405038903",
+      "name": "MARINI"
+    },
+    {
+      "nidn": "0405067707",
+      "name": "NGATIMIN"
+    },
+    {
+      "nidn": "0414028501",
+      "name": "RAHMAN FAISAL"
+    },
+    {
+      "nidn": "8842940017",
+      "name": "REZI EKA PUTRA"
+    },
+    {
+      "nidn": "0405079102",
+      "name": "RIRIN SARI DEWI"
+    },
+    {
+      "nidn": "0415099201",
+      "name": "SITI RATNA SARI DEWI"
+    },
+    {
+      "nidn": "0415067208",
+      "name": "SUKARNO"
+    },
+    {
+      "nidn": "0426078006",
+      "name": "WARDOKHI"
+    },
+    {
+      "nidn": "0328058301",
+      "name": "YUSUF"
+    },
+    {
+      "nidn": "0418058802",
+      "name": "EUIS NESSIA FITRI"
+    },
+    {
+      "nidn": "0415079201",
+      "name": "IMAR HALIMAH"
+    },
+    {
+      "nidn": "0429017902",
+      "name": "LINAWATI"
+    },
+    {
+      "nidn": "8920600020",
+      "name": "FAIZAH ADISTY"
+    },
+    {
+      "nidn": "0410069302",
+      "name": "IBRAHIM ALI AKBAR"
+    },
+    {
+      "nidn": "0403058905",
+      "name": "IWAN SAIFUL FITRA"
+    },
+    {
+      "nidn": "0405128504",
+      "name": "KAMILASARY HYLMI"
+    },
+    {
+      "nidn": "0402028704",
+      "name": "KISNO"
+    },
+    {
+      "nidn": "0417108506",
+      "name": "IROH RAHMAWATI"
+    },
+    {
+      "nidn": "0417058604",
+      "name": "ENEN TWENTEGH APRIANTY"
+    },
+    {
+      "nidn": "0401028902",
+      "name": "IRNA MAYA SARI"
+    },
+    {
+      "nidn": "0403078803",
+      "name": "LAMSAH"
+    },
+    {
+      "nidn": "0409068503",
+      "name": "MUHAMAD ARIFIN"
+    },
+    {
+      "nidn": "0414079302",
+      "name": "PUTRI WULANDARI"
+    },
+    {
+      "nidn": "0403119105",
+      "name": "RAHADIAN AMRULLAH"
+    },
+    {
+      "nidn": "0420116902",
+      "name": "A. ASRORUDIN"
+    },
+    {
+      "nidn": "0413057704",
+      "name": "ABDULLAH MUBAROK"
+    },
+    {
+      "nidn": "0427028405",
+      "name": "ABU YAZID"
+    },
+    {
+      "nidn": "0308106001",
+      "name": "ABUL HATIM"
+    },
+    {
+      "nidn": "8808500016",
+      "name": "ADI SOFYANA LATIF"
+    },
+    {
+      "nidn": "0425128303",
+      "name": "ADI SUPRIADI"
+    },
+    {
+      "nidn": "0417088605",
+      "name": "AGUS AFANDI"
+    },
+    {
+      "nidn": "0404086901",
+      "name": "AGUS SUDIYATMOKO"
+    },
+    {
+      "nidn": "0427068801",
+      "name": "AHMAD SYAUQI"
+    },
+    {
+      "nidn": "0404078407",
+      "name": "AHMAD SYIFA"
+    },
+    {
+      "nidn": "0416126807",
+      "name": "ALEXANDER RAPHAEL"
+    },
+    {
+      "nidn": "0419107308",
+      "name": "ANDRI SYAHPUTRA"
+    },
+    {
+      "nidn": "0408058506",
+      "name": "ANDRY SUGENG"
+    },
+    {
+      "nidn": "0426108802",
+      "name": "ANGGA HIDAYAT"
+    },
+    {
+      "nidn": "0419106903",
+      "name": "ANI KUSUMANINGSIH"
+    },
+    {
+      "nidn": "0427029003",
+      "name": "ANISA"
+    },
+    {
+      "nidn": "0405029401",
+      "name": "ASIH HANDAYANI"
+    },
+    {
+      "nidn": "0420049002",
+      "name": "AYUMI RAHMA"
+    },
+    {
+      "nidn": "0414128003",
+      "name": "BENARDA, S.P."
+    },
+    {
+      "nidn": "0426048505",
+      "name": "DENI SUTISNA"
+    },
+    {
+      "nidn": "0422079301",
+      "name": "DESI JELANTI"
+    },
+    {
+      "nidn": "0424129003",
+      "name": "DESY PURWASIH"
+    },
+    {
+      "nidn": "0412107803",
+      "name": "DEWI ULFAH ARINI"
+    },
+    {
+      "nidn": "0431039401",
+      "name": "DIAN WIDIYATI"
+    },
+    {
+      "nidn": "0415048004",
+      "name": "DIDI SUJADI"
+    },
+    {
+      "nidn": "0402057808",
+      "name": "DINAR AMBARITA"
+    },
+    {
+      "nidn": "0420049005",
+      "name": "DINI FITRIANTI"
+    },
+    {
+      "nidn": "0419127603",
+      "name": "DONNY INDRADI"
+    },
+    {
+      "nidn": "0409099301",
+      "name": "DWI SEPTIANI"
+    },
+    {
+      "nidn": "0419108602",
+      "name": "EKA OKTAPIANI"
+    },
+    {
+      "nidn": "0420058902",
+      "name": "EKA RIMA PRASETYA"
+    },
+    {
+      "nidn": "0421107104",
+      "name": "EKO SASONGKO PRIYADI"
+    },
+    {
+      "nidn": "0416088205",
+      "name": "ERICK AGUSTINUS"
+    },
+    {
+      "nidn": "0409049006",
+      "name": "ERIKA ASTRIANI APRILIA"
+    },
+    {
+      "nidn": "0407048604",
+      "name": "FERDIANSYAH"
+    },
+    {
+      "nidn": "0416029201",
+      "name": "FERY CITRA FEBRIYANTO"
+    },
+    {
+      "nidn": "0415109001",
+      "name": "FIL ISNAENI, M.PD.I"
+    },
+    {
+      "nidn": "0422049102",
+      "name": "FINA FITRIYANA"
+    },
+    {
+      "nidn": "0403129201",
+      "name": "FINA RATNASARI"
+    },
+    {
+      "nidn": "0401049002",
+      "name": "FIQIH AFRIADI"
+    },
+    {
+      "nidn": "0403069001",
+      "name": "FITHRAH KAMALIYAH"
+    },
+    {
+      "nidn": "0414039202",
+      "name": "FITRIA EKA NINGSIH"
+    },
+    {
+      "nidn": "0417119201",
+      "name": "FITRIYAH"
+    },
+    {
+      "nidn": "0417048603",
+      "name": "FITRIYAH"
+    },
+    {
+      "nidn": "0426107003",
+      "name": "HAMIDA HUNEIN"
+    },
+    {
+      "nidn": "0403036904",
+      "name": "HARRY BARLI"
+    },
+    {
+      "nidn": "0418026702",
+      "name": "HARYONO"
+    },
+    {
+      "nidn": "0408019201",
+      "name": "HATIM SYAYIDAH ASLAMI"
+    },
+    {
+      "nidn": "0411047603",
+      "name": "HENNI RAHAYU HANDAYANI"
+    },
+    {
+      "nidn": "0416037401",
+      "name": "HJ. ENDAH FINATARIANI"
+    },
+    {
+      "nidn": "0429036602",
+      "name": "I KETUT WENTEN"
+    },
+    {
+      "nidn": "0412126904",
+      "name": "INDRA IMAN SUMANTRI"
+    },
+    {
+      "nidn": "0415057501",
+      "name": "INDRA WADI"
+    },
+    {
+      "nidn": "0407048510",
+      "name": "INTAN RAHMA SARI"
+    },
+    {
+      "nidn": "0409087105",
+      "name": "IRWAN SETIAWAN"
+    },
+    {
+      "nidn": "0402047801",
+      "name": "ITA DARSITA"
+    },
+    {
+      "nidn": "0414106303",
+      "name": "JASMI INDRA"
+    },
+    {
+      "nidn": "0404079001",
+      "name": "JUITANIA"
+    },
+    {
+      "nidn": "0424078009",
+      "name": "JULIAN MARADINA"
+    },
+    {
+      "nidn": "0408078804",
+      "name": "JULIAN MUHAMMAD HASAN"
+    },
+    {
+      "nidn": "0429049101",
+      "name": "KHOTIMATUS SA’DIYAH"
+    },
+    {
+      "nidn": "0428069302",
+      "name": "KHUSNUL KHULUQI"
+    },
+    {
+      "nidn": "0426067903",
+      "name": "LIA IRA SAHARA"
+    },
+    {
+      "nidn": "0413099301",
+      "name": "LILIS KARLINA"
+    },
+    {
+      "nidn": "0421028402",
+      "name": "LINDAWATI"
+    },
+    {
+      "nidn": "0424018307",
+      "name": "LIONI INDRAYANI"
+    },
+    {
+      "nidn": "0409078004",
+      "name": "LISTYA SUGIYARTI"
+    },
+    {
+      "nidn": "0431077607",
+      "name": "LODANG PRANANTA WIDYA SASANA"
+    },
+    {
+      "nidn": "0408068902",
+      "name": "MAHARANI"
+    },
+    {
+      "nidn": "0425038301",
+      "name": "MAMAN DARMANSYAH"
+    },
+    {
+      "nidn": "0422119101",
+      "name": "META NURSITA"
+    },
+    {
+      "nidn": "0409057601",
+      "name": "MHD. ALI AKBAR"
+    },
+    {
+      "nidn": "0402028304",
+      "name": "MITA SICILLIA"
+    },
+    {
+      "nidn": "0402018804",
+      "name": "MOHAMMAD YUDDY YUDAWIRAWAN"
+    },
+    {
+      "nidn": "8836200016",
+      "name": "MUDZAKIR"
+    },
+    {
+      "nidn": "0418046802",
+      "name": "MUHAMMAD RIDWAN"
+    },
+    {
+      "nidn": "0407046202",
+      "name": "MUHAMMAD YUSUF"
+    },
+    {
+      "nidn": "0411058004",
+      "name": "MULIYANI S.PD MM"
+    },
+    {
+      "nidn": "0404088706",
+      "name": "NANI MULYANI"
+    },
+    {
+      "nidn": "0418049106",
+      "name": "NAPISAH"
+    },
+    {
+      "nidn": "0423078306",
+      "name": "NELLY BUDIYARTI"
+    },
+    {
+      "nidn": "0422089202",
+      "name": "NENENG HASANAH"
+    },
+    {
+      "nidn": "0409039101",
+      "name": "NISAK RUWAH IBNATUR HUSNUL"
+    },
+    {
+      "nidn": "0401118901",
+      "name": "NOVI AKHSANI"
+    },
+    {
+      "nidn": "0430089202",
+      "name": "NUR ASMILIA"
+    },
+    {
+      "nidn": "0419028704",
+      "name": "NURBAETI"
+    },
+    {
+      "nidn": "0418029002",
+      "name": "NURHAYATI"
+    },
+    {
+      "nidn": "0401068802",
+      "name": "OKY AJI PAMUNGKAS"
+    },
+    {
+      "nidn": "0422059001",
+      "name": "PRIMA SADEWA"
+    },
+    {
+      "nidn": "0425087002",
+      "name": "PURWATININGSIH"
+    },
+    {
+      "nidn": "0407089401",
+      "name": "PUSPITA HANDAYANI"
+    },
+    {
+      "nidn": "0416038004",
+      "name": "RAHMA WIYANTI"
+    },
+    {
+      "nidn": "0407098901",
+      "name": "RANANDA SEPTANTA"
+    },
+    {
+      "nidn": "0408089201",
+      "name": "RATIH QADARTI ANJILNI"
+    },
+    {
+      "nidn": "8807050017",
+      "name": "RENO VIRLANDANA A."
+    },
+    {
+      "nidn": "0406047206",
+      "name": "RUDY"
+    },
+    {
+      "nidn": "0412088704",
+      "name": "SASMITA SARI ARDANINGGAR"
+    },
+    {
+      "nidn": "0430099005",
+      "name": "SETIANINGSIH"
+    },
+    {
+      "nidn": "0427098902",
+      "name": "SEVTY WAHIDDIRANI SAPUTRI"
+    },
+    {
+      "nidn": "0412067504",
+      "name": "SIARWI"
+    },
+    {
+      "nidn": "0422089003",
+      "name": "SITI CHAERUNISA PRASTIANI"
+    },
+    {
+      "nidn": "0422128804",
+      "name": "SITI HAILATUL FIKRIYAH"
+    },
+    {
+      "nidn": "0427116201",
+      "name": "SITI HANAH"
+    },
+    {
+      "nidn": "8861760018",
+      "name": "SITI MUNDIROH"
+    },
+    {
+      "nidn": "0412086303",
+      "name": "SRI AGUSTINI"
+    },
+    {
+      "nidn": "0402068203",
+      "name": "SRI INDARTI"
+    },
+    {
+      "nidn": "0416118206",
+      "name": "SRI NITTA CRISSIANA WIRYA ATMAJA"
+    },
+    {
+      "nidn": "0401089002",
+      "name": "SRI PUTRI WININGRUM W.A"
+    },
+    {
+      "nidn": "0416068304",
+      "name": "SUCIATI MUANIFAH"
+    },
+    {
+      "nidn": "0415078303",
+      "name": "SUDARMADI"
+    },
+    {
+      "nidn": "8830000016",
+      "name": "SUDIATMOKO"
+    },
+    {
+      "nidn": "0405106303",
+      "name": "SUHARNA"
+    },
+    {
+      "nidn": "0420106102",
+      "name": "SUJARWO"
+    },
+    {
+      "nidn": "0401039101",
+      "name": "SUNARTO"
+    },
+    {
+      "nidn": "0409108403",
+      "name": "SUSI SIH KUSUMAWARDHANY"
+    },
+    {
+      "nidn": "0409066702",
+      "name": "SUTANDIJO"
+    },
+    {
+      "nidn": "0406017502",
+      "name": "SYAMSUL ASMEDI"
+    },
+    {
+      "nidn": "0427019103",
+      "name": "SYAMSUL MU’ARIF"
+    },
+    {
+      "nidn": "8860000016",
+      "name": "SYAMSURI"
+    },
+    {
+      "nidn": "0425058108",
+      "name": "SYARIFUDIN"
+    },
+    {
+      "nidn": "0413069203",
+      "name": "TATI ROSYATI"
+    },
+    {
+      "nidn": "0417047207",
+      "name": "TAUFIK HIDAYAT S.KOM M.AKT"
+    },
+    {
+      "nidn": "0402058604",
+      "name": "TOMI RIYADI"
+    },
+    {
+      "nidn": "0421097901",
+      "name": "TRI AGUNG TOFIQ"
+    },
+    {
+      "nidn": "0427036904",
+      "name": "TRI BUDI SUBIAKTO"
+    },
+    {
+      "nidn": "0422067306",
+      "name": "TSARINA ZENABIA"
+    },
+    {
+      "nidn": "0410118902",
+      "name": "TUBAGUS ARYA ABDURACHMAN"
+    },
+    {
+      "nidn": "8868100016",
+      "name": "WIDAYAT"
+    },
+    {
+      "nidn": "0421128803",
+      "name": "WIWIT SETYAWATI"
+    },
+    {
+      "nidn": "0420027605",
+      "name": "WIZANASARI"
+    },
+    {
+      "nidn": "0431109003",
+      "name": "WULANDARI CAHYANI PUTRI"
+    },
+    {
+      "nidn": "8842010016",
+      "name": "YAYAN YANUAR"
+    },
+    {
+      "nidn": "0425089303",
+      "name": "YOLANDA GUSVIA PUTRI"
+    },
+    {
+      "nidn": "0419107903",
+      "name": "ZALDY SUHATMAN"
+    },
+    {
+      "nidn": "0418038706",
+      "name": "ADAM SUGIARTO"
+    },
+    {
+      "nidn": "0409069101",
+      "name": "ADHITYA PUTRI PRATIWI"
+    },
+    {
+      "nidn": "0420048503",
+      "name": "AFRIDAYANI"
+    },
+    {
+      "nidn": "0405038901",
+      "name": "AKHMAD SIGIT ADIWIBOWO"
+    },
+    {
+      "nidn": "0410059002",
+      "name": "ANGGUN ANGGRAINI"
+    },
+    {
+      "nidn": "0418048801",
+      "name": "ANGGUN PUTRI ROMADHINA"
+    },
+    {
+      "nidn": "0407059101",
+      "name": "ARIS SANULIKA"
+    },
+    {
+      "nidn": "0822028301",
+      "name": "BAIQ FITRI ARIANTI"
+    },
+    {
+      "nidn": "0425039102",
+      "name": "DEA ANNISA"
+    },
+    {
+      "nidn": "0405048705",
+      "name": "DILA ANGRAINI"
+    },
+    {
+      "nidn": "0401108604",
+      "name": "DWI FITRIANINGSIH"
+    },
+    {
+      "nidn": "0003047701",
+      "name": "EFFRIYANTI"
+    },
+    {
+      "nidn": "0017127306",
+      "name": "EKA KUSUMA DEWI"
+    },
+    {
+      "nidn": "0420076203",
+      "name": "ENAN TRIVANSYAH SASTRI"
+    },
+    {
+      "nidn": "0408088903",
+      "name": "HARI STIAWAN"
+    },
+    {
+      "nidn": "0426059003",
+      "name": "I GEDE ADI INDRAWAN"
+    },
+    {
+      "nidn": "0413028604",
+      "name": "IBRAM PINONDANG"
+    },
+    {
+      "nidn": "0426087501",
+      "name": "INDAWATI"
+    },
+    {
+      "nidn": "0410059001",
+      "name": "JAENAL ABIDIN"
+    },
+    {
+      "nidn": "0425077706",
+      "name": "JULI ISMANTO"
+    },
+    {
+      "nidn": "0413098902",
+      "name": "KHOIRUNNISA AZZAHRA"
+    },
+    {
+      "nidn": "0407077606",
+      "name": "LELY SURYANI"
+    },
+    {
+      "nidn": "0407058106",
+      "name": "LISTIYA IKE PURNOMO"
+    },
+    {
+      "nidn": "0429116702",
+      "name": "LUH NADI"
+    },
+    {
+      "nidn": "0403079301",
+      "name": "LYANDRA AISYAH MARGIE"
+    },
+    {
+      "nidn": "0409128405",
+      "name": "MEGA ARUM"
+    },
+    {
+      "nidn": "0408069002",
+      "name": "MUHAMMAD RIZAL SARAGIH"
+    },
+    {
+      "nidn": "0419098902",
+      "name": "MUHAMMAD SOPIYANA"
+    },
+    {
+      "nidn": "0322076202",
+      "name": "NUR AINI YUSUF"
+    },
+    {
+      "nidn": "0425089201",
+      "name": "PUTRI NURMALA"
+    },
+    {
+      "nidn": "0415038602",
+      "name": "R. MOHD. ZAMZAMI"
+    },
+    {
+      "nidn": "0421107906",
+      "name": "RAKHMAWATI OKTAVIANNA"
+    },
+    {
+      "nidn": "0407098605",
+      "name": "RISKA DAMAYANTI"
+    },
+    {
+      "nidn": "0418088201",
+      "name": "ROSITA WULANDARI"
+    },
+    {
+      "nidn": "0409068803",
+      "name": "RUSDI"
+    },
+    {
+      "nidn": "0401017208",
+      "name": "SAPTA SETIA DARMA"
+    },
+    {
+      "nidn": "0402046807",
+      "name": "SATIMAN"
+    },
+    {
+      "nidn": "0422108601",
+      "name": "SHINTA NINGTIYAS NAZAR"
+    },
+    {
+      "nidn": "0426018902",
+      "name": "SILVIA SARI"
+    },
+    {
+      "nidn": "0427119001",
+      "name": "TRI UTAMI"
+    },
+    {
+      "nidn": "0426088503",
+      "name": "VIVI ISWANTI NURSYIRWAN"
+    },
+    {
+      "nidn": "0428029203",
+      "name": "WAHYU NURUL HIDAYATI"
+    },
+    {
+      "nidn": "0406107903",
+      "name": "WIWIK HASBIYAH"
+    },
+    {
+      "nidn": "0408097306",
+      "name": "WIWIT IRAWATI"
+    },
+    {
+      "nidn": "0406067808",
+      "name": "YENNI CAHYANI"
+    },
+    {
+      "nidn": "0422078903",
+      "name": "YULIANA FRISKA"
+    },
+    {
+      "nidn": "0402067601",
+      "name": "YUNITA KURNIA SHANTI"
+    },
+    {
+      "nidn": "0401038804",
+      "name": "ZULFA ROSHARLIANTI"
+    },
+    {
+      "nidn": "0408039101",
+      "name": "AAT SUTIHAT"
+    },
+    {
+      "nidn": "0419068905",
+      "name": "ABDUL AZIZ LUTHFI"
+    },
+    {
+      "nidn": "0402017101",
+      "name": "ACHMAD FA’IZIN"
+    },
+    {
+      "nidn": "0411038903",
+      "name": "ACHMAD FAUZI"
+    },
+    {
+      "nidn": "8848100016",
+      "name": "ADHITYA ABRIANSYAH AFANDI"
+    },
+    {
+      "nidn": "0429098603",
+      "name": "ADITYA RIKY NUGROHO"
+    },
+    {
+      "nidn": "0408119102",
+      "name": "AHMAD RIDHO FACHRIZAL CHAERY"
+    },
+    {
+      "nidn": "0423089301",
+      "name": "ALYA BUDIANTINI"
+    },
+    {
+      "nidn": "0416059201",
+      "name": "ALYSSA RISTHI"
+    },
+    {
+      "nidn": "0413099202",
+      "name": "AMBARWATI"
+    },
+    {
+      "nidn": "8827430017",
+      "name": "ANASRIL KAMBUT"
+    },
+    {
+      "nidn": "0414018002",
+      "name": "ANNESPHY YEZALNA ZAINAL"
+    },
+    {
+      "nidn": "0408118902",
+      "name": "ANTANIA SHINTA YUWONO"
+    },
+    {
+      "nidn": "0423076101",
+      "name": "ARIO B. HARYONO"
+    },
+    {
+      "nidn": "0415029002",
+      "name": "ARIS BUDIANTO"
+    },
+    {
+      "nidn": "0422088404",
+      "name": "ARIZA RONI TAUFIK"
+    },
+    {
+      "nidn": "0425058804",
+      "name": "BUDI TRI SANTOSO"
+    },
+    {
+      "nidn": "8845660018",
+      "name": "CHAERU SYAHRU RAMDANI"
+    },
+    {
+      "nidn": "0402017506",
+      "name": "DENY EKARISMA"
+    },
+    {
+      "nidn": "0416128803",
+      "name": "DEVINA UTAMI"
+    },
+    {
+      "nidn": "0404027804",
+      "name": "DHIKY KURNIAWAN"
+    },
+    {
+      "nidn": "0420119203",
+      "name": "DIAN FIRLY NOVIANTI"
+    },
+    {
+      "nidn": "0424118804",
+      "name": "DIAN NOVIANTI"
+    },
+    {
+      "nidn": "0428059201",
+      "name": "DIANTIA AMENDY"
+    },
+    {
+      "nidn": "0419088110",
+      "name": "DJOKO PRASETYO"
+    },
+    {
+      "nidn": "0423078605",
+      "name": "ENDRI PURNOMO"
+    },
+    {
+      "nidn": "0431106801",
+      "name": "ERI WIBAWA"
+    },
+    {
+      "nidn": "0424026902",
+      "name": "EVITA VIBRIANA WULANDARI"
+    },
+    {
+      "nidn": "8896050017",
+      "name": "FITRI KONEFI"
+    },
+    {
+      "nidn": "0404078506",
+      "name": "FITRIA ANGGRAINI ROSTIANTI"
+    },
+    {
+      "nidn": "0430057502",
+      "name": "GUNUNG SUBAGYO ANOM HARYOSO"
+    },
+    {
+      "nidn": "8894410016",
+      "name": "HADI PRANA ABADI"
+    },
+    {
+      "nidn": "0407128702",
+      "name": "HENDY SURAHMAN"
+    },
+    {
+      "nidn": "0406098105",
+      "name": "HERI ISWANTO"
+    },
+    {
+      "nidn": "0408018102",
+      "name": "INDRIANINGSIH"
+    },
+    {
+      "nidn": "0401048902",
+      "name": "IRDARENA APRILIA"
+    },
+    {
+      "nidn": "0421049201",
+      "name": "IRENNE PUTREN"
+    },
+    {
+      "nidn": "0429048403",
+      "name": "ISANU WIJAYA HADI"
+    },
+    {
+      "nidn": "8814410016",
+      "name": "ISLAM ALI AKBAR"
+    },
+    {
+      "nidn": "0406066102",
+      "name": "ISMAIL JAMIL"
+    },
+    {
+      "nidn": "0410107412",
+      "name": "JAMOTHON GULTOM"
+    },
+    {
+      "nidn": "0419037501",
+      "name": "JARNO"
+    },
+    {
+      "nidn": "0424098805",
+      "name": "JIMMY PAULINO GINTING PUTRA"
+    },
+    {
+      "nidn": "0429087205",
+      "name": "JONI ADI SETYAWAN"
+    },
+    {
+      "nidn": "0405068704",
+      "name": "JUFRIYANTO"
+    },
+    {
+      "nidn": "0416098902",
+      "name": "LIANA DWI SEPTININGRUM"
+    },
+    {
+      "nidn": "0428119004",
+      "name": "LIASARI FAJARWATI"
+    },
+    {
+      "nidn": "0423057501",
+      "name": "LUKMANUL HAKIM"
+    },
+    {
+      "nidn": "0429128504",
+      "name": "LUSIA YEFIN BERTIANA WINARNO"
+    },
+    {
+      "nidn": "8881520016",
+      "name": "MOH. BUDI DHARMA"
+    },
+    {
+      "nidn": "0416108504",
+      "name": "MOH. THOYIB SYAFI’I"
+    },
+    {
+      "nidn": "0410029004",
+      "name": "MUHAMAD EKO ARIWIBOWO"
+    },
+    {
+      "nidn": "8892650017",
+      "name": "MUHAMMAD ARIF ADRIYANTO"
+    },
+    {
+      "nidn": "8878500016",
+      "name": "MUHAMMAD SLAMET WOBOWO"
+    },
+    {
+      "nidn": "0406087804",
+      "name": "MULYER MANANDA SETYAHADI"
+    },
+    {
+      "nidn": "0405056703",
+      "name": "MUSLIM"
+    },
+    {
+      "nidn": "0408087206",
+      "name": "MUSTAFA"
+    },
+    {
+      "nidn": "0414068103",
+      "name": "NIA NITIKUSUMAH"
+    },
+    {
+      "nidn": "0420108304",
+      "name": "NURMALA SARI"
+    },
+    {
+      "nidn": "0403128805",
+      "name": "PAJAR AMIN"
+    },
+    {
+      "nidn": "0419058903",
+      "name": "PANDU ADIGUNA"
+    },
+    {
+      "nidn": "0418077302",
+      "name": "PANJI IMANSYAH"
+    },
+    {
+      "nidn": "0407097702",
+      "name": "PRIHARTANTO"
+    },
+    {
+      "nidn": "0423069001",
+      "name": "PROVITA WULANDARI"
+    },
+    {
+      "nidn": "0404059104",
+      "name": "REGINA DEIA SOEPARYONO"
+    },
+    {
+      "nidn": "0404028704",
+      "name": "RENI ASTUTI"
+    },
+    {
+      "nidn": "0422078803",
+      "name": "RIJAL ARSLAN"
+    },
+    {
+      "nidn": "0419039305",
+      "name": "RIZKA RISMAWATI"
+    },
+    {
+      "nidn": "0430117102",
+      "name": "RUDY IRAWAN GUNARTO"
+    },
+    {
+      "nidn": "8837430017",
+      "name": "RURUH DYATMIKO"
+    },
+    {
+      "nidn": "8838500016",
+      "name": "SAMSUL MARPITASA"
+    },
+    {
+      "nidn": "0408066805",
+      "name": "SENTOT SENOADJI"
+    },
+    {
+      "nidn": "0419049002",
+      "name": "SITI AISYAH NURRIZQI RAHMADANIA"
+    },
+    {
+      "nidn": "0422028603",
+      "name": "SLAMET MULYONO"
+    },
+    {
+      "nidn": "0408098701",
+      "name": "SOFYAN HELMI PURBA"
+    },
+    {
+      "nidn": "0427038702",
+      "name": "TASLIM SYAHPUTRA"
+    },
+    {
+      "nidn": "0424098009",
+      "name": "TEGUH SUBARKAH"
+    },
+    {
+      "nidn": "0405127707",
+      "name": "THOM DEUTMAR LONDO DOALY"
+    },
+    {
+      "nidn": "0401129005",
+      "name": "TITO SUMARSONO"
+    },
+    {
+      "nidn": "0401058301",
+      "name": "TONI DARMAWAN"
+    },
+    {
+      "nidn": "0417028304",
+      "name": "TRI ENDARTO SAPUTRO"
+    },
+    {
+      "nidn": "0413086904",
+      "name": "TRI HARYANTO"
+    },
+    {
+      "nidn": "8817050017",
+      "name": "UJANG SYAIFUDIN SUMAJI"
+    },
+    {
+      "nidn": "0410019403",
+      "name": "WITRI ARDINI"
+    },
+    {
+      "nidn": "0403019301",
+      "name": "YULI ANITA SILVIYANI"
+    },
+    {
+      "nidn": "8826530017",
+      "name": "YUNITA KWARTARANI"
+    },
+    {
+      "nidn": "0418088601",
+      "name": "YUNUS NURHASAN"
+    },
+    {
+      "nidn": "0401016204",
+      "name": "BAHARUDDIN SAGA"
+    },
+    {
+      "nidn": "0409067203",
+      "name": "ENDANG RUHIYAT"
+    },
+    {
+      "nidn": "0415047303",
+      "name": "H. SURIPTO"
+    },
+    {
+      "nidn": "0418067602",
+      "name": "HOLIAWATI"
+    },
+    {
+      "nidn": "0419058501",
+      "name": "NOFRYANTI"
+    },
+    {
+      "nidn": "0308106602",
+      "name": "SUGIYANTO"
+    },
+    {
+      "nidn": "0422017703",
+      "name": "IIN ROSINI"
+    },
+    {
+      "nidn": "8975420021",
+      "name": "FIRMAN TATARIYANTO"
+    },
+    {
+      "nidn": "0415019004",
+      "name": "DANANG CHOIRUL UMAM"
+    },
+    {
+      "nidn": "0418087303",
+      "name": "ERLIANA"
+    },
+    {
+      "nidn": "0413079003",
+      "name": "MAHWIYAH"
+    },
+    {
+      "nidn": "8857430017",
+      "name": "ROMENAH"
+    },
+    {
+      "nidn": "0418068606",
+      "name": "SITI ASMONAH"
+    },
+    {
+      "nidn": "0421058602",
+      "name": "TITAH RAHMAWATI"
+    },
+    {
+      "nidn": "0416029303",
+      "name": "ZENA"
+    },
+    {
+      "nidn": "0407089002",
+      "name": "YULYANAH"
+    },
+    {
+      "nidn": "0416088206",
+      "name": "DEBI CITRA DEWI"
+    },
+    {
+      "nidn": "0414019601",
+      "name": "GHEA B ASTRID SUNANTO"
+    },
+    {
+      "nidn": "0408037606",
+      "name": "HARTONO"
+    },
+    {
+      "nidn": "0428078005",
+      "name": "LUKMANUL HAKIM"
+    },
+    {
+      "nidn": "0418039503",
+      "name": "IKHSAN GATOT AJI PRASETIO"
+    },
+    {
+      "nidn": "0425039104",
+      "name": "COCOK ANA MARYANI BERUTU"
+    },
+    {
+      "nidn": "0426019004",
+      "name": "GEMA IKRAR MUHAMMAD"
+    },
+    {
+      "nidn": "0427019004",
+      "name": "HUSNUL AMALIA"
+    },
+    {
+      "nidn": "0422069501",
+      "name": "IIK NURUL FATIMAH"
+    },
+    {
+      "nidn": "0411019601",
+      "name": "NUR’AINI"
+    },
+    {
+      "nidn": "0423029302",
+      "name": "FITRI SAGANTHA"
+    },
+    {
+      "nidn": "0413028501",
+      "name": "ABDULLOH"
+    },
+    {
+      "nidn": "0403088905",
+      "name": "MARIA ULFA"
+    },
+    {
+      "nidn": "0425018802",
+      "name": "NAJIKHA AKHYATI"
+    },
+    {
+      "nidn": "2115089203",
+      "name": "RESTIA GUSTIANA"
+    },
+    {
+      "nidn": "0426016604",
+      "name": "EKO HARI SUTOPO S.PD M.SI"
+    },
+    {
+      "nidn": "0402088404",
+      "name": "EVA HENDRAWATI"
+    },
+    {
+      "nidn": "8866200016",
+      "name": "H. PERDAMEAN SEBAYANG"
+    },
+    {
+      "nidn": "0404039004",
+      "name": "MARISA ULFA"
+    },
+    {
+      "nidn": "0405077401",
+      "name": "ABDUL AZIZ"
+    },
+    {
+      "nidn": "0404068706",
+      "name": "AHMAD IMRON"
+    },
+    {
+      "nidn": "0427098705",
+      "name": "AHMADI"
+    },
+    {
+      "nidn": "0421089003",
+      "name": "AMALUL ARIFIN SLAMET"
+    },
+    {
+      "nidn": "0712017903",
+      "name": "FRIDAYANI WONGSOWINOTO"
+    },
+    {
+      "nidn": "0422078608",
+      "name": "RISKY AMELIA"
+    },
+    {
+      "nidn": "0020069106",
+      "name": "SUCI KUSUMAWARDHANI"
+    },
+    {
+      "nidn": "0419079402",
+      "name": "ANDRE SCONDERY"
+    },
+    {
+      "nidn": "0412069202",
+      "name": "ARAFATUS SYAHIDAH"
+    },
+    {
+      "nidn": "0420109601",
+      "name": "DEDE FIRDAUS SUYADI"
+    },
+    {
+      "nidn": "0408088907",
+      "name": "HAYATI NUPUS"
+    },
+    {
+      "nidn": "0418129402",
+      "name": "MUHAMMAD BINTANG FIRDAUSA"
+    },
+    {
+      "nidn": "0416098603",
+      "name": "NURUL WAHYUNI"
+    },
+    {
+      "nidn": "0419087905",
+      "name": "AAN HANDRIANI"
+    },
+    {
+      "nidn": "0403029101",
+      "name": "ABDUL AZIS"
+    },
+    {
+      "nidn": "0415067401",
+      "name": "ABDUL HAYY NASUTION"
+    },
+    {
+      "nidn": "0417038406",
+      "name": "AFENDRA EKA SAPUTRA"
+    },
+    {
+      "nidn": "0409068804",
+      "name": "AGUNG ARAFAT SAPUTRA"
+    },
+    {
+      "nidn": "0426086903",
+      "name": "AGUS PURWANTO"
+    },
+    {
+      "nidn": "8889520016",
+      "name": "ALFIAN LUBIS"
+    },
+    {
+      "nidn": "0405027705",
+      "name": "ALI IMRON"
+    },
+    {
+      "nidn": "0416088005",
+      "name": "AMIN SONGGIRIN"
+    },
+    {
+      "nidn": "0407038403",
+      "name": "ANAK AGUNG DEWI UTARI"
+    },
+    {
+      "nidn": "0430117401",
+      "name": "ARI WIDIARTI"
+    },
+    {
+      "nidn": "0417027405",
+      "name": "ASIH SUSILOWATI"
+    },
+    {
+      "nidn": "0414119002",
+      "name": "AYYUB KADRIAH"
+    },
+    {
+      "nidn": "0422085903",
+      "name": "BASTIANON"
+    },
+    {
+      "nidn": "0402049301",
+      "name": "CANDRA NUR HIDAYAT"
+    },
+    {
+      "nidn": "8843000016",
+      "name": "CATUR GALUH RATNAGUNG"
+    },
+    {
+      "nidn": "0424069102",
+      "name": "CHESSA ARIO JANI PURNOMO"
+    },
+    {
+      "nidn": "0422107804",
+      "name": "DADAN HERDIANA"
+    },
+    {
+      "nidn": "0404038504",
+      "name": "DADANG SUMARNA"
+    },
+    {
+      "nidn": "0429079401",
+      "name": "DEA MAHARA SAPUTRI"
+    },
+    {
+      "nidn": "0428078204",
+      "name": "DEVI FITRIA WILANDARI"
+    },
+    {
+      "nidn": "0429106202",
+      "name": "EDI RUSDIANTO"
+    },
+    {
+      "nidn": "0412056706",
+      "name": "EDY MULYANTO"
+    },
+    {
+      "nidn": "0420087904",
+      "name": "EKA MARTINA WULANSARI"
+    },
+    {
+      "nidn": "0404088904",
+      "name": "ERNAWATI SUWARNO"
+    },
+    {
+      "nidn": "0403087407",
+      "name": "ERVIANTO DWI BRAVIAJI WICAKSONO"
+    },
+    {
+      "nidn": "0416039102",
+      "name": "FARIZ RIFQI HASBI"
+    },
+    {
+      "nidn": "0408049202",
+      "name": "FIKRI JAMAL"
+    },
+    {
+      "nidn": "0420016701",
+      "name": "FRANSISKUS LITOAMA"
+    },
+    {
+      "nidn": "0413066202",
+      "name": "GINUNG PRATIDINA"
+    },
+    {
+      "nidn": "0426086703",
+      "name": "GUNTARTO WIDODO"
+    },
+    {
+      "nidn": "0426038404",
+      "name": "HAMDAN NUROHIM"
+    },
+    {
+      "nidn": "0410099301",
+      "name": "HENLIA PERISTIWI REJEKI"
+    },
+    {
+      "nidn": "0413047205",
+      "name": "HERMAN BASTIAJI PRAYITNO"
+    },
+    {
+      "nidn": "0417046101",
+      "name": "HERU RIYADI"
+    },
+    {
+      "nidn": "0412046602",
+      "name": "HJ. SRI SITI MUNALAR"
+    },
+    {
+      "nidn": "0421058204",
+      "name": "HULIA SYAHENDRA"
+    },
+    {
+      "nidn": "0407028102",
+      "name": "I MADE DERMAWAN"
+    },
+    {
+      "nidn": "0417047803",
+      "name": "IBROHIM"
+    },
+    {
+      "nidn": "0317018601",
+      "name": "ICHWAN KURNIA"
+    },
+    {
+      "nidn": "0428126204",
+      "name": "ILHAMSYAH LUBIS"
+    },
+    {
+      "nidn": "0421038605",
+      "name": "IMMA RAHMANI HASANAH"
+    },
+    {
+      "nidn": "0420038704",
+      "name": "INAWATI SANTINI"
+    },
+    {
+      "nidn": "0410087802",
+      "name": "IRFAN FAHMI"
+    },
+    {
+      "nidn": "0412077905",
+      "name": "JOKO RISKIYONO"
+    },
+    {
+      "nidn": "0001036811",
+      "name": "KOSIM AFENDY"
+    },
+    {
+      "nidn": "0410038802",
+      "name": "M. AMIN EL WALAD MEURAKSA"
+    },
+    {
+      "nidn": "0405056603",
+      "name": "MOHAMAD ANWAR"
+    },
+    {
+      "nidn": "1016097901",
+      "name": "MOHAMAD KHOLID"
+    },
+    {
+      "nidn": "0428127101",
+      "name": "NANIK IDA ROSINI"
+    },
+    {
+      "nidn": "0430087004",
+      "name": "NGATIRAN"
+    },
+    {
+      "nidn": "0408037201",
+      "name": "NINING"
+    },
+    {
+      "nidn": "0414108504",
+      "name": "NURHAYATI"
+    },
+    {
+      "nidn": "8921430021",
+      "name": "R. SUHENDA"
+    },
+    {
+      "nidn": "0411078902",
+      "name": "RINO DEDI ARINGGA"
+    },
+    {
+      "nidn": "0417077602",
+      "name": "RISKY WALDO"
+    },
+    {
+      "nidn": "0423098901",
+      "name": "RIZKY DWI PRADANA"
+    },
+    {
+      "nidn": "8808100016",
+      "name": "SAAN"
+    },
+    {
+      "nidn": "0410048405",
+      "name": "SELVIANA TERAS WIDY RAHAYU"
+    },
+    {
+      "nidn": "0424117004",
+      "name": "SEMUEL WALANGITAN"
+    },
+    {
+      "nidn": "0402019301",
+      "name": "SERENA GHEAN NIAGARA"
+    },
+    {
+      "nidn": "0421089001",
+      "name": "SITI CHADIJAH"
+    },
+    {
+      "nidn": "0410106806",
+      "name": "ST. MAHMUD SYAUKAT. H"
+    },
+    {
+      "nidn": "8828750017",
+      "name": "SUKO PRAYITNO"
+    },
+    {
+      "nidn": "0410068204",
+      "name": "SULIS SETYOWATI"
+    },
+    {
+      "nidn": "0402048901",
+      "name": "SUPIYATI"
+    },
+    {
+      "nidn": "0411029203",
+      "name": "SUSANTY FEBRIYANTI"
+    },
+    {
+      "nidn": "0425067305",
+      "name": "TURKAMUN"
+    },
+    {
+      "nidn": "0414107403",
+      "name": "VERRI OCTAVIAN"
+    },
+    {
+      "nidn": "0427077705",
+      "name": "WAHIB"
+    },
+    {
+      "nidn": "0424026102",
+      "name": "WIDIYANTI RAHAYU BUDI ASTUTI"
+    },
+    {
+      "nidn": "0408029301",
+      "name": "WINA BUGI WIJAYA"
+    },
+    {
+      "nidn": "0427088807",
+      "name": "YUSIKA RIENDY"
+    },
+    {
+      "nidn": "0407087205",
+      "name": "YUSMAN"
+    },
+    {
+      "nidn": "0405028704",
+      "name": "ABDUL HADI"
+    },
+    {
+      "nidn": "0404018402",
+      "name": "ALIYA SANDRA DEWI"
+    },
+    {
+      "nidn": "0402047606",
+      "name": "AMELIA HARYANTI"
+    },
+    {
+      "nidn": "0414018301",
+      "name": "ANISA FAUZIAH"
+    },
+    {
+      "nidn": "0425086404",
+      "name": "ARSID"
+    },
+    {
+      "nidn": "0409108003",
+      "name": "ARY OKTAVIYANTI"
+    },
+    {
+      "nidn": "0425056802",
+      "name": "ASIP SUYADI"
+    },
+    {
+      "nidn": "8837100016",
+      "name": "AYNI SUWARNI HERRY"
+    },
+    {
+      "nidn": "0429019001",
+      "name": "BIMA GUNTARA"
+    },
+    {
+      "nidn": "8862000016",
+      "name": "DADANG GANDHI"
+    },
+    {
+      "nidn": "8847100016",
+      "name": "DAUMAN"
+    },
+    {
+      "nidn": "8861530017",
+      "name": "DEWI GUNHERANI"
+    },
+    {
+      "nidn": "0425049101",
+      "name": "DIAN EKA PRASTIWI"
+    },
+    {
+      "nidn": "0409098305",
+      "name": "DIAN EKAWATI"
+    },
+    {
+      "nidn": "0427047701",
+      "name": "DIAN FITRIANA"
+    },
+    {
+      "nidn": "0410097606",
+      "name": "DODI SUGIANTO"
+    },
+    {
+      "nidn": "0407118302",
+      "name": "DWI KUSUMO WARDHANI"
+    },
+    {
+      "nidn": "0415058503",
+      "name": "EDI SOFWAN"
+    },
+    {
+      "nidn": "0416127803",
+      "name": "ELIANA"
+    },
+    {
+      "nidn": "0401106701",
+      "name": "ERMA HARI ALIJANA"
+    },
+    {
+      "nidn": "0408078902",
+      "name": "FENNY WULANDARI"
+    },
+    {
+      "nidn": "0417086809",
+      "name": "FERRY AGUS SIANIPAR"
+    },
+    {
+      "nidn": "0410067705",
+      "name": "FERRY ANKA SUGANDAR"
+    },
+    {
+      "nidn": "0418017002",
+      "name": "FITHRY KHAIRIYATI"
+    },
+    {
+      "nidn": "0425019201",
+      "name": "H. MUHAMAD REZKY PAHLAWAN MP"
+    },
+    {
+      "nidn": "0405098603",
+      "name": "HALIMAH HUMAYRAH TUANAYA"
+    },
+    {
+      "nidn": "0407047008",
+      "name": "HERLINA BASRI"
+    },
+    {
+      "nidn": "0421089103",
+      "name": "IIN INDRIANI"
+    },
+    {
+      "nidn": "0414057405",
+      "name": "ISNU HARJO PRAYITNO"
+    },
+    {
+      "nidn": "0417038804",
+      "name": "MOHAMAD FANDRIAN ADHISTIANTO"
+    },
+    {
+      "nidn": "0402029301",
+      "name": "MUHAMAD IQBAL"
+    },
+    {
+      "nidn": "8847050017",
+      "name": "NAIB"
+    },
+    {
+      "nidn": "0419049301",
+      "name": "NANI WIDYA SARI"
+    },
+    {
+      "nidn": "0410106609",
+      "name": "NUR SA’ADAH"
+    },
+    {
+      "nidn": "0417069101",
+      "name": "NURSOLIHI INSANI"
+    },
+    {
+      "nidn": "0404109101",
+      "name": "PENDI AHMAD"
+    },
+    {
+      "nidn": "0425126901",
+      "name": "PURGITO"
+    },
+    {
+      "nidn": "0418047602",
+      "name": "RENI SURYANI"
+    },
+    {
+      "nidn": "0428108803",
+      "name": "SLAMET RIYADY"
+    },
+    {
+      "nidn": "0410087104",
+      "name": "SRI ENDAH INDRIAWATI"
+    },
+    {
+      "nidn": "0414076503",
+      "name": "SUGENG SAMIYONO"
+    },
+    {
+      "nidn": "0430107803",
+      "name": "SURYA OKTARINA"
+    },
+    {
+      "nidn": "0403057202",
+      "name": "TOHADI"
+    },
+    {
+      "nidn": "0416067204",
+      "name": "WIWIN WINTARSIH WINDIANTINA SH"
+    },
+    {
+      "nidn": "0307086801",
+      "name": "ARIA DIMAS HARAPAN"
+    },
+    {
+      "nidn": "0423066203",
+      "name": "HASAN ALZAGLADI"
+    },
+    {
+      "nidn": "0410118901",
+      "name": "ACHMAD LUTHFI PRAWIRAYUDHA"
+    },
+    {
+      "nidn": "0422039103",
+      "name": "AMI RAMADHAN MAHMUD"
+    },
+    {
+      "nidn": "0403078708",
+      "name": "ANNISA INTAN WIRANTI"
+    },
+    {
+      "nidn": "0431057501",
+      "name": "BADRUL MUNIR"
+    },
+    {
+      "nidn": "8829910016",
+      "name": "CASNIKA"
+    },
+    {
+      "nidn": "0420018305",
+      "name": "DADANG"
+    },
+    {
+      "nidn": "0422076001",
+      "name": "DAS’AT"
+    },
+    {
+      "nidn": "0409096907",
+      "name": "DHAHANA PUTRA"
+    },
+    {
+      "nidn": "0422048003",
+      "name": "DIAN ANDRIANI"
+    },
+    {
+      "nidn": "0405076702",
+      "name": "DIAN MEGASARI"
+    },
+    {
+      "nidn": "0422089004",
+      "name": "DITA ANANDA PRIDIANI"
+    },
+    {
+      "nidn": "0421128405",
+      "name": "DONY EFFRIADI SIMAMORA"
+    },
+    {
+      "nidn": "8966010020",
+      "name": "ELVIRA"
+    },
+    {
+      "nidn": "0414047805",
+      "name": "ERRIZKA FITRIAMADEWI BEY"
+    },
+    {
+      "nidn": "0420119007",
+      "name": "FEDHLI FAISAL"
+    },
+    {
+      "nidn": "8832210016",
+      "name": "FIRMAN"
+    },
+    {
+      "nidn": "0422058704",
+      "name": "GITAYANA AMALIA"
+    },
+    {
+      "nidn": "0414057605",
+      "name": "HAMBALI"
+    },
+    {
+      "nidn": "8870520016",
+      "name": "HBS. IRAWAN KRISNANTO"
+    },
+    {
+      "nidn": "0427109003",
+      "name": "HERLIANA HELTAJI"
+    },
+    {
+      "nidn": "0401028703",
+      "name": "ICHTIAR PRAMBUDI"
+    },
+    {
+      "nidn": "0431126103",
+      "name": "KOSMAS BURHAN"
+    },
+    {
+      "nidn": "0429018003",
+      "name": "MADDENLEO T SIAGIAN"
+    },
+    {
+      "nidn": "0410078206",
+      "name": "MATROJI"
+    },
+    {
+      "nidn": "0327116703",
+      "name": "MOHAMAD ERON SIATA"
+    },
+    {
+      "nidn": "0415128904",
+      "name": "MOHAMMAD ARIEF WIDYANTO"
+    },
+    {
+      "nidn": "0409127001",
+      "name": "MOHAMMAD YOGASWARA"
+    },
+    {
+      "nidn": "0430067601",
+      "name": "MUHAMMAD ALI"
+    },
+    {
+      "nidn": "0415067505",
+      "name": "MUHAMMAD REZFAH OMAR"
+    },
+    {
+      "nidn": "8943140022",
+      "name": "MUHAMMAD YUSUF PUTRA"
+    },
+    {
+      "nidn": "0405078706",
+      "name": "MUHAMMAD ZULKAYDI"
+    },
+    {
+      "nidn": "0403059201",
+      "name": "MULKI ULUMUDDIN"
+    },
+    {
+      "nidn": "8953140022",
+      "name": "NEVA SARI SUSANTI"
+    },
+    {
+      "nidn": "0427088101",
+      "name": "NYAK AMINI"
+    },
+    {
+      "nidn": "0417107302",
+      "name": "R.A. DIAH IRIANTI PERMANA SARI"
+    },
+    {
+      "nidn": "8885530017",
+      "name": "RINALDI CHANDRA"
+    },
+    {
+      "nidn": "8825410016",
+      "name": "SLAMMET AFANDI"
+    },
+    {
+      "nidn": "0405028401",
+      "name": "SUGIARTO"
+    },
+    {
+      "nidn": "0415067910",
+      "name": "SUPARNO"
+    },
+    {
+      "nidn": "8933140022",
+      "name": "SYAMSUDIN NOER"
+    },
+    {
+      "nidn": "0412068307",
+      "name": "SYLVIA HASANAH THORIK"
+    },
+    {
+      "nidn": "8935440022",
+      "name": "TAMA ULINTA BR TARIGAN"
+    },
+    {
+      "nidn": "8876000016",
+      "name": "TATO SETIAWAN"
+    },
+    {
+      "nidn": "0401068005",
+      "name": "TONI SASTRA"
+    },
+    {
+      "nidn": "0405048902",
+      "name": "TUBAGUS AHMAD RAMADAN"
+    },
+    {
+      "nidn": "0414067502",
+      "name": "TURNYA"
+    },
+    {
+      "nidn": "8806530017",
+      "name": "V. ANDRI HANANTO"
+    },
+    {
+      "nidn": "0421078005",
+      "name": "WELLY INDRA"
+    },
+    {
+      "nidn": "0406037601",
+      "name": "WIDIYANTO FAJAR TRIPAMBUDI"
+    },
+    {
+      "nidn": "0421107404",
+      "name": "AGUS SALIM"
+    },
+    {
+      "nidn": "0412027301",
+      "name": "BACHTIAR"
+    },
+    {
+      "nidn": "0404106702",
+      "name": "BAMBANG SANTOSO"
+    },
+    {
+      "nidn": "0401026102",
+      "name": "BAMBANG WIYONO"
+    },
+    {
+      "nidn": "8997400020",
+      "name": "BELLY ISNAENI"
+    },
+    {
+      "nidn": "0414037804",
+      "name": "BUDI KRISTIAN"
+    },
+    {
+      "nidn": "8855530017",
+      "name": "ENDI AROFA"
+    },
+    {
+      "nidn": "8865530017",
+      "name": "GREGORIUS HERMAWAN KRISTYANTO"
+    },
+    {
+      "nidn": "8911720021",
+      "name": "IMAN IMANUDDIN"
+    },
+    {
+      "nidn": "0415068003",
+      "name": "KARTONO"
+    },
+    {
+      "nidn": "8895520016",
+      "name": "MONANG SIAHAAN"
+    },
+    {
+      "nidn": "8910600020",
+      "name": "RIZAL SOFYAN GUECI"
+    },
+    {
+      "nidn": "0402096902",
+      "name": "SAMUEL SOEWITA"
+    },
+    {
+      "nidn": "0427036801",
+      "name": "SETIYANTO"
+    },
+    {
+      "nidn": "0428088205",
+      "name": "SUHENDAR"
+    },
+    {
+      "nidn": "0430128302",
+      "name": "TAUFIK KURROHMAN"
+    },
+    {
+      "nidn": "8835201019",
+      "name": "DJUHANA"
+    },
+    {
+      "nidn": "8845630017",
+      "name": "HIDAYAT"
+    },
+    {
+      "nidn": "0416078105",
+      "name": "SUSANTO"
+    },
+    {
+      "nidn": "8904770023",
+      "name": "YOYON MULYANA DARUSMAN"
+    },
+    {
+      "nidn": "0423107002",
+      "name": "OKSIDELFA YANTO SH MH"
+    },
+    {
+      "nidn": "0405058002",
+      "name": "RR. DEWI ANGGRAENI"
+    },
+    {
+      "nidn": "0402068204",
+      "name": "ELA HULASOH"
+    },
+    {
+      "nidn": "0403049001",
+      "name": "GINA FAUZIAH"
+    },
+    {
+      "nidn": "0403107104",
+      "name": "RINI DIANTI FAUZI"
+    },
+    {
+      "nidn": "0405087402",
+      "name": "SURTI WARDANI"
+    },
+    {
+      "nidn": "0330036906",
+      "name": "WIDAYAT"
+    },
+    {
+      "nidn": "0426048603",
+      "name": "KATRY ANGGRAINI"
+    },
+    {
+      "nidn": "0410048806",
+      "name": "AFNI YOANA TJAHYANI GUSMA"
+    },
+    {
+      "nidn": "0423129403",
+      "name": "ANNISA RATU"
+    },
+    {
+      "nidn": "0411108905",
+      "name": "ASTRI OCTAVIANI"
+    },
+    {
+      "nidn": "0410026805",
+      "name": "ATIKA SURI"
+    },
+    {
+      "nidn": "0429119301",
+      "name": "BAGUS ANGGORO PRASETYO"
+    },
+    {
+      "nidn": "0412059201",
+      "name": "CUCU SULASTRI"
+    },
+    {
+      "nidn": "0424037401",
+      "name": "HERIK KURNIAWAN"
+    },
+    {
+      "nidn": "0417059302",
+      "name": "MUHAMAD YOPI"
+    },
+    {
+      "nidn": "0431039105",
+      "name": "NI PUTU ARMIWIRAYANTI"
+    },
+    {
+      "nidn": "0420046302",
+      "name": "RATNA KOMALA"
+    },
+    {
+      "nidn": "0412078205",
+      "name": "YUSA’ FARCHAN"
+    },
+    {
+      "nidn": "0406089101",
+      "name": "AGISTHIA LESTARI"
+    },
+    {
+      "nidn": "0427099403",
+      "name": "ANGGI ANGGRAENI KUSUMONINGTYAS"
+    },
+    {
+      "nidn": "0405019501",
+      "name": "AZIZ REZA RANDISA"
+    },
+    {
+      "nidn": "0408029302",
+      "name": "CORNELIA EVELIN CABUI"
+    },
+    {
+      "nidn": "0426048203",
+      "name": "EFRIZA"
+    },
+    {
+      "nidn": "0411086501",
+      "name": "ROCHENDI SURYADINATA"
+    },
+    {
+      "nidn": "0426069106",
+      "name": "MAYSHAH PURNAMASARI"
+    },
+    {
+      "nidn": "0429039401",
+      "name": "FAKHROTUN NISA"
+    },
+    {
+      "nidn": "0401089405",
+      "name": "HANZHOLA GUSMAN RIYANTO"
+    },
+    {
+      "nidn": "0410069304",
+      "name": "JUNITA BR SEMBIRING"
+    },
+    {
+      "nidn": "0417078902",
+      "name": "MAYA SARI ANANDA POHAN"
+    },
+    {
+      "nidn": "8871520016",
+      "name": "SRI HARTATI"
+    },
+    {
+      "nidn": "0428119006",
+      "name": "ANIP SOLIHIN"
+    },
+    {
+      "nidn": "0430038502",
+      "name": "BAMBANG PERMADI"
+    },
+    {
+      "nidn": "0415088905",
+      "name": "HARRY TRIANA"
+    },
+    {
+      "nidn": "0423099104",
+      "name": "SEPTIAN ARIS MUNANDAR"
+    },
+    {
+      "nidn": "0414098704",
+      "name": "SURYONO"
+    },
+    {
+      "nidn": "0417098503",
+      "name": "YOFI"
+    },
+    {
+      "nidn": "0408087104",
+      "name": "FUADI"
+    },
+    {
+      "nidn": "0406116205",
+      "name": "INDAR RIYANTO"
+    },
+    {
+      "nidn": "0429058001",
+      "name": "INDRA SULISTIANA"
+    },
+    {
+      "nidn": "0409077704",
+      "name": "AHMAD GHONI"
+    },
+    {
+      "nidn": "0408129303",
+      "name": "DENIES SUSANTO"
+    },
+    {
+      "nidn": "0424109601",
+      "name": "FANNY ADINDA PUTRI"
+    },
+    {
+      "nidn": "0409028701",
+      "name": "FEBBY FEBRIANA"
+    },
+    {
+      "nidn": "0410079006",
+      "name": "LATIF"
+    },
+    {
+      "nidn": "0421039603",
+      "name": "MAMAN QOMARUZZAMAN"
+    },
+    {
+      "nidn": "0407059403",
+      "name": "MEILI BUGIS"
+    },
+    {
+      "nidn": "0417058501",
+      "name": "NURLELAH"
+    },
+    {
+      "nidn": "0412059005",
+      "name": "RIDWAN RISTIAWAN"
+    },
+    {
+      "nidn": "0426119501",
+      "name": "SELA NOVITASARI"
+    },
+    {
+      "nidn": "0405128101",
+      "name": "TEGUH KURNIYANTO"
+    },
+    {
+      "nidn": "0408018503",
+      "name": "AAN PURNAMA"
+    },
+    {
+      "nidn": "0403079002",
+      "name": "ABDUL AZIS"
+    },
+    {
+      "nidn": "0427058904",
+      "name": "ABDUL KHOIR"
+    },
+    {
+      "nidn": "0412098506",
+      "name": "ABDUL RAHMAN SAFIIH"
+    },
+    {
+      "nidn": "0427107409",
+      "name": "ABU BAKAR DJA’FAR"
+    },
+    {
+      "nidn": "0420118407",
+      "name": "ACHMAD LUDVY"
+    },
+    {
+      "nidn": "0424108504",
+      "name": "ACHMAD NUR SHOLEH"
+    },
+    {
+      "nidn": "0426066305",
+      "name": "ADE RACHMAWAN"
+    },
+    {
+      "nidn": "0403128601",
+      "name": "ADE RATNA SARI"
+    },
+    {
+      "nidn": "0403037302",
+      "name": "ADE YUSUF"
+    },
+    {
+      "nidn": "0414087705",
+      "name": "AGUS"
+    },
+    {
+      "nidn": "0402117905",
+      "name": "AGUS SUDARSONO"
+    },
+    {
+      "nidn": "0401017121",
+      "name": "AGUS SULAIMAN ANHARI"
+    },
+    {
+      "nidn": "0429087206",
+      "name": "AGUS SUPRIATNA"
+    },
+    {
+      "nidn": "0405107410",
+      "name": "AGUSTINA MOGI"
+    },
+    {
+      "nidn": "0403078201",
+      "name": "AHMAD DIMYATI"
+    },
+    {
+      "nidn": "0408069201",
+      "name": "AHMAD MAULANA IRFANUDIN"
+    },
+    {
+      "nidn": "8852210016",
+      "name": "AHMAD SYUKRI"
+    },
+    {
+      "nidn": "0420019101",
+      "name": "AKHMAD AKBAR"
+    },
+    {
+      "nidn": "0424098903",
+      "name": "ALDILA RAHMA PUTRI"
+    },
+    {
+      "nidn": "0420019003",
+      "name": "ALVIN PRADITYA"
+    },
+    {
+      "nidn": "0408037701",
+      "name": "AMIRUDIN"
+    },
+    {
+      "nidn": "0402039301",
+      "name": "AMIRUDIN"
+    },
+    {
+      "nidn": "0430098704",
+      "name": "ANA SEPTIA RAHMAN"
+    },
+    {
+      "nidn": "0412018301",
+      "name": "ANAH FURYANAH"
+    },
+    {
+      "nidn": "0409028503",
+      "name": "ANANDA HADISTIA"
+    },
+    {
+      "nidn": "0409099004",
+      "name": "ANDI SOPANDI"
+    },
+    {
+      "nidn": "0405109101",
+      "name": "ANDRI PRIADI"
+    },
+    {
+      "nidn": "0415127803",
+      "name": "ANDRIYANI HAPSARI"
+    },
+    {
+      "nidn": "0404098806",
+      "name": "ANGGA JUANDA"
+    },
+    {
+      "nidn": "0406048508",
+      "name": "ANGGA ROVITA, M.PD."
+    },
+    {
+      "nidn": "0417118803",
+      "name": "ANI MERYATI"
+    },
+    {
+      "nidn": "0407018204",
+      "name": "ANOM SUSILO"
+    },
+    {
+      "nidn": "0423019005",
+      "name": "ANUM NURYANI"
+    },
+    {
+      "nidn": "0403059103",
+      "name": "ARDI BACHTIAR"
+    },
+    {
+      "nidn": "0415049001",
+      "name": "ARIA AJI PRIYANTO"
+    },
+    {
+      "nidn": "0429129201",
+      "name": "ARIEF BUDI SANTOSO"
+    },
+    {
+      "nidn": "0420119004",
+      "name": "ARIF HIDAYAT"
+    },
+    {
+      "nidn": "0405107905",
+      "name": "ARIS ARIYANTO"
+    },
+    {
+      "nidn": "0410057305",
+      "name": "ARMAN SYAH"
+    },
+    {
+      "nidn": "0404049102",
+      "name": "ASEP MUHAMMAD LUTFI"
+    },
+    {
+      "nidn": "0430109004",
+      "name": "ASRIDAH WARNI TANJUNG"
+    },
+    {
+      "nidn": "0430076707",
+      "name": "AWALUDDIN MUCHTAR"
+    },
+    {
+      "nidn": "0429069204",
+      "name": "AYU PUSPA LESTIYADI"
+    },
+    {
+      "nidn": "0413017705",
+      "name": "BALIYAH MUNADJAT"
+    },
+    {
+      "nidn": "8818340017",
+      "name": "BAMBANG PURNOMO YANUARSO"
+    },
+    {
+      "nidn": "8803800016",
+      "name": "BAMBANG SUTARTO"
+    },
+    {
+      "nidn": "8837530017",
+      "name": "BONAR FRANS SIHITE"
+    },
+    {
+      "nidn": "0407027902",
+      "name": "BUDHI PRABOWO"
+    },
+    {
+      "nidn": "0426078604",
+      "name": "BUDI ISMANTO"
+    },
+    {
+      "nidn": "0429068402",
+      "name": "CHANDRA FITRA ARIFIANTO"
+    },
+    {
+      "nidn": "0426026901",
+      "name": "CHOTAMUL FAJRI"
+    },
+    {
+      "nidn": "0425048802",
+      "name": "CORNELIA DUMARYA MANIK"
+    },
+    {
+      "nidn": "0423128803",
+      "name": "CRISTINE PRESTARIKA LUKITO"
+    },
+    {
+      "nidn": "0412048903",
+      "name": "DANA"
+    },
+    {
+      "nidn": "0420038705",
+      "name": "DEDE ANDI"
+    },
+    {
+      "nidn": "0407078904",
+      "name": "DEDE HENDRA"
+    },
+    {
+      "nidn": "0409078603",
+      "name": "DEDEK KUMARA"
+    },
+    {
+      "nidn": "0426066801",
+      "name": "DEDIK SUPARDIONO"
+    },
+    {
+      "nidn": "0414128504",
+      "name": "DERIZKA INVA JASWITA"
+    },
+    {
+      "nidn": "0401089301",
+      "name": "DESI KURNIAWATI"
+    },
+    {
+      "nidn": "0412037301",
+      "name": "DEWI NARI RATIH PERMADA"
+    },
+    {
+      "nidn": "0412019402",
+      "name": "DEWI NINGSIH"
+    },
+    {
+      "nidn": "0425098704",
+      "name": "DEWI SARTIKA"
+    },
+    {
+      "nidn": "0423027306",
+      "name": "DIANA AZWINA"
+    },
+    {
+      "nidn": "0423037804",
+      "name": "DICKY RONNY MARTINEZ NAINGGOLAN"
+    },
+    {
+      "nidn": "8850000016",
+      "name": "DIDI SUNARDI"
+    },
+    {
+      "nidn": "0413107004",
+      "name": "DIJAN MARDIATI"
+    },
+    {
+      "nidn": "0423077201",
+      "name": "DINA NOVITA"
+    },
+    {
+      "nidn": "8856200016",
+      "name": "DIRA KARLINA"
+    },
+    {
+      "nidn": "0404038004",
+      "name": "DODI PRASADA"
+    },
+    {
+      "nidn": "0406106604",
+      "name": "EDIAN FAHMY"
+    },
+    {
+      "nidn": "0414068503",
+      "name": "ELIZABETH TIKA KRISTINA HARTUTI"
+    },
+    {
+      "nidn": "0424037501",
+      "name": "ENDAH MAWARNY ALYDRUS"
+    },
+    {
+      "nidn": "0427097703",
+      "name": "ENDANG KUSTINI"
+    },
+    {
+      "nidn": "8845530017",
+      "name": "ENDANG NURITA"
+    },
+    {
+      "nidn": "0422057601",
+      "name": "ENDANG PUJI ASTUTIK"
+    },
+    {
+      "nidn": "8866000016",
+      "name": "ENDANG SUPRAPTI"
+    },
+    {
+      "nidn": "0418118001",
+      "name": "ENNY SAVITRI"
+    },
+    {
+      "nidn": "0417017004",
+      "name": "ESTI SUNTARI"
+    },
+    {
+      "nidn": "0414048205",
+      "name": "ETI ARIYANTI"
+    },
+    {
+      "nidn": "0301088402",
+      "name": "FADILLAH"
+    },
+    {
+      "nidn": "0414078203",
+      "name": "FAISAL ROMDONIH"
+    },
+    {
+      "nidn": "0408097101",
+      "name": "FAISAL SE MM"
+    },
+    {
+      "nidn": "0407026201",
+      "name": "FAKUNG RAHMAN"
+    },
+    {
+      "nidn": "0416058602",
+      "name": "FATHAN ARIF"
+    },
+    {
+      "nidn": "0418057101",
+      "name": "FATHORRAHMAN"
+    },
+    {
+      "nidn": "0429037607",
+      "name": "FATHUR RAHMAN"
+    },
+    {
+      "nidn": "0414057010",
+      "name": "FATIMAH"
+    },
+    {
+      "nidn": "0402128901",
+      "name": "FERDIANSYAH"
+    },
+    {
+      "nidn": "0414027907",
+      "name": "FERDINA WATININGSIH"
+    },
+    {
+      "nidn": "0402076701",
+      "name": "GATOT KUSJONO"
+    },
+    {
+      "nidn": "0412046208",
+      "name": "GATUT DRAJAD PURWOKO"
+    },
+    {
+      "nidn": "0408058102",
+      "name": "GOJALI SUPIANDI"
+    },
+    {
+      "nidn": "0403067504",
+      "name": "HABIBAH"
+    },
+    {
+      "nidn": "0424117005",
+      "name": "HADYATI HARRAS"
+    },
+    {
+      "nidn": "0426039301",
+      "name": "HAFIS LAKSMANA NURALDY"
+    },
+    {
+      "nidn": "0310086804",
+      "name": "HAIDILIA MAHARANI"
+    },
+    {
+      "nidn": "0427117603",
+      "name": "HAMDI SUPRIADI"
+    },
+    {
+      "nidn": "0415049002",
+      "name": "HANUM PUSPA DHIANI"
+    },
+    {
+      "nidn": "0413048002",
+      "name": "HARYANTINI"
+    },
+    {
+      "nidn": "0411078703",
+      "name": "HASANUDIN"
+    },
+    {
+      "nidn": "0425117903",
+      "name": "HASUDUNGAN PANGARIBUAN"
+    },
+    {
+      "nidn": "0402059101",
+      "name": "HENDRI GUNAWAN"
+    },
+    {
+      "nidn": "0414067905",
+      "name": "HENDRI PRASETYO"
+    },
+    {
+      "nidn": "0412017706",
+      "name": "HENGKI HERMAWAN"
+    },
+    {
+      "nidn": "0423038103",
+      "name": "HENNI MARLINAH"
+    },
+    {
+      "nidn": "0405087502",
+      "name": "HERI MURTIYOKO, S.,PD, MM"
+    },
+    {
+      "nidn": "8815410016",
+      "name": "HERI PRIYANTO"
+    },
+    {
+      "nidn": "0424047308",
+      "name": "HERRY SUHERMAN"
+    },
+    {
+      "nidn": "0426099002",
+      "name": "HIRA MAULIDA"
+    },
+    {
+      "nidn": "0431038901",
+      "name": "I GEDE MARENDRA"
+    },
+    {
+      "nidn": "0417049002",
+      "name": "I MADE ARYATA"
+    },
+    {
+      "nidn": "8875530017",
+      "name": "IDA NURLINA"
+    },
+    {
+      "nidn": "0430039002",
+      "name": "IMBRON"
+    },
+    {
+      "nidn": "0425018801",
+      "name": "INDRA JANUAR RUKMANA"
+    },
+    {
+      "nidn": "0409097909",
+      "name": "INDRI INDIRASARI"
+    },
+    {
+      "nidn": "0405038803",
+      "name": "INDRI KHARISMA"
+    },
+    {
+      "nidn": "0423018902",
+      "name": "IRFAN RIZKA AKBAR"
+    },
+    {
+      "nidn": "0410098702",
+      "name": "IRIANA KUSUMA DEWI"
+    },
+    {
+      "nidn": "0401107802",
+      "name": "IRMA SARI OCTAVIANI"
+    },
+    {
+      "nidn": "0414077601",
+      "name": "IRMAL"
+    },
+    {
+      "nidn": "0416106505",
+      "name": "IRWAN SUHARTONO"
+    },
+    {
+      "nidn": "0427057606",
+      "name": "ISEP AMAS PRIATNA"
+    },
+    {
+      "nidn": "0405077907",
+      "name": "ISKANDAR ZULKARNAIN"
+    },
+    {
+      "nidn": "0418069201",
+      "name": "IVANTAN"
+    },
+    {
+      "nidn": "0305046102",
+      "name": "JAENUDIN"
+    },
+    {
+      "nidn": "0420108303",
+      "name": "JAKARIAH"
+    },
+    {
+      "nidn": "0420019004",
+      "name": "JAMALUDDIN"
+    },
+    {
+      "nidn": "0416068502",
+      "name": "JAMALUDIN"
+    },
+    {
+      "nidn": "0407086702",
+      "name": "JASMANI"
+    },
+    {
+      "nidn": "0415037902",
+      "name": "JOKO PRASETIYO"
+    },
+    {
+      "nidn": "0409108603",
+      "name": "JUBLINA OKTORA"
+    },
+    {
+      "nidn": "0422079202",
+      "name": "KAROLINA"
+    },
+    {
+      "nidn": "0422066902",
+      "name": "KARTONO"
+    },
+    {
+      "nidn": "0419027004",
+      "name": "KEMAS VIVI ANDAYANI"
+    },
+    {
+      "nidn": "0423046501",
+      "name": "KHUZAENI S.PD M.SI"
+    },
+    {
+      "nidn": "0414098801",
+      "name": "KIKI DWI WIJAYANTI"
+    },
+    {
+      "nidn": "0414128602",
+      "name": "KRIDA PUJI RAHAYU"
+    },
+    {
+      "nidn": "0409038703",
+      "name": "KUSTITIK"
+    },
+    {
+      "nidn": "0416078304",
+      "name": "LATIVA"
+    },
+    {
+      "nidn": "0419048901",
+      "name": "LAURA KOMALA"
+    },
+    {
+      "nidn": "0407079102",
+      "name": "LIAWATI"
+    },
+    {
+      "nidn": "0405089301",
+      "name": "LIDYA PRICILLA"
+    },
+    {
+      "nidn": "0403038104",
+      "name": "LILI SULARMI"
+    },
+    {
+      "nidn": "8823500016",
+      "name": "LILIS SURYANI"
+    },
+    {
+      "nidn": "0414028904",
+      "name": "LINA NOFIANA"
+    },
+    {
+      "nidn": "8882000016",
+      "name": "LINDA SUPRIHATIN"
+    },
+    {
+      "nidn": "0404056703",
+      "name": "LISDAWATI"
+    },
+    {
+      "nidn": "0428018202",
+      "name": "LISMIATUN"
+    },
+    {
+      "nidn": "0424028504",
+      "name": "MA’FIYAH"
+    },
+    {
+      "nidn": "0403048402",
+      "name": "MADA FAISAL AKBAR"
+    },
+    {
+      "nidn": "0415019001",
+      "name": "MAGHFIROH YANUARTI"
+    },
+    {
+      "nidn": "0414027804",
+      "name": "MAHADI SAPUTRA"
+    },
+    {
+      "nidn": "0412107104",
+      "name": "MASRAN MUSTAKIM, S.E."
+    },
+    {
+      "nidn": "0401106501",
+      "name": "MASWARNI"
+    },
+    {
+      "nidn": "0424079202",
+      "name": "MELDA WIGUNA"
+    },
+    {
+      "nidn": "0427069201",
+      "name": "MITRI NELSI"
+    },
+    {
+      "nidn": "0404048406",
+      "name": "MOH. JAZULI"
+    },
+    {
+      "nidn": "0420049103",
+      "name": "MUHAMAD ABID"
+    },
+    {
+      "nidn": "0414069401",
+      "name": "MUHAMAD BADRU ZAMAN"
+    },
+    {
+      "nidn": "0423097901",
+      "name": "MUHAMAD GURUH"
+    },
+    {
+      "nidn": "0412068906",
+      "name": "MUHAMAD NURHAMDI"
+    },
+    {
+      "nidn": "0428128205",
+      "name": "MUHAMAD RESTU WIJAYA"
+    },
+    {
+      "nidn": "0412028403",
+      "name": "MUHAMMAD ANDREI LESMONO"
+    },
+    {
+      "nidn": "8832940017",
+      "name": "MUHAMMAD ARIEF"
+    },
+    {
+      "nidn": "0404069101",
+      "name": "MUHAMMAD GANDUNG"
+    },
+    {
+      "nidn": "0410076402",
+      "name": "MUHAMMAD YUDA ALHABSYI"
+    },
+    {
+      "nidn": "0422037301",
+      "name": "Muhammad Zaenal Muttaqin Abdi"
+    },
+    {
+      "nidn": "0427067304",
+      "name": "MULYADI"
+    },
+    {
+      "nidn": "0415018307",
+      "name": "MUNARSIH"
+    },
+    {
+      "nidn": "0421108902",
+      "name": "MUTAWALI"
+    },
+    {
+      "nidn": "8881840017",
+      "name": "NANDA RODIYANA"
+    },
+    {
+      "nidn": "0409087701",
+      "name": "NANI"
+    },
+    {
+      "nidn": "0407096402",
+      "name": "NANI SRIYANI"
+    },
+    {
+      "nidn": "0402037806",
+      "name": "NARIAH"
+    },
+    {
+      "nidn": "8891210016",
+      "name": "NELWATI TANIUS"
+    },
+    {
+      "nidn": "0411118403",
+      "name": "NENENG KHOIRIAH"
+    },
+    {
+      "nidn": "0429107202",
+      "name": "NENENG TITA AMALYA"
+    },
+    {
+      "nidn": "0403099201",
+      "name": "NINDIE ELLESIA"
+    },
+    {
+      "nidn": "0419107202",
+      "name": "NINIK ANGGRAINI"
+    },
+    {
+      "nidn": "0422116502",
+      "name": "NOFIAR"
+    },
+    {
+      "nidn": "0430108603",
+      "name": "NOPI OKTAVIANTI"
+    },
+    {
+      "nidn": "0409038006",
+      "name": "NORYANI"
+    },
+    {
+      "nidn": "0423098502",
+      "name": "NOTO SUSANTO"
+    },
+    {
+      "nidn": "0421108101",
+      "name": "NOVIA SUSANTI"
+    },
+    {
+      "nidn": "0405068504",
+      "name": "NURMONO"
+    },
+    {
+      "nidn": "0419107402",
+      "name": "OKI IQBAL KHAIR"
+    },
+    {
+      "nidn": "0401087103",
+      "name": "PAENO"
+    },
+    {
+      "nidn": "0420067706",
+      "name": "PURWANTI"
+    },
+    {
+      "nidn": "0409029004",
+      "name": "PUSPORINI PALUPI JAMALUDIN"
+    },
+    {
+      "nidn": "8877230017",
+      "name": "R.A. KADARMANTA"
+    },
+    {
+      "nidn": "8815600016",
+      "name": "RACHMAT KARTOLO"
+    },
+    {
+      "nidn": "0402027604",
+      "name": "RADEN YETI SUMIATY"
+    },
+    {
+      "nidn": "0418068801",
+      "name": "RAHMAD SETIAWAN"
+    },
+    {
+      "nidn": "0423118702",
+      "name": "RAHMAH FARAHDITA SOEYATNO"
+    },
+    {
+      "nidn": "0422126504",
+      "name": "RAHMAT SUBUR"
+    },
+    {
+      "nidn": "0426037406",
+      "name": "RAHMAYANTI TUMANGGOR"
+    },
+    {
+      "nidn": "0426087603",
+      "name": "RANDHY AGUSENTOSO"
+    },
+    {
+      "nidn": "0422118402",
+      "name": "RATIH ANDALUSI"
+    },
+    {
+      "nidn": "0430078002",
+      "name": "RATNA SARI"
+    },
+    {
+      "nidn": "0402038807",
+      "name": "RETNO JAPANIS PERMATASARI"
+    },
+    {
+      "nidn": "0417029401",
+      "name": "REZA KHAIRUL HADI"
+    },
+    {
+      "nidn": "0412107105",
+      "name": "REZA OCTOVIAN"
+    },
+    {
+      "nidn": "0429039301",
+      "name": "RIA ROSALIA SIMANGUNSONG"
+    },
+    {
+      "nidn": "0416027902",
+      "name": "RIAN SRI RAHAYU"
+    },
+    {
+      "nidn": "0409109201",
+      "name": "RIRI OKTARINI"
+    },
+    {
+      "nidn": "0428069301",
+      "name": "RISKI DWI NUGROHO"
+    },
+    {
+      "nidn": "0425028603",
+      "name": "RISSA HANNY"
+    },
+    {
+      "nidn": "0410077102",
+      "name": "RITA SATRIA"
+    },
+    {
+      "nidn": "0404019201",
+      "name": "RIZKA WAHYUNI AMELIA"
+    },
+    {
+      "nidn": "0430126801",
+      "name": "ROB SOSIATRI"
+    },
+    {
+      "nidn": "0420128902",
+      "name": "ROBBY KHARISMA"
+    },
+    {
+      "nidn": "0423118504",
+      "name": "ROBY IRZAL MAULANA"
+    },
+    {
+      "nidn": "0417038605",
+      "name": "RR. RENNY ANGGRAINI"
+    },
+    {
+      "nidn": "0413105501",
+      "name": "SAIRIN"
+    },
+    {
+      "nidn": "0415058902",
+      "name": "SAKSONO BUDI"
+    },
+    {
+      "nidn": "0406018102",
+      "name": "SAN RIDWAN MAULANA SS.I MM"
+    },
+    {
+      "nidn": "0416098805",
+      "name": "SAWUKIR"
+    },
+    {
+      "nidn": "8837520016",
+      "name": "SENEN"
+    },
+    {
+      "nidn": "0431108805",
+      "name": "SEPTI ROSTIKA ANJANI"
+    },
+    {
+      "nidn": "0413049101",
+      "name": "SHEILA ARDILLA YUGHI"
+    },
+    {
+      "nidn": "0717058801",
+      "name": "SHELA INDAH SAVITRI"
+    },
+    {
+      "nidn": "0419099201",
+      "name": "SHELLA PUSPITA SARI"
+    },
+    {
+      "nidn": "0415038206",
+      "name": "SIGIT PURNOMO"
+    },
+    {
+      "nidn": "0415079101",
+      "name": "SINTA SULISTIANI"
+    },
+    {
+      "nidn": "0420029302",
+      "name": "SISKA YUNANTI"
+    },
+    {
+      "nidn": "0427127705",
+      "name": "SITI AESAH"
+    },
+    {
+      "nidn": "0420049104",
+      "name": "SITI APRILLIANI"
+    },
+    {
+      "nidn": "0422027103",
+      "name": "SITI NUR’AIDAWATI"
+    },
+    {
+      "nidn": "0404038904",
+      "name": "SITI NURCAHAYATI"
+    },
+    {
+      "nidn": "0427057803",
+      "name": "SONNY"
+    },
+    {
+      "nidn": "0404028802",
+      "name": "SOZANOLO WARUWU"
+    },
+    {
+      "nidn": "0404046907",
+      "name": "SRI SUKAPTI"
+    },
+    {
+      "nidn": "0406118106",
+      "name": "STYO BUDI UTOMO"
+    },
+    {
+      "nidn": "8827520016",
+      "name": "SUDIARTO"
+    },
+    {
+      "nidn": "0409058506",
+      "name": "SUHANDI"
+    },
+    {
+      "nidn": "8899700016",
+      "name": "SULAIMAN"
+    },
+    {
+      "nidn": "0407056806",
+      "name": "SUNARYO"
+    },
+    {
+      "nidn": "8872000016",
+      "name": "SUROTO"
+    },
+    {
+      "nidn": "0414037903",
+      "name": "SURYADI MARTHADINATA"
+    },
+    {
+      "nidn": "8851000016",
+      "name": "SUYATIN"
+    },
+    {
+      "nidn": "0420117508",
+      "name": "SYAKHRIAL"
+    },
+    {
+      "nidn": "0421068204",
+      "name": "SYARIFAH IDA FARIDA, SE"
+    },
+    {
+      "nidn": "0417088105",
+      "name": "SYAWALUDIN"
+    },
+    {
+      "nidn": "0409016803",
+      "name": "TARWIJO"
+    },
+    {
+      "nidn": "0422078005",
+      "name": "TAUFIK AWALUDIN"
+    },
+    {
+      "nidn": "0406116001",
+      "name": "THAHARUDDIN"
+    },
+    {
+      "nidn": "0431126602",
+      "name": "THAMRIN"
+    },
+    {
+      "nidn": "0421057204",
+      "name": "THEOBALDUS BORO TURA"
+    },
+    {
+      "nidn": "0422066001",
+      "name": "TJERI HADJRILLAH"
+    },
+    {
+      "nidn": "0416029002",
+      "name": "TRI SULISTYANI"
+    },
+    {
+      "nidn": "0403077101",
+      "name": "TRIYADI"
+    },
+    {
+      "nidn": "0405019003",
+      "name": "TUTRI INDRASWARI"
+    },
+    {
+      "nidn": "0318056502",
+      "name": "UMAR HANIS"
+    },
+    {
+      "nidn": "0402078102",
+      "name": "VEGA ANISMADIYAH"
+    },
+    {
+      "nidn": "0402128705",
+      "name": "VIDYA AMALIA RISMANTY"
+    },
+    {
+      "nidn": "0417048801",
+      "name": "WAHADI SIAMTO"
+    },
+    {
+      "nidn": "0424117904",
+      "name": "WAWAN SUPRIYATNA"
+    },
+    {
+      "nidn": "0429088505",
+      "name": "WHINA RATNAWATI"
+    },
+    {
+      "nidn": "0416048902",
+      "name": "WIDHI WICAKSONO, SE, MM"
+    },
+    {
+      "nidn": "0416069102",
+      "name": "WIDIA ASTUTI"
+    },
+    {
+      "nidn": "0412079102",
+      "name": "WIDYA CANDRA DEWI"
+    },
+    {
+      "nidn": "0424019103",
+      "name": "WIRAWAN SURYANTO"
+    },
+    {
+      "nidn": "0423017704",
+      "name": "YAN KRISTIAN HALOMOAN"
+    },
+    {
+      "nidn": "0423098701",
+      "name": "YENI SEPTIANI"
+    },
+    {
+      "nidn": "0430058804",
+      "name": "YENNY MERINATUL HASANAH"
+    },
+    {
+      "nidn": "0406039202",
+      "name": "YETI KUSMAWATI"
+    },
+    {
+      "nidn": "0402078203",
+      "name": "YOSSY WAHYU INDRAWAN"
+    },
+    {
+      "nidn": "0412108509",
+      "name": "YUGA PRATAMA"
+    },
+    {
+      "nidn": "0410109102",
+      "name": "YULI WAHYUDI"
+    },
+    {
+      "nidn": "0420076805",
+      "name": "YULIES HERNI"
+    },
+    {
+      "nidn": "0404109002",
+      "name": "YUSNI NURYANI"
+    },
+    {
+      "nidn": "0408109103",
+      "name": "YUSRAN DAENG MATTA"
+    },
+    {
+      "nidn": "0408117403",
+      "name": "YUYUS KADARUSMAN"
+    },
+    {
+      "nidn": "0416068903",
+      "name": "ZAKARIA"
+    },
+    {
+      "nidn": "0402088701",
+      "name": "ACHMAD AGUS YASIN FADLI"
+    },
+    {
+      "nidn": "0427068902",
+      "name": "ADEN PRAWIRO SUDARSO"
+    },
+    {
+      "nidn": "0401037004",
+      "name": "ADI MARTONO"
+    },
+    {
+      "nidn": "0427128205",
+      "name": "ADING SUNARTO"
+    },
+    {
+      "nidn": "0418046803",
+      "name": "ADJI WIDODO"
+    },
+    {
+      "nidn": "0401038903",
+      "name": "AGRASADYA"
+    },
+    {
+      "nidn": "0414127002",
+      "name": "AGUNG WIJOYO"
+    },
+    {
+      "nidn": "0420097905",
+      "name": "AHMAD NAZIR"
+    },
+    {
+      "nidn": "0423107206",
+      "name": "AHMAD NURHADI"
+    },
+    {
+      "nidn": "0422118502",
+      "name": "AHMAD YANI NASUTION"
+    },
+    {
+      "nidn": "0415028804",
+      "name": "AHYANI"
+    },
+    {
+      "nidn": "0402079001",
+      "name": "AIDIL AMIN EFFENDY"
+    },
+    {
+      "nidn": "0412128601",
+      "name": "AJIMAT"
+    },
+    {
+      "nidn": "0410127905",
+      "name": "AKHMAR BARSAH"
+    },
+    {
+      "nidn": "0428068403",
+      "name": "ALI MUBAROK"
+    },
+    {
+      "nidn": "0408108501",
+      "name": "AMTHY SURAYA"
+    },
+    {
+      "nidn": "0417068904",
+      "name": "ANGGA PRATAMA"
+    },
+    {
+      "nidn": "0424079002",
+      "name": "ANGGADA BAYU SETA"
+    },
+    {
+      "nidn": "0424038502",
+      "name": "ARIEF BUDIYANTO"
+    },
+    {
+      "nidn": "0406057705",
+      "name": "ARIF SIAHA WIDODO"
+    },
+    {
+      "nidn": "0428078405",
+      "name": "ARIF SURAHMAN"
+    },
+    {
+      "nidn": "0415098305",
+      "name": "ASEP SUHERMAN"
+    },
+    {
+      "nidn": "0410016501",
+      "name": "ASEP SULAEMAN"
+    },
+    {
+      "nidn": "0026068503",
+      "name": "AYU METARINI"
+    },
+    {
+      "nidn": "0427109001",
+      "name": "BACHTIAR ARIFUDIN HUSAIN"
+    },
+    {
+      "nidn": "0411108402",
+      "name": "BULAN OKTRIMA"
+    },
+    {
+      "nidn": "0408038103",
+      "name": "BUNGA ASTRA GRACIA"
+    },
+    {
+      "nidn": "8880033420",
+      "name": "CHEPI SAFEI JUMHANA"
+    },
+    {
+      "nidn": "0402049002",
+      "name": "DARMADI"
+    },
+    {
+      "nidn": "0428078604",
+      "name": "DEDE SOLIHIN"
+    },
+    {
+      "nidn": "0404088801",
+      "name": "DERITA QURBANI"
+    },
+    {
+      "nidn": "0428119202",
+      "name": "DESI PRASETIYANI"
+    },
+    {
+      "nidn": "0408129102",
+      "name": "DESTIAN ANDHANI"
+    },
+    {
+      "nidn": "0408127704",
+      "name": "DIANA RIYANA HARJAYANTI"
+    },
+    {
+      "nidn": "0422107103",
+      "name": "EDON RAMDANI"
+    },
+    {
+      "nidn": "0424126601",
+      "name": "EDY KRISYANTO"
+    },
+    {
+      "nidn": "0414118504",
+      "name": "EKO SUDARSO"
+    },
+    {
+      "nidn": "0413118203",
+      "name": "ENI PUJI ASTUTI"
+    },
+    {
+      "nidn": "0419107504",
+      "name": "ERLITA KURNIAWATY"
+    },
+    {
+      "nidn": "0423047605",
+      "name": "FAHMI SUSANTI"
+    },
+    {
+      "nidn": "0402099101",
+      "name": "FAUZIAH SEPTIANI"
+    },
+    {
+      "nidn": "0425027004",
+      "name": "FEB AMNI HAYATI"
+    },
+    {
+      "nidn": "0420086505",
+      "name": "FIKRON ALCHOIR"
+    },
+    {
+      "nidn": "0411079204",
+      "name": "GURUH DWI PRATAMA"
+    },
+    {
+      "nidn": "0418085901",
+      "name": "H. HASTONO"
+    },
+    {
+      "nidn": "8817530017",
+      "name": "H. JAZULI MUKHTAR"
+    },
+    {
+      "nidn": "8862810016",
+      "name": "H. YAHYA ISKANDAR"
+    },
+    {
+      "nidn": "0409029102",
+      "name": "HADIJAH FEBRIANA"
+    },
+    {
+      "nidn": "0422068105",
+      "name": "HESTU NUGROHO WARASTO"
+    },
+    {
+      "nidn": "0428058902",
+      "name": "HUSNUL KHOTIMAH"
+    },
+    {
+      "nidn": "0427027505",
+      "name": "IBNU SINA"
+    },
+    {
+      "nidn": "0428108603",
+      "name": "IBRAHIM BALI PAMUNGKAS"
+    },
+    {
+      "nidn": "0408128103",
+      "name": "IFA NURMASARI"
+    },
+    {
+      "nidn": "0401128902",
+      "name": "IIS NOVIYANTI"
+    },
+    {
+      "nidn": "0425098602",
+      "name": "IMAN LUBIS"
+    },
+    {
+      "nidn": "0419076902",
+      "name": "IMAN SYATOTO"
+    },
+    {
+      "nidn": "0413019204",
+      "name": "INTAN SARI BUDHIARJO"
+    },
+    {
+      "nidn": "8845000016",
+      "name": "IRWANSYAH"
+    },
+    {
+      "nidn": "0421129002",
+      "name": "IVAN PUTRANTO"
+    },
+    {
+      "nidn": "0419047403",
+      "name": "JANUDIN"
+    },
+    {
+      "nidn": "0411107404",
+      "name": "JENI ANDRIANI"
+    },
+    {
+      "nidn": "0420069101",
+      "name": "JENI IRNAWATI"
+    },
+    {
+      "nidn": "8832870018",
+      "name": "JOHAN MAULANA"
+    },
+    {
+      "nidn": "0431076502",
+      "name": "JUWITA RAMADANI FITRIA"
+    },
+    {
+      "nidn": "0410126301",
+      "name": "KOMARUDIN"
+    },
+    {
+      "nidn": "0409077604",
+      "name": "KRIS DIPAYANTI"
+    },
+    {
+      "nidn": "0415078603",
+      "name": "KRISNALDY"
+    },
+    {
+      "nidn": "8887050017",
+      "name": "KUSHARYONO"
+    },
+    {
+      "nidn": "0428088902",
+      "name": "LIA ASMALAH"
+    },
+    {
+      "nidn": "0407106901",
+      "name": "LUCIA MADUNINGTIAS"
+    },
+    {
+      "nidn": "0410019103",
+      "name": "M. ANTON NURHIDAYAT"
+    },
+    {
+      "nidn": "0426058006",
+      "name": "MAHNUN MAS’ADI"
+    },
+    {
+      "nidn": "0410106502",
+      "name": "MASWARNI"
+    },
+    {
+      "nidn": "0411107006",
+      "name": "MOHAMAD DUDDY DINANTARA"
+    },
+    {
+      "nidn": "0408107904",
+      "name": "MOHAMAD SAFII"
+    },
+    {
+      "nidn": "0420048401",
+      "name": "MUGER APRIANSYAH"
+    },
+    {
+      "nidn": "0427099003",
+      "name": "MUHAMMAD MUSYFIQ SALAMI"
+    },
+    {
+      "nidn": "0427048804",
+      "name": "MUTMAINNAH"
+    },
+    {
+      "nidn": "0428036907",
+      "name": "N. LILIS SURYANI"
+    },
+    {
+      "nidn": "0418097104",
+      "name": "N. RUSNAENI"
+    },
+    {
+      "nidn": "0408066401",
+      "name": "NEFO INDRA NIZAR"
+    },
+    {
+      "nidn": "0401058503",
+      "name": "NINA SHABRINA"
+    },
+    {
+      "nidn": "0428078602",
+      "name": "NUFZATUT SANIAH"
+    },
+    {
+      "nidn": "0428068706",
+      "name": "NURDINNI TILOVA"
+    },
+    {
+      "nidn": "0421048603",
+      "name": "NURISMALATRI"
+    },
+    {
+      "nidn": "0419078902",
+      "name": "NURMIN ARIANTO"
+    },
+    {
+      "nidn": "0414029203",
+      "name": "NURWITA"
+    },
+    {
+      "nidn": "0429099102",
+      "name": "PRASETYO KURNIAWAN"
+    },
+    {
+      "nidn": "0409096706",
+      "name": "PRIEHADI DHASA EKA"
+    },
+    {
+      "nidn": "0422018902",
+      "name": "PUTRI NILAM KENCANA"
+    },
+    {
+      "nidn": "0411076303",
+      "name": "R.R. MARDIANA YULIANTI"
+    },
+    {
+      "nidn": "0418017703",
+      "name": "RACHMAWATY"
+    },
+    {
+      "nidn": "0421058406",
+      "name": "RAHMI ANDINI SYAMSUDDIN"
+    },
+    {
+      "nidn": "0403107204",
+      "name": "RAHMI HERMAWATI"
+    },
+    {
+      "nidn": "0420047901",
+      "name": "RATNA DUMILAH"
+    },
+    {
+      "nidn": "8841000016",
+      "name": "RATNA SUMINAR"
+    },
+    {
+      "nidn": "0415027801",
+      "name": "RENI HINDRIARI"
+    },
+    {
+      "nidn": "0414097301",
+      "name": "RETNO WULANSARI"
+    },
+    {
+      "nidn": "0425058701",
+      "name": "RIFKHAN"
+    },
+    {
+      "nidn": "0421037105",
+      "name": "RIMA HANDAYANI"
+    },
+    {
+      "nidn": "0423098705",
+      "name": "RINI SEPTIOWATI"
+    },
+    {
+      "nidn": "0423018702",
+      "name": "RISZA PUTRI ELBURDAH"
+    },
+    {
+      "nidn": "0417099201",
+      "name": "RONI FADLI"
+    },
+    {
+      "nidn": "0419117903",
+      "name": "ROSA LESMANA"
+    },
+    {
+      "nidn": "0402108208",
+      "name": "RUDI SANJAYA"
+    },
+    {
+      "nidn": "0421107403",
+      "name": "RUDY BODEWYN MANGASA TUA"
+    },
+    {
+      "nidn": "0424057202",
+      "name": "RULLY NUR DEWANTI"
+    },
+    {
+      "nidn": "0414127409",
+      "name": "RYAN ELFAHMI"
+    },
+    {
+      "nidn": "0408087909",
+      "name": "SAM CAY"
+    },
+    {
+      "nidn": "0418098902",
+      "name": "SHELBY VIRBY"
+    },
+    {
+      "nidn": "0406037801",
+      "name": "SRI MARDIANA"
+    },
+    {
+      "nidn": "0423029301",
+      "name": "SRI MULYANI"
+    },
+    {
+      "nidn": "8836000016",
+      "name": "SRI PURNIHERNAWATI"
+    },
+    {
+      "nidn": "0403047403",
+      "name": "SUGENG WIDODO"
+    },
+    {
+      "nidn": "0414056701",
+      "name": "SUHARNI RAHAYU"
+    },
+    {
+      "nidn": "0415036507",
+      "name": "SUNANTO"
+    },
+    {
+      "nidn": "0315107103",
+      "name": "SUNARDI"
+    },
+    {
+      "nidn": "8845500016",
+      "name": "SUPARMIN"
+    },
+    {
+      "nidn": "0426026602",
+      "name": "SUPATMIN"
+    },
+    {
+      "nidn": "0421105902",
+      "name": "SUTIMAN"
+    },
+    {
+      "nidn": "0402066101",
+      "name": "SUTRISNO"
+    },
+    {
+      "nidn": "0408076907",
+      "name": "SYAFIEQ FAHLEVI ALMASSAWA"
+    },
+    {
+      "nidn": "8906420021",
+      "name": "SYAFRIZAL"
+    },
+    {
+      "nidn": "0414026701",
+      "name": "SYAMRUDDIN"
+    },
+    {
+      "nidn": "0409088602",
+      "name": "SYAMSI MAWARDI"
+    },
+    {
+      "nidn": "8928520021",
+      "name": "TRI WARTONO"
+    },
+    {
+      "nidn": "8805410016",
+      "name": "UDIN SAPRUDIN"
+    },
+    {
+      "nidn": "1107068305",
+      "name": "USWATUN CHASANAH"
+    },
+    {
+      "nidn": "0411087804",
+      "name": "VERITIA"
+    },
+    {
+      "nidn": "0408078703",
+      "name": "VETA LIDYA DELIMAH PASARIBU"
+    },
+    {
+      "nidn": "0401038006",
+      "name": "WAHYU NURUL FAROH"
+    },
+    {
+      "nidn": "0421105901",
+      "name": "WALUYO JATI"
+    },
+    {
+      "nidn": "8821000016",
+      "name": "WASIRAN"
+    },
+    {
+      "nidn": "0405119201",
+      "name": "WIDYA INTAN SARI"
+    },
+    {
+      "nidn": "0408049201",
+      "name": "WINDY GUSTIA WARDANI"
+    },
+    {
+      "nidn": "0421038903",
+      "name": "WIYANTO"
+    },
+    {
+      "nidn": "0429068502",
+      "name": "YHONANDA HARSONO"
+    },
+    {
+      "nidn": "0429078101",
+      "name": "YULIAN BAYU GANAR"
+    },
+    {
+      "nidn": "0413038706",
+      "name": "YULIANTO"
+    },
+    {
+      "nidn": "8848900016",
+      "name": "YUSUF SUPARDI"
+    },
+    {
+      "nidn": "0429117905",
+      "name": "DENOK SUNARSI"
+    },
+    {
+      "nidn": "0402046806",
+      "name": "KASMAD"
+    },
+    {
+      "nidn": "8896200016",
+      "name": "SUPARTOMO COROLUS BOROMEUS"
+    },
+    {
+      "nidn": "0414068504",
+      "name": "SUWANTO"
+    },
+    {
+      "nidn": "8849350017",
+      "name": "GUNAWAN TANGKILISAN"
+    },
+    {
+      "nidn": "0402038205",
+      "name": "ABDULLAH"
+    },
+    {
+      "nidn": "8890000016",
+      "name": "ABDUS SOMAD"
+    },
+    {
+      "nidn": "8845200016",
+      "name": "ACHMAD SUMALI"
+    },
+    {
+      "nidn": "8862010016",
+      "name": "ADE INDRA BUDIANTO"
+    },
+    {
+      "nidn": "0431017301",
+      "name": "AGNES WIDYA FRIDAWATI"
+    },
+    {
+      "nidn": "8876530017",
+      "name": "AGUNG NUGRAHA"
+    },
+    {
+      "nidn": "0422088007",
+      "name": "AGUS SUHARTONO"
+    },
+    {
+      "nidn": "0404106804",
+      "name": "AHDI HERYADI"
+    },
+    {
+      "nidn": "0430068403",
+      "name": "AHMAD LUTFI"
+    },
+    {
+      "nidn": "8826200016",
+      "name": "ALBAR MADEALI"
+    },
+    {
+      "nidn": "0403116201",
+      "name": "ALBERTUS HARIMURTI"
+    },
+    {
+      "nidn": "0410087503",
+      "name": "AMIRUDIN"
+    },
+    {
+      "nidn": "0402118506",
+      "name": "ANGGITA DWI HERDIYANTI"
+    },
+    {
+      "nidn": "0417038805",
+      "name": "ANGGY HAGIANI RIZKANTI"
+    },
+    {
+      "nidn": "0431089001",
+      "name": "ANISA NURDINA"
+    },
+    {
+      "nidn": "0427029002",
+      "name": "ANITA NENI ANGELIA"
+    },
+    {
+      "nidn": "0407088504",
+      "name": "ANNISA MAHMUDAH"
+    },
+    {
+      "nidn": "0425109201",
+      "name": "ANNISA OKTAVIANI"
+    },
+    {
+      "nidn": "0430049004",
+      "name": "APRILIA ASTUTI"
+    },
+    {
+      "nidn": "8886520016",
+      "name": "ARIE PUTRA BENYAMIN"
+    },
+    {
+      "nidn": "0422049103",
+      "name": "ARIEF RAHMAN AKBAR"
+    },
+    {
+      "nidn": "0403119002",
+      "name": "ARIEF RAHMANUDIN"
+    },
+    {
+      "nidn": "8826000016",
+      "name": "ASER SIMAMORA"
+    },
+    {
+      "nidn": "0414088506",
+      "name": "AULIA DARMAWAN"
+    },
+    {
+      "nidn": "8895200016",
+      "name": "AYAT SUDRAJAT"
+    },
+    {
+      "nidn": "0405028703",
+      "name": "BAGUS SAMSUDIN"
+    },
+    {
+      "nidn": "0412097105",
+      "name": "BAMBANG CAHYONO HS"
+    },
+    {
+      "nidn": "8824410016",
+      "name": "BENNY DHARMAWAN"
+    },
+    {
+      "nidn": "8834410016",
+      "name": "BENNY DHARMAWAN"
+    },
+    {
+      "nidn": "0416058203",
+      "name": "BILQIS FITRIA SALSABIELA"
+    },
+    {
+      "nidn": "8810840017",
+      "name": "BUDI APRIANDA"
+    },
+    {
+      "nidn": "8865200016",
+      "name": "BUDI HARYONO"
+    },
+    {
+      "nidn": "0410078208",
+      "name": "BUDI SYAMTORO"
+    },
+    {
+      "nidn": "0424019301",
+      "name": "BUDIMAN"
+    },
+    {
+      "nidn": "0426058204",
+      "name": "DEDE ABDUROHMAN"
+    },
+    {
+      "nidn": "0415129006",
+      "name": "DEVI PUTRI ISNAENI"
+    },
+    {
+      "nidn": "0419128902",
+      "name": "DEWI ARIANI"
+    },
+    {
+      "nidn": "8866530017",
+      "name": "DEWI LESTARI"
+    },
+    {
+      "nidn": "0404038703",
+      "name": "DIAN PUSPITASARI"
+    },
+    {
+      "nidn": "8856530017",
+      "name": "DIAN ROSTIKAWATI"
+    },
+    {
+      "nidn": "0412017208",
+      "name": "DIANI SAVITRI"
+    },
+    {
+      "nidn": "0417046402",
+      "name": "DUDUNG KUSUMA"
+    },
+    {
+      "nidn": "8898900016",
+      "name": "EDDY MISTAM SETIAWAN"
+    },
+    {
+      "nidn": "0420028002",
+      "name": "EDWIND TITO HARAHAP"
+    },
+    {
+      "nidn": "8818900016",
+      "name": "EFRIYADI"
+    },
+    {
+      "nidn": "0414098604",
+      "name": "EKA RAHIM"
+    },
+    {
+      "nidn": "0427047902",
+      "name": "EKO CAHYADI"
+    },
+    {
+      "nidn": "0401127906",
+      "name": "EKO NURCAHYO NUGROHO"
+    },
+    {
+      "nidn": "0430039202",
+      "name": "ELA HARDIANTINI"
+    },
+    {
+      "nidn": "0412056401",
+      "name": "EMAN SULAEMAN"
+    },
+    {
+      "nidn": "0420049003",
+      "name": "ENDAH ASMARAWATI"
+    },
+    {
+      "nidn": "8894700016",
+      "name": "ENDANG SUSILO WARDANI"
+    },
+    {
+      "nidn": "8841800016",
+      "name": "ENGGAY SUGATI"
+    },
+    {
+      "nidn": "0406078603",
+      "name": "ERMAH ERMAWATI"
+    },
+    {
+      "nidn": "0406128404",
+      "name": "ERNI RAHMAWATI"
+    },
+    {
+      "nidn": "0423079201",
+      "name": "FAHMI IDRIS"
+    },
+    {
+      "nidn": "0405088303",
+      "name": "FAJAR FADHILLAH"
+    },
+    {
+      "nidn": "0427116506",
+      "name": "FARULIS"
+    },
+    {
+      "nidn": "8884700016",
+      "name": "FATHUDIN ALI"
+    },
+    {
+      "nidn": "0426059401",
+      "name": "FAUZIAH RAMITA LATUPONO"
+    },
+    {
+      "nidn": "0413098107",
+      "name": "FIRDAUS"
+    },
+    {
+      "nidn": "1025038103",
+      "name": "FIRDAUS"
+    },
+    {
+      "nidn": "0416068805",
+      "name": "FITRI SABINA"
+    },
+    {
+      "nidn": "0407106002",
+      "name": "FUJI HARJIANTO"
+    },
+    {
+      "nidn": "0430088505",
+      "name": "GERY GUGUSTOMO"
+    },
+    {
+      "nidn": "8833000016",
+      "name": "GUNARDA"
+    },
+    {
+      "nidn": "8864500016",
+      "name": "H. ALI NURDIN"
+    },
+    {
+      "nidn": "8874410016",
+      "name": "H. FAHRUROZI"
+    },
+    {
+      "nidn": "0408076908",
+      "name": "H. INDRA GUNAWAN"
+    },
+    {
+      "nidn": "8890520016",
+      "name": "H. R.M. SUSETYANTO"
+    },
+    {
+      "nidn": "0423037405",
+      "name": "HADI WINATA"
+    },
+    {
+      "nidn": "0402088503",
+      "name": "HARIS BAIHAQI"
+    },
+    {
+      "nidn": "0411048901",
+      "name": "HERI SAPUTRA"
+    },
+    {
+      "nidn": "0421107103",
+      "name": "HERLISIANNE SUYANTO"
+    },
+    {
+      "nidn": "8807530017",
+      "name": "HM. YAMIN RUMLI"
+    },
+    {
+      "nidn": "0404066803",
+      "name": "I NYOMAN MARAYASA"
+    },
+    {
+      "nidn": "0320086206",
+      "name": "ICHWAN NUGROHO"
+    },
+    {
+      "nidn": "0403078901",
+      "name": "IFAN RAHMAWAN"
+    },
+    {
+      "nidn": "0405058706",
+      "name": "IMAM FAUZI"
+    },
+    {
+      "nidn": "0404039102",
+      "name": "INDRA SETIAWAN"
+    },
+    {
+      "nidn": "0419118302",
+      "name": "IRMAWAN"
+    },
+    {
+      "nidn": "0431077001",
+      "name": "IYAN YULIANDA, S.E."
+    },
+    {
+      "nidn": "0412078605",
+      "name": "JOKO SUPRAPTO"
+    },
+    {
+      "nidn": "0403058907",
+      "name": "KAMSIDIK"
+    },
+    {
+      "nidn": "0410119101",
+      "name": "KARTIKA SARI DEWI"
+    },
+    {
+      "nidn": "0403098703",
+      "name": "KENNY ASTRIA"
+    },
+    {
+      "nidn": "0403059401",
+      "name": "KHA IRUNNISA"
+    },
+    {
+      "nidn": "0414118202",
+      "name": "KHOLIDAH TAMAMI"
+    },
+    {
+      "nidn": "0410117501",
+      "name": "KUSNAN"
+    },
+    {
+      "nidn": "8856520016",
+      "name": "KUSTOMO USMAN"
+    },
+    {
+      "nidn": "0413117501",
+      "name": "LAILA IRAWATI"
+    },
+    {
+      "nidn": "0417059301",
+      "name": "LAILA LISTIANI PUTRI"
+    },
+    {
+      "nidn": "0421077407",
+      "name": "LEO BRANDTO PURBADI SRI MARGONO"
+    },
+    {
+      "nidn": "0421048906",
+      "name": "LIDYA CHATRINE WODI"
+    },
+    {
+      "nidn": "8846000016",
+      "name": "LILI MULIAWATI"
+    },
+    {
+      "nidn": "0416069104",
+      "name": "LILY SETYAWATI KRISTIANTI"
+    },
+    {
+      "nidn": "8882500016",
+      "name": "M. BADRI"
+    },
+    {
+      "nidn": "8878900016",
+      "name": "MAHMUDI"
+    },
+    {
+      "nidn": "8854500016",
+      "name": "MANSUR FAUZI"
+    },
+    {
+      "nidn": "8840000016",
+      "name": "MARIMAN"
+    },
+    {
+      "nidn": "0416099301",
+      "name": "MAULINDA"
+    },
+    {
+      "nidn": "0401057301",
+      "name": "MEDIA SANI"
+    },
+    {
+      "nidn": "0415087505",
+      "name": "MELVIN ZAKRI"
+    },
+    {
+      "nidn": "0404047107",
+      "name": "MOHAMMAD HARI NURTJAHJO"
+    },
+    {
+      "nidn": "0406086101",
+      "name": "MOKHAMAD SAMSURI"
+    },
+    {
+      "nidn": "0404038903",
+      "name": "MUHAMAD FAOZAN AFANDI"
+    },
+    {
+      "nidn": "0408059203",
+      "name": "MUHAMMAD ABDUL RAJAK"
+    },
+    {
+      "nidn": "0414108105",
+      "name": "MUHAMMAD LUTFI"
+    },
+    {
+      "nidn": "8875520016",
+      "name": "MUHAMMAD MANSYUR"
+    },
+    {
+      "nidn": "8805630017",
+      "name": "MUKIYIDIN"
+    },
+    {
+      "nidn": "8805600016",
+      "name": "MULYONO"
+    },
+    {
+      "nidn": "8862600016",
+      "name": "MUQOROBIN"
+    },
+    {
+      "nidn": "8874500016",
+      "name": "MURTOYO"
+    },
+    {
+      "nidn": "8854410016",
+      "name": "MUSTAWAR"
+    },
+    {
+      "nidn": "0403087201",
+      "name": "NELY ISDIARTI"
+    },
+    {
+      "nidn": "0427027903",
+      "name": "NUGROHO ADI UTOMO"
+    },
+    {
+      "nidn": "0420029004",
+      "name": "NUR LINGGA SETYA DEWI"
+    },
+    {
+      "nidn": "8822940017",
+      "name": "NURILAH HANUM"
+    },
+    {
+      "nidn": "0417029201",
+      "name": "NURU KALUMIDYA ERPONIS"
+    },
+    {
+      "nidn": "0405068203",
+      "name": "NURUL ILHAM"
+    },
+    {
+      "nidn": "0428118803",
+      "name": "PACIFICO SHOREA ROTARIA"
+    },
+    {
+      "nidn": "0416038706",
+      "name": "PANJI GALIH KUSUMO ADIE"
+    },
+    {
+      "nidn": "0422026705",
+      "name": "PRAMA INDRA ISHWARA"
+    },
+    {
+      "nidn": "0412097207",
+      "name": "PRIHADI DWIANGGORO"
+    },
+    {
+      "nidn": "8800800016",
+      "name": "PRIYONO"
+    },
+    {
+      "nidn": "0402029303",
+      "name": "PUTRA PARDAMEAN NAULI"
+    },
+    {
+      "nidn": "0417066001",
+      "name": "R. HENDRA WINARSA"
+    },
+    {
+      "nidn": "8865410016",
+      "name": "R. MOH. NURUL RACHMAN"
+    },
+    {
+      "nidn": "8858100016",
+      "name": "RACHMAN SUHENDAR"
+    },
+    {
+      "nidn": "0406129101",
+      "name": "RADEN MAGIESTRA DHENI SETIADI"
+    },
+    {
+      "nidn": "0429128803",
+      "name": "RAHADYAN TAJUDDIEN"
+    },
+    {
+      "nidn": "0427118401",
+      "name": "RAHMAT MAWARDI"
+    },
+    {
+      "nidn": "0412037302",
+      "name": "RASYID WIDADA"
+    },
+    {
+      "nidn": "0407096503",
+      "name": "RATNAWATI S.PD MM"
+    },
+    {
+      "nidn": "0406039104",
+      "name": "REGI FRANDWI ARISANDI"
+    },
+    {
+      "nidn": "0412128602",
+      "name": "RENDI SALAM"
+    },
+    {
+      "nidn": "0413058701",
+      "name": "RHANY MATHOVANY"
+    },
+    {
+      "nidn": "0404048704",
+      "name": "RIA AULIA"
+    },
+    {
+      "nidn": "0426058203",
+      "name": "RIO HAMBALI"
+    },
+    {
+      "nidn": "0407058904",
+      "name": "RIO SETIAWAN"
+    },
+    {
+      "nidn": "0411077506",
+      "name": "RIYONO ASNAN"
+    },
+    {
+      "nidn": "0424049301",
+      "name": "RIZKA PUTRI ANGGRAENI"
+    },
+    {
+      "nidn": "0422097903",
+      "name": "RONNI SEPTANTO WICAKSONO"
+    },
+    {
+      "nidn": "8875500016",
+      "name": "SADONO SRIHARJO"
+    },
+    {
+      "nidn": "8895530017",
+      "name": "SANTI OCTAVIANTI"
+    },
+    {
+      "nidn": "0423068103",
+      "name": "SARI KARMIYATI"
+    },
+    {
+      "nidn": "0412129202",
+      "name": "SELVY DWI WIDIYANTI"
+    },
+    {
+      "nidn": "0425088402",
+      "name": "SENO WAHYU AJI PAMUNGKAS"
+    },
+    {
+      "nidn": "0428028410",
+      "name": "SETIAWAN"
+    },
+    {
+      "nidn": "0427066301",
+      "name": "SIGIT RAHARDJO"
+    },
+    {
+      "nidn": "8817200016",
+      "name": "SITI ALFIAH"
+    },
+    {
+      "nidn": "0427116505",
+      "name": "SRI EKA LESTARI"
+    },
+    {
+      "nidn": "8839740017",
+      "name": "SRI NIRMALAWATY"
+    },
+    {
+      "nidn": "0413058805",
+      "name": "SUCAYONO"
+    },
+    {
+      "nidn": "8838900016",
+      "name": "SUHRIA ATMANA"
+    },
+    {
+      "nidn": "8867100016",
+      "name": "SUPARJONO"
+    },
+    {
+      "nidn": "8875410016",
+      "name": "SUPIRAH"
+    },
+    {
+      "nidn": "8880000016",
+      "name": "SUPRAPTO"
+    },
+    {
+      "nidn": "041607774",
+      "name": "SUPRIANTO S.PD MM"
+    },
+    {
+      "nidn": "8807000016",
+      "name": "SUROSO"
+    },
+    {
+      "nidn": "0416099003",
+      "name": "SUSILAWATI"
+    },
+    {
+      "nidn": "8845410016",
+      "name": "SUTRISNO"
+    },
+    {
+      "nidn": "0430017206",
+      "name": "SUWORO"
+    },
+    {
+      "nidn": "8855410016",
+      "name": "SYAFARUDDIN"
+    },
+    {
+      "nidn": "0419067606",
+      "name": "SYAHNEGO"
+    },
+    {
+      "nidn": "8857200016",
+      "name": "SYAMSUDIN"
+    },
+    {
+      "nidn": "0406116902",
+      "name": "TANGGUH JIWOHANDOKO"
+    },
+    {
+      "nidn": "0415058405",
+      "name": "TARADEA SYAHNAGRA"
+    },
+    {
+      "nidn": "0411058304",
+      "name": "TARWIN"
+    },
+    {
+      "nidn": "8985420021",
+      "name": "TEDDY MEIYADI"
+    },
+    {
+      "nidn": "0418067001",
+      "name": "TOHIRIN"
+    },
+    {
+      "nidn": "0413117606",
+      "name": "TOMMY RUKMANTARA"
+    },
+    {
+      "nidn": "0414047806",
+      "name": "TONI SULAEMAN"
+    },
+    {
+      "nidn": "8827050017",
+      "name": "TOTOK SUDARTO"
+    },
+    {
+      "nidn": "0426087004",
+      "name": "TRIASMORO IMAN SANTOSO"
+    },
+    {
+      "nidn": "0417108602",
+      "name": "TRIYANA"
+    },
+    {
+      "nidn": "0420039001",
+      "name": "TUTI HADISTI LENGGANG KENCANA"
+    },
+    {
+      "nidn": "0422116703",
+      "name": "UGIK SUGIYANTO"
+    },
+    {
+      "nidn": "0414049101",
+      "name": "VIRLINA ZUHANISANI"
+    },
+    {
+      "nidn": "0431019201",
+      "name": "VITALIA PUTRI ASHERI"
+    },
+    {
+      "nidn": "0401067204",
+      "name": "WAHYITNO"
+    },
+    {
+      "nidn": "0417088802",
+      "name": "WAHYU ANDRI WIBOWO"
+    },
+    {
+      "nidn": "8828900016",
+      "name": "WANDI"
+    },
+    {
+      "nidn": "8921720021",
+      "name": "WARMAN"
+    },
+    {
+      "nidn": "0413017201",
+      "name": "WIDIYATNA"
+    },
+    {
+      "nidn": "0428088803",
+      "name": "WIDOWATI"
+    },
+    {
+      "nidn": "0424108205",
+      "name": "WILDANTO PUTERA NUSANTARA"
+    },
+    {
+      "nidn": "8815490019",
+      "name": "YANURIANTO"
+    },
+    {
+      "nidn": "0407108302",
+      "name": "YASIR TERZA RAHMAN"
+    },
+    {
+      "nidn": "0427019104",
+      "name": "YENI LIANA SARI"
+    },
+    {
+      "nidn": "0420108007",
+      "name": "YOGI IBRAHIM"
+    },
+    {
+      "nidn": "0422077606",
+      "name": "YUDIANTO PUTRO"
+    },
+    {
+      "nidn": "0411069201",
+      "name": "YUNITA KARTIKA"
+    },
+    {
+      "nidn": "8869910016",
+      "name": "YUSEP PRIHANTO"
+    },
+    {
+      "nidn": "0420037401",
+      "name": "ZAINUR ROHMAN"
+    },
+    {
+      "nidn": "0401019305",
+      "name": "ZELIN FERDIAS CAPRIATI"
+    },
+    {
+      "nidn": "0417067101",
+      "name": "ALI MADDINSYAH"
+    },
+    {
+      "nidn": "0403016806",
+      "name": "ALI ZAENAL ABIDIN"
+    },
+    {
+      "nidn": "0413077303",
+      "name": "ANTONIUS AJI TRI BUDIANTO"
+    },
+    {
+      "nidn": "0418015902",
+      "name": "BOEDI HASMANTO"
+    },
+    {
+      "nidn": "8867801019",
+      "name": "DADANG KURNIA"
+    },
+    {
+      "nidn": "0408046402",
+      "name": "DAYAT HIDAYAT"
+    },
+    {
+      "nidn": "0406017807",
+      "name": "ENDANG SUGIARTI"
+    },
+    {
+      "nidn": "8877050017",
+      "name": "H. SACHRO"
+    },
+    {
+      "nidn": "0427056901",
+      "name": "HADI SUPRATIKTA"
+    },
+    {
+      "nidn": "0012107508",
+      "name": "HAMSINAH. B"
+    },
+    {
+      "nidn": "0405057102",
+      "name": "HENDRO WARYANTO SSI MM"
+    },
+    {
+      "nidn": "0404056805",
+      "name": "I NYOMAN MARAYASA"
+    },
+    {
+      "nidn": "0401056401",
+      "name": "MAIRIZAL"
+    },
+    {
+      "nidn": "8972120021",
+      "name": "MARTONO"
+    },
+    {
+      "nidn": "0429047102",
+      "name": "MOH. SUTORO"
+    },
+    {
+      "nidn": "8975320021",
+      "name": "MUKHLIS CATIO"
+    },
+    {
+      "nidn": "0407027601",
+      "name": "MUKRODI"
+    },
+    {
+      "nidn": "0403047502",
+      "name": "NARDI SUNARDI"
+    },
+    {
+      "nidn": "0414068801",
+      "name": "PRANOTO"
+    },
+    {
+      "nidn": "0421128102",
+      "name": "SAHRONI"
+    },
+    {
+      "nidn": "8842760018",
+      "name": "SEWAKA"
+    },
+    {
+      "nidn": "0408116702",
+      "name": "SRI RETNANING SAMPURNANINGSIH"
+    },
+    {
+      "nidn": "0402026402",
+      "name": "SURYA BUDIMAN"
+    },
+    {
+      "nidn": "0405117101",
+      "name": "UGENG BUDI HARYOKO"
+    },
+    {
+      "nidn": "0427128701",
+      "name": "WAHYUDI"
+    },
+    {
+      "nidn": "8939310021",
+      "name": "YAYAN SUDARYANA"
+    },
+    {
+      "nidn": "0406088005",
+      "name": "ZULFITRA"
+    },
+    {
+      "nidn": "0405066202",
+      "name": "MASNO MARJOHAN"
+    },
+    {
+      "nidn": "0406066003",
+      "name": "SARWANI"
+    },
+    {
+      "nidn": "0405016703",
+      "name": "SUBARTO"
+    },
+    {
+      "nidn": "0406077605",
+      "name": "UDIN AHIDIN"
+    },
+    {
+      "nidn": "0419065902",
+      "name": "UMI RUSILOWATI"
+    },
+    {
+      "nidn": "0401076402",
+      "name": "AGUNG NUGROHO"
+    },
+    {
+      "nidn": "8811520016",
+      "name": "E. NURZAMAN AM"
+    },
+    {
+      "nidn": "0320116803",
+      "name": "IMAS MASRIAH"
+    },
+    {
+      "nidn": "8956010020",
+      "name": "LILI NURLAILI"
+    },
+    {
+      "nidn": "8888900016",
+      "name": "RUKNAN"
+    },
+    {
+      "nidn": "0426048503",
+      "name": "SAIFUL ANWAR"
+    },
+    {
+      "nidn": "0422016605",
+      "name": "SRI UTAMININGSIH"
+    },
+    {
+      "nidn": "0428048204",
+      "name": "RIN INDAYANI"
+    },
+    {
+      "nidn": "0418068502",
+      "name": "MUHAMMAD ZIDNI ILMAN"
+    },
+    {
+      "nidn": "0412088303",
+      "name": "MUKHLISIN"
+    },
+    {
+      "nidn": "0423038005",
+      "name": "SOPYAN HADI"
+    },
+    {
+      "nidn": "0418077403",
+      "name": "SUBHAN FADLI"
+    },
+    {
+      "nidn": "0407027706",
+      "name": "AMALIYAH"
+    },
+    {
+      "nidn": "0422098805",
+      "name": "ANDI HIDAYAT"
+    },
+    {
+      "nidn": "0408097303",
+      "name": "IMAM SOFII"
+    },
+    {
+      "nidn": "0412038901",
+      "name": "M. MUALIF"
+    },
+    {
+      "nidn": "8848500016",
+      "name": "NURJAYA"
+    },
+    {
+      "nidn": "0414098703",
+      "name": "SEPTIAN ARIEF BUDIMAN"
+    },
+    {
+      "nidn": "0312079004",
+      "name": "YUNUS"
+    },
+    {
+      "nidn": "0419048702",
+      "name": "ABDUL MUHYI"
+    },
+    {
+      "nidn": "0401058807",
+      "name": "ARIEF SUCI KURNIASIHANTO"
+    },
+    {
+      "nidn": "8984680023",
+      "name": "BILTISER BACHTIAR MANTI"
+    },
+    {
+      "nidn": "0419108505",
+      "name": "HENDRAYADI"
+    },
+    {
+      "nidn": "0410049004",
+      "name": "KHAIRUL ANAM"
+    },
+    {
+      "nidn": "0421048808",
+      "name": "KHODIJAH"
+    },
+    {
+      "nidn": "0402089202",
+      "name": "MUHAMAD HAMZAH"
+    },
+    {
+      "nidn": "0330109402",
+      "name": "NURRAHMANIAH"
+    },
+    {
+      "nidn": "0427068504",
+      "name": "SELVY YUSPITASARI"
+    },
+    {
+      "nidn": "0425099701",
+      "name": "ZAKIA NURHASANAH"
+    },
+    {
+      "nidn": "0409129005",
+      "name": "ELISE NATALIA MANURUNG"
+    },
+    {
+      "nidn": "0413049901",
+      "name": "EUIS APRIANTI"
+    },
+    {
+      "nidn": "0423098905",
+      "name": "HIRAWATI LUBIS"
+    },
+    {
+      "nidn": "0406069701",
+      "name": "HUBBI MUHAMMAD"
+    },
+    {
+      "nidn": "0419039302",
+      "name": "IRFANI AZIS"
+    },
+    {
+      "nidn": "0411108802",
+      "name": "MUKTIARI"
+    },
+    {
+      "nidn": "0409119001",
+      "name": "SOEGANDA FORMALIDIN"
+    },
+    {
+      "nidn": "0412109103",
+      "name": "SOYA FEBEAUTY YAMA OTANTIA PRADINI"
+    },
+    {
+      "nidn": "0430038803",
+      "name": "SUSILO HARTOMO"
+    },
+    {
+      "nidn": "0401059301",
+      "name": "ALFI MAULANI"
+    },
+    {
+      "nidn": "0427068402",
+      "name": "ANDI NUR RAHMAN"
+    },
+    {
+      "nidn": "0401027002",
+      "name": "ARI MULYOTO"
+    },
+    {
+      "nidn": "0424018302",
+      "name": "BESSE ARNAWISUDA NINGSI"
+    },
+    {
+      "nidn": "0415068204",
+      "name": "CHOIRUL BASIR"
+    },
+    {
+      "nidn": "0409038702",
+      "name": "IRVANA AROFAH"
+    },
+    {
+      "nidn": "0422108503",
+      "name": "ISNURANI"
+    },
+    {
+      "nidn": "0417099301",
+      "name": "NINA VALENTIKA"
+    },
+    {
+      "nidn": "0412056605",
+      "name": "R ADITAMA"
+    },
+    {
+      "nidn": "8882600016",
+      "name": "USEP RAHMAT"
+    },
+    {
+      "nidn": "0416078702",
+      "name": "YULIANTI RUSDIANA"
+    },
+    {
+      "nidn": "0411118401",
+      "name": "ADEN"
+    },
+    {
+      "nidn": "0417077204",
+      "name": "GERRY SASTRO"
+    },
+    {
+      "nidn": "1008108503",
+      "name": "ILMADI"
+    },
+    {
+      "nidn": "0427028802",
+      "name": "TABAH HERI SETIAWAN"
+    },
+    {
+      "nidn": "0309018101",
+      "name": "EVA SITI KHUZAEVA"
+    },
+    {
+      "nidn": "8846530017",
+      "name": "NUNUNG KUSDANIYAMA"
+    },
+    {
+      "nidn": "0403088904",
+      "name": "ADE HOLISOH"
+    },
+    {
+      "nidn": "8884410016",
+      "name": "AMANUDIN"
+    },
+    {
+      "nidn": "0412029201",
+      "name": "AMBAR WIDYA LESTARI"
+    },
+    {
+      "nidn": "0404058304",
+      "name": "ANIS SYAMSU RIZAL"
+    },
+    {
+      "nidn": "0404088704",
+      "name": "BADRUS SHOLEH"
+    },
+    {
+      "nidn": "0407069101",
+      "name": "CITRA ELIYANI"
+    },
+    {
+      "nidn": "0425106804",
+      "name": "DADANG"
+    },
+    {
+      "nidn": "0402026403",
+      "name": "EDI MULYANTO"
+    },
+    {
+      "nidn": "0415039102",
+      "name": "ENOK NURHASANAH"
+    },
+    {
+      "nidn": "8864410016",
+      "name": "ENY SURYANI"
+    },
+    {
+      "nidn": "0410059201",
+      "name": "FANNI ERDA TASIA"
+    },
+    {
+      "nidn": "0406048804",
+      "name": "FIQOH AFRILIANI"
+    },
+    {
+      "nidn": "0414117404",
+      "name": "IAN PERMANA WAHYU"
+    },
+    {
+      "nidn": "0427098602",
+      "name": "IRHAM FACHREZA ANAS"
+    },
+    {
+      "nidn": "0419066602",
+      "name": "JUMINO"
+    },
+    {
+      "nidn": "0402028702",
+      "name": "KHARISMA DANANG YUANGGA"
+    },
+    {
+      "nidn": "0418097602",
+      "name": "LOLLONG MANTING"
+    },
+    {
+      "nidn": "0428088905",
+      "name": "M. HILMAN ZAINURI"
+    },
+    {
+      "nidn": "0412038701",
+      "name": "MAWARDI NURULLAH"
+    },
+    {
+      "nidn": "0406068803",
+      "name": "METHA LUBIS"
+    },
+    {
+      "nidn": "0417127404",
+      "name": "MUH. ZHAFRI"
+    },
+    {
+      "nidn": "0415049104",
+      "name": "NASMAL HAMDA"
+    },
+    {
+      "nidn": "8827000016",
+      "name": "PANCAGALUH RATNASIH"
+    },
+    {
+      "nidn": "0408078903",
+      "name": "PUTUT SAID PERMANA"
+    },
+    {
+      "nidn": "0428078603",
+      "name": "RADEN AI LUTFI HIDAYAT"
+    },
+    {
+      "nidn": "0422079201",
+      "name": "RUSMAINI"
+    },
+    {
+      "nidn": "0420108702",
+      "name": "SAPTINA RETNAWATI"
+    },
+    {
+      "nidn": "0401128802",
+      "name": "SIRAJUDDIN"
+    },
+    {
+      "nidn": "0418087703",
+      "name": "SITI ZUBAIDAH"
+    },
+    {
+      "nidn": "0907088703",
+      "name": "SRI RAHAYU"
+    },
+    {
+      "nidn": "0420097507",
+      "name": "SULFI PURNAMASARI"
+    },
+    {
+      "nidn": "0426118802",
+      "name": "SULISTIYANI"
+    },
+    {
+      "nidn": "0412037402",
+      "name": "TUTUG SRI JATMIKO"
+    },
+    {
+      "nidn": "8926730021",
+      "name": "TUTUT SUMARTINI"
+    },
+    {
+      "nidn": "0424089101",
+      "name": "ANITA ANGGRAINI"
+    },
+    {
+      "nidn": "0427069102",
+      "name": "DANI RAHMAN HAKIM"
+    },
+    {
+      "nidn": "0414069002",
+      "name": "ENGGAR PRASETYAWAN"
+    },
+    {
+      "nidn": "0428109001",
+      "name": "FIKA RAHMANITA"
+    },
+    {
+      "nidn": "0409047203",
+      "name": "GUNARTIN"
+    },
+    {
+      "nidn": "0421049103",
+      "name": "INDAH PERTIWI"
+    },
+    {
+      "nidn": "0428128901",
+      "name": "KUSWORO"
+    },
+    {
+      "nidn": "0411099101",
+      "name": "LODYA SESRIYANI"
+    },
+    {
+      "nidn": "0421069201",
+      "name": "PURWATI YUNI RAHAYU"
+    },
+    {
+      "nidn": "0424037602",
+      "name": "SOFFI SOFFIATUN"
+    },
+    {
+      "nidn": "0426058901",
+      "name": "SYAFAATUL HIDAYATI"
+    },
+    {
+      "nidn": "0403107902",
+      "name": "SYAMSUL ANWAR"
+    },
+    {
+      "nidn": "0418028702",
+      "name": "UBAID AL FARUQ"
+    },
+    {
+      "nidn": "8809100016",
+      "name": "AHMAD HIDAYAT"
+    },
+    {
+      "nidn": "8876050017",
+      "name": "ARIP RAHMAN"
+    },
+    {
+      "nidn": "0404107602",
+      "name": "BAYU AJI"
+    },
+    {
+      "nidn": "0403066402",
+      "name": "DELYUZAR SYAMSI"
+    },
+    {
+      "nidn": "0416128804",
+      "name": "IRAWAN WISNU KUNCORO"
+    },
+    {
+      "nidn": "0407037402",
+      "name": "LUKMAN HAKIM"
+    },
+    {
+      "nidn": "0417108505",
+      "name": "MARISSA ULFA"
+    },
+    {
+      "nidn": "0426126904",
+      "name": "MOCHAMMAD FIRDAUS"
+    },
+    {
+      "nidn": "0424098802",
+      "name": "DEDE MUHTAR SAFARI"
+    },
+    {
+      "nidn": "0411118903",
+      "name": "HERI INDRA GUNAWAN"
+    },
+    {
+      "nidn": "0417119301",
+      "name": "CANDRA ABDILLAH"
+    },
+    {
+      "nidn": "0414059101",
+      "name": "DAMEIS SURYA ANGGARA"
+    },
+    {
+      "nidn": "0413088901",
+      "name": "ERSAM MAHENDRAWAN"
+    },
+    {
+      "nidn": "0411029202",
+      "name": "WENI GURITA AEDI"
+    },
+    {
+      "nidn": "0422129502",
+      "name": "INDRI DWI ARIYANI"
+    },
+    {
+      "nidn": "0420129204",
+      "name": "RAKA ISMAYA"
+    },
+    {
+      "nidn": "0402048505",
+      "name": "SITI NURHAYATI"
+    },
+    {
+      "nidn": "0431019801",
+      "name": "AIDIL PUTRA"
+    },
+    {
+      "nidn": "0428089402",
+      "name": "ANNISA SULISTIANINGSIH"
+    },
+    {
+      "nidn": "0426039601",
+      "name": "AYU PURNAMA WENLY"
+    },
+    {
+      "nidn": "0401129403",
+      "name": "FITRIANI"
+    },
+    {
+      "nidn": "0425059304",
+      "name": "MUH. ALI AKBAR"
+    },
+    {
+      "nidn": "0428069403",
+      "name": "RAHMAT GUNAWAN"
+    },
+    {
+      "nidn": "0404098603",
+      "name": "ABI ROBIAN"
+    },
+    {
+      "nidn": "0421108203",
+      "name": "AENG MUHIDIN"
+    },
+    {
+      "nidn": "0406017703",
+      "name": "AMRIZAL"
+    },
+    {
+      "nidn": "0419069002",
+      "name": "DEWI PURNAMA SARI"
+    },
+    {
+      "nidn": "0430126802",
+      "name": "ENDANG PRASTINI"
+    },
+    {
+      "nidn": "0414038402",
+      "name": "ETI HAYATI"
+    },
+    {
+      "nidn": "0417027007",
+      "name": "FERY KURNIAWAN"
+    },
+    {
+      "nidn": "0427038803",
+      "name": "HENDRI"
+    },
+    {
+      "nidn": "0410088203",
+      "name": "HERDI WISMAN JAYA"
+    },
+    {
+      "nidn": "0416017706",
+      "name": "MAS FIERNA JANVIERNA LUSIE PUTRI"
+    },
+    {
+      "nidn": "0403038805",
+      "name": "MOH. KHOIRI"
+    },
+    {
+      "nidn": "0409079201",
+      "name": "NURULLITA SARI"
+    },
+    {
+      "nidn": "0401097603",
+      "name": "RACHMATULLOH RUSLI"
+    },
+    {
+      "nidn": "0431088803",
+      "name": "RONI RUSTANDI"
+    },
+    {
+      "nidn": "0405047904",
+      "name": "SUSI"
+    },
+    {
+      "nidn": "0408087305",
+      "name": "TAJUDIN"
+    },
+    {
+      "nidn": "1228077002",
+      "name": "ABD. CHAIDIR MARASABESSY"
+    },
+    {
+      "nidn": "0430106001",
+      "name": "AHMAD NANA MAHMUR MULYANA"
+    },
+    {
+      "nidn": "0417079201",
+      "name": "AULIA NURSYIFA"
+    },
+    {
+      "nidn": "0413018901",
+      "name": "ICHWANI SITI UTAMI"
+    },
+    {
+      "nidn": "0416018202",
+      "name": "NURDIYANA"
+    },
+    {
+      "nidn": "0416089002",
+      "name": "SETIAWATI"
+    },
+    {
+      "nidn": "0427108902",
+      "name": "SUANTO"
+    },
+    {
+      "nidn": "0403106403",
+      "name": "SUGIYANTO"
+    },
+    {
+      "nidn": "0417029001",
+      "name": "SULASTRI"
+    },
+    {
+      "nidn": "0413078105",
+      "name": "YULITA PUJILESTARI"
+    },
+    {
+      "nidn": "0404119303",
+      "name": "DARTO WAHIDIN"
+    },
+    {
+      "nidn": "0402018807",
+      "name": "DINI HANDAYANI"
+    },
+    {
+      "nidn": "0418109304",
+      "name": "EKA SETIANA"
+    },
+    {
+      "nidn": "0416019701",
+      "name": "LATHIFAH SANDRA DEVI"
+    },
+    {
+      "nidn": "0413057405",
+      "name": "MUHAMAD SUHEPPY"
+    },
+    {
+      "nidn": "8847200016",
+      "name": "R. DEDE SISWANDI"
+    },
+    {
+      "nidn": "0403069206",
+      "name": "RAISTIN NUR ABIDIN"
+    },
+    {
+      "nidn": "8875200016",
+      "name": "RULI HARDI"
+    },
+    {
+      "nidn": "0418099003",
+      "name": "SAEPUDIN KARTA SASMITA"
+    },
+    {
+      "nidn": "8810600016",
+      "name": "SAMINO"
+    },
+    {
+      "nidn": "8995420021",
+      "name": "YATTI ROSMIATI"
+    },
+    {
+      "nidn": "8828500016",
+      "name": "AKHIRUDIN"
+    },
+    {
+      "nidn": "8925660023",
+      "name": "ALINURDIN"
+    },
+    {
+      "nidn": "0427076201",
+      "name": "NENG NURHEMAH"
+    },
+    {
+      "nidn": "8817100016",
+      "name": "SURASNI"
+    },
+    {
+      "nidn": "0427028702",
+      "name": "WIWIT KURNIAWAN"
+    },
+    {
+      "nidn": "0412087801",
+      "name": "MUJAENI"
+    },
+    {
+      "nidn": "0416019105",
+      "name": "ADAM MUHAMMAD NUR"
+    },
+    {
+      "nidn": "0410037202",
+      "name": "ARYANI"
+    },
+    {
+      "nidn": "0401039201",
+      "name": "DEDE FATINOVA"
+    },
+    {
+      "nidn": "0423088502",
+      "name": "DEWI RANI GUSTIASARI"
+    },
+    {
+      "nidn": "0429098805",
+      "name": "ERIS RISNAWATI"
+    },
+    {
+      "nidn": "8812210016",
+      "name": "IRWANSYAH"
+    },
+    {
+      "nidn": "0421059102",
+      "name": "NASRUL"
+    },
+    {
+      "nidn": "0402089003",
+      "name": "NUGROHO WIDHI PRATOMO"
+    },
+    {
+      "nidn": "0424129002",
+      "name": "RATNA JUWITASARI EMHA"
+    },
+    {
+      "nidn": "0422038802",
+      "name": "SABRI KOEBANU"
+    },
+    {
+      "nidn": "0415097007",
+      "name": "SUGIYARTO"
+    },
+    {
+      "nidn": "0410056903",
+      "name": "SUYATNO"
+    },
+    {
+      "nidn": "0430099301",
+      "name": "ULFAH JULIANTI"
+    },
+    {
+      "nidn": "0407028602",
+      "name": "ZAKY MUBAROK"
+    },
+    {
+      "nidn": "0403119202",
+      "name": "BRAM DENAFRI"
+    },
+    {
+      "nidn": "0430018505",
+      "name": "DESI KAROLINA SARAGIH"
+    },
+    {
+      "nidn": "0426128603",
+      "name": "DEWI YANTI"
+    },
+    {
+      "nidn": "0401098705",
+      "name": "DWI SEPTIANI"
+    },
+    {
+      "nidn": "8900600020",
+      "name": "INDRANI DEWI ANGGRAINI"
+    },
+    {
+      "nidn": "0430018502",
+      "name": "JUHAERI"
+    },
+    {
+      "nidn": "0418078902",
+      "name": "LISA NOVIA"
+    },
+    {
+      "nidn": "0417019101",
+      "name": "MISBAH PRIAGUNG NURSALIM"
+    },
+    {
+      "nidn": "0409117004",
+      "name": "MOHAMAD RAMDON DASUKI"
+    },
+    {
+      "nidn": "0424077309",
+      "name": "MUKHOYYAROH"
+    },
+    {
+      "nidn": "0425088401",
+      "name": "RAI BAGUS TRIADI"
+    },
+    {
+      "nidn": "0430018004",
+      "name": "RERIN MAULINDA"
+    },
+    {
+      "nidn": "0405109301",
+      "name": "SITI MAEMUNAH"
+    },
+    {
+      "nidn": "0405046901",
+      "name": "SUGIYO"
+    },
+    {
+      "nidn": "0419129002",
+      "name": "TAAT BUDIONO"
+    },
+    {
+      "nidn": "0423079202",
+      "name": "VELAYATI KHAIRIAH AKBAR"
+    },
+    {
+      "nidn": "0424048905",
+      "name": "YASIR MUBAROK"
+    },
+    {
+      "nidn": "0415078701",
+      "name": "ZAMZAM NURHUDA"
+    },
+    {
+      "nidn": "1001056407",
+      "name": "ZULFARDI D"
+    },
+    {
+      "nidn": "0403088502",
+      "name": "M. WILDAN"
+    },
+    {
+      "nidn": "0415029101",
+      "name": "AWLA AKBAR ILMA"
+    },
+    {
+      "nidn": "8887100016",
+      "name": "BUDI MULIA"
+    },
+    {
+      "nidn": "0412049104",
+      "name": "DANI RAMDANI"
+    },
+    {
+      "nidn": "0411108608",
+      "name": "ENDIN SAPARUDIN"
+    },
+    {
+      "nidn": "0424049102",
+      "name": "IFFAH FAUZIAH RAHARDY"
+    },
+    {
+      "nidn": "0403079302",
+      "name": "KENI PRADIANTI"
+    },
+    {
+      "nidn": "8909070023",
+      "name": "KUSEN"
+    },
+    {
+      "nidn": "0421057303",
+      "name": "NATALIA ENDAH HAPSARI"
+    },
+    {
+      "nidn": "0430128902",
+      "name": "NOVI SRI PURWANINGSIH"
+    },
+    {
+      "nidn": "0413118402",
+      "name": "NURBAINI FUTUHAT WULANSARI"
+    },
+    {
+      "nidn": "0429086603",
+      "name": "NURYATI DJIHADAH"
+    },
+    {
+      "nidn": "0401079002",
+      "name": "PRIMA DWI YULIANI"
+    },
+    {
+      "nidn": "8842870018",
+      "name": "WASHADI"
+    },
+    {
+      "nidn": "0411017907",
+      "name": "YULI ISKANDARI"
+    },
+    {
+      "nidn": "0413068207",
+      "name": "YUNITA"
+    },
+    {
+      "nidn": "8807200016",
+      "name": "ZULVA SUDARTI"
+    },
+    {
+      "nidn": "0411068811",
+      "name": "ABDUL AZIZ"
+    },
+    {
+      "nidn": "0422098901",
+      "name": "AISYAH AL-BAROROH"
+    },
+    {
+      "nidn": "0405048402",
+      "name": "ANITA SARI"
+    },
+    {
+      "nidn": "0415088903",
+      "name": "ANNAS SURDYANTO"
+    },
+    {
+      "nidn": "0424127203",
+      "name": "ARDIYAN"
+    },
+    {
+      "nidn": "0410088604",
+      "name": "BAMBANG IRAWAN"
+    },
+    {
+      "nidn": "0220028801",
+      "name": "BOBI ARISANDI"
+    },
+    {
+      "nidn": "0409098902",
+      "name": "DIYAH IIS ANDRIANI"
+    },
+    {
+      "nidn": "0414107904",
+      "name": "DWI RAHAYU"
+    },
+    {
+      "nidn": "0025037607",
+      "name": "EKA MARGIANTI SAGIMIN"
+    },
+    {
+      "nidn": "0413017704",
+      "name": "ERNI SUSIANTI NAINGGOLAN"
+    },
+    {
+      "nidn": "0418068302",
+      "name": "HARYATI"
+    },
+    {
+      "nidn": "0430017301",
+      "name": "HILMA SAFITRI"
+    },
+    {
+      "nidn": "0412018901",
+      "name": "ISMI ADINDA"
+    },
+    {
+      "nidn": "0411108101",
+      "name": "KAMIL FALAHI"
+    },
+    {
+      "nidn": "0410108308",
+      "name": "KHOLIL AZIS"
+    },
+    {
+      "nidn": "0408057105",
+      "name": "LAKSMY ADY KUSUMORINY"
+    },
+    {
+      "nidn": "0416087903",
+      "name": "LATIFAH"
+    },
+    {
+      "nidn": "0411037905",
+      "name": "LIDA HOLIDA MAHMUD"
+    },
+    {
+      "nidn": "0409098706",
+      "name": "LISA SUHAYATI"
+    },
+    {
+      "nidn": "0410068802",
+      "name": "M. AKBAR KURTUBI AMRAJ"
+    },
+    {
+      "nidn": "0405058404",
+      "name": "MAY TRIRANTO MAHARINI"
+    },
+    {
+      "nidn": "0403088603",
+      "name": "MIA PERLINA"
+    },
+    {
+      "nidn": "0424029203",
+      "name": "MOHAMMAD FAJAR MEDIYAWAN GINTINGS"
+    },
+    {
+      "nidn": "0421037605",
+      "name": "MUHAMMAD AHSAN TAMPUBOLON"
+    },
+    {
+      "nidn": "0419057804",
+      "name": "NI KOMANG ARIANI"
+    },
+    {
+      "nidn": "0409038403",
+      "name": "NURUL ASHRI SS M.SI"
+    },
+    {
+      "nidn": "0408057304",
+      "name": "PRIHATIN PUJI ASTUTI"
+    },
+    {
+      "nidn": "0420067507",
+      "name": "PURWANTI TAMAN"
+    },
+    {
+      "nidn": "8885500016",
+      "name": "RAHMI RIVALINA"
+    },
+    {
+      "nidn": "0416088805",
+      "name": "RAHMITA EGILISTIANI"
+    },
+    {
+      "nidn": "0414088607",
+      "name": "RATU PRAYUANA"
+    },
+    {
+      "nidn": "0428059004",
+      "name": "ROSSY HALIMATUN ROSYIDAH"
+    },
+    {
+      "nidn": "0416048203",
+      "name": "RUISAH"
+    },
+    {
+      "nidn": "0407058902",
+      "name": "SARI FITRIA"
+    },
+    {
+      "nidn": "0421026905",
+      "name": "SETIANA SRI WAHYUNI BR SITEPU"
+    },
+    {
+      "nidn": "0404129003",
+      "name": "SHINTA AZIEZ"
+    },
+    {
+      "nidn": "0414099101",
+      "name": "SUKMA SEPTIAN NASUTION"
+    },
+    {
+      "nidn": "0406036204",
+      "name": "SUNARDI"
+    },
+    {
+      "nidn": "0417058902",
+      "name": "TITO DIMAS ATMAWIJAYA"
+    },
+    {
+      "nidn": "0420117104",
+      "name": "TRYANA"
+    },
+    {
+      "nidn": "0403108601",
+      "name": "UMI HANI"
+    },
+    {
+      "nidn": "0430117303",
+      "name": "WIRHAYATI"
+    },
+    {
+      "nidn": "0421037301",
+      "name": "WIWIT SARIASIH"
+    },
+    {
+      "nidn": "0422108701",
+      "name": "YANI OCTAFIA"
+    },
+    {
+      "nidn": "0410018901",
+      "name": "CHRISTY TISNAWIJAYA"
+    },
+    {
+      "nidn": "0407118601",
+      "name": "NAHORAS BONA SIMARMATA"
+    },
+    {
+      "nidn": "0313126801",
+      "name": "RATMO"
+    },
+    {
+      "nidn": "0430107505",
+      "name": "YAN ARDIAN SUBHAN"
+    },
+    {
+      "nidn": "0429037208",
+      "name": "AFRIANTI WULANDARI"
+    },
+    {
+      "nidn": "0412118906",
+      "name": "AL KHANSA NOVA MISBAHILLAH"
+    },
+    {
+      "nidn": "0402019005",
+      "name": "AMIRUDIN"
+    },
+    {
+      "nidn": "0420108604",
+      "name": "ANITA KUSUMAWATI"
+    },
+    {
+      "nidn": "8870000016",
+      "name": "ASEP AHMAD ZAENAL ARIPIN"
+    },
+    {
+      "nidn": "0409119301",
+      "name": "ASTARI AMALIA PUTRI"
+    },
+    {
+      "nidn": "0414088005",
+      "name": "DAFITRI ANDRI"
+    },
+    {
+      "nidn": "0305056001",
+      "name": "DARNA"
+    },
+    {
+      "nidn": "0422126902",
+      "name": "FITRIS ROZA"
+    },
+    {
+      "nidn": "0427028902",
+      "name": "GENI KURNIATI"
+    },
+    {
+      "nidn": "8838100016",
+      "name": "I AENI MUHARROMAH"
+    },
+    {
+      "nidn": "0402117604",
+      "name": "IYEHEZKIEL"
+    },
+    {
+      "nidn": "8825500016",
+      "name": "LINDA MAISARI"
+    },
+    {
+      "nidn": "0419058005",
+      "name": "LINDA MEYLINDA"
+    },
+    {
+      "nidn": "0403118501",
+      "name": "MARKUS HINO YUDISTIRA"
+    },
+    {
+      "nidn": "0404098205",
+      "name": "MUHAMMAD HUSEN DB"
+    },
+    {
+      "nidn": "0416078004",
+      "name": "MURSYID ANWAR"
+    },
+    {
+      "nidn": "0410069101",
+      "name": "NERISHA ARVIANA"
+    },
+    {
+      "nidn": "0410087005",
+      "name": "NINING KASNI S.PD M.PD"
+    },
+    {
+      "nidn": "0428048902",
+      "name": "NUR ENDAH RAMADHANIA"
+    },
+    {
+      "nidn": "0401018806",
+      "name": "NURDIN"
+    },
+    {
+      "nidn": "0429097605",
+      "name": "POPPY RAHMA FITRIA SP M.PD"
+    },
+    {
+      "nidn": "0426118803",
+      "name": "PRICHATIN"
+    },
+    {
+      "nidn": "0407068404",
+      "name": "RIA ADRIYANI"
+    },
+    {
+      "nidn": "0423058805",
+      "name": "RIA ANTIKA"
+    },
+    {
+      "nidn": "0412129204",
+      "name": "RIDHA IKHVA ERVIANA"
+    },
+    {
+      "nidn": "0405128202",
+      "name": "RITA HAYATI"
+    },
+    {
+      "nidn": "0426109002",
+      "name": "RIZKI GUNAWAN"
+    },
+    {
+      "nidn": "0401119201",
+      "name": "RIZKY TAZKIYATUL UMMAMI"
+    },
+    {
+      "nidn": "0406059801",
+      "name": "SARITA MERILIA"
+    },
+    {
+      "nidn": "0417076704",
+      "name": "SIARNO"
+    },
+    {
+      "nidn": "0408109007",
+      "name": "SINTA OKTAVIANI SAFITRI"
+    },
+    {
+      "nidn": "0401128504",
+      "name": "SITI LATIFATUL ROSIDAH"
+    },
+    {
+      "nidn": "8828000016",
+      "name": "SUWARDI"
+    },
+    {
+      "nidn": "0423039102",
+      "name": "TUTIK RATNA NINGTYAS"
+    },
+    {
+      "nidn": "8830490019",
+      "name": "YAMIN"
+    },
+    {
+      "nidn": "0429078706",
+      "name": "YULI WAHYUNI"
+    },
+    {
+      "nidn": "0425047602",
+      "name": "ZINNIA AFRIEDIZA"
+    },
+    {
+      "nidn": "0403019203",
+      "name": "ARIP KRISTIYANTO"
+    },
+    {
+      "nidn": "0421099501",
+      "name": "SELLY SEPTIANI"
+    },
+    {
+      "nidn": "0421028304",
+      "name": "AEP SAEPUL ANWAR"
+    },
+    {
+      "nidn": "0419077803",
+      "name": "ANDI ROMANSYAH"
+    },
+    {
+      "nidn": "0426039502",
+      "name": "ANGGA PRAMADJAYA"
+    },
+    {
+      "nidn": "0419039307",
+      "name": "FAUZAN DIKA"
+    },
+    {
+      "nidn": "0414129002",
+      "name": "ISTIQOMAH ROHMAWATI"
+    },
+    {
+      "nidn": "0401109205",
+      "name": "LEO SANDI"
+    },
+    {
+      "nidn": "0416118904",
+      "name": "NOVIAN IKHSAN"
+    },
+    {
+      "nidn": "0417099303",
+      "name": "RISKA SEPTIANI"
+    },
+    {
+      "nidn": "0409069401",
+      "name": "SITI AROFAH NURUL HUDA"
+    },
+    {
+      "nidn": "0418049302",
+      "name": "SUGIH KURNIAWAN"
+    },
+    {
+      "nidn": "0415096605",
+      "name": "ARDIJAN HANDIJONO"
+    },
+    {
+      "nidn": "0330117404",
+      "name": "CHRISANTUS TRISTIANTO"
+    },
+    {
+      "nidn": "0403078402",
+      "name": "DEDE SUPRIYADI"
+    },
+    {
+      "nidn": "0418046402",
+      "name": "EKO SUHARYANTO"
+    },
+    {
+      "nidn": "0303028802",
+      "name": "EMI SITA ERIANA"
+    },
+    {
+      "nidn": "0425097204",
+      "name": "ENDIN FAHRUDIN"
+    },
+    {
+      "nidn": "0301068704",
+      "name": "ENJAH PIPIT FITRIYADI"
+    },
+    {
+      "nidn": "0303029204",
+      "name": "FAJAR HADITIO"
+    },
+    {
+      "nidn": "0308077102",
+      "name": "FORDIANA EKAWATI"
+    },
+    {
+      "nidn": "0322048704",
+      "name": "GHEMA NUSA PERSADA"
+    },
+    {
+      "nidn": "0303046704",
+      "name": "IGUH WIDIPANGESTU"
+    },
+    {
+      "nidn": "0330118406",
+      "name": "IMAM HIDAYAT"
+    },
+    {
+      "nidn": "0318038606",
+      "name": "M. IRHAM"
+    },
+    {
+      "nidn": "0302027903",
+      "name": "PETRUS SIANGGIAN PURBA"
+    },
+    {
+      "nidn": "0318129301",
+      "name": "RISAH SUBARIAH"
+    },
+    {
+      "nidn": "0308027403",
+      "name": "SANTOSA WIJAYANTO"
+    },
+    {
+      "nidn": "0317077002",
+      "name": "SLAMET RAHARJO"
+    },
+    {
+      "nidn": "0313076504",
+      "name": "AFRIZAL ZEIN"
+    },
+    {
+      "nidn": "0329056504",
+      "name": "AGUS SUHARTO"
+    },
+    {
+      "nidn": "0318116908",
+      "name": "SALMAN FARIZY"
+    },
+    {
+      "nidn": "0408069602",
+      "name": "ABDURRAHMAN HARITS"
+    },
+    {
+      "nidn": "0405089203",
+      "name": "AFIF EFENDI"
+    },
+    {
+      "nidn": "0418039504",
+      "name": "ANDRI FAHMI"
+    },
+    {
+      "nidn": "0413019602",
+      "name": "ARI PUTRA"
+    },
+    {
+      "nidn": "0322049303",
+      "name": "CHAIRUL ANWAR"
+    },
+    {
+      "nidn": "0404099106",
+      "name": "CHRISTIEN ROZALI"
+    },
+    {
+      "nidn": "0408058303",
+      "name": "DENDI SUNARDI"
+    },
+    {
+      "nidn": "0416069405",
+      "name": "DIMAS EKO PRASETYO"
+    },
+    {
+      "nidn": "0408039501",
+      "name": "FINGKI MARWATI"
+    },
+    {
+      "nidn": "0428109403",
+      "name": "GALUH OKA SAFITRI"
+    },
+    {
+      "nidn": "0425129203",
+      "name": "HABIB NURFAIZAL"
+    },
+    {
+      "nidn": "0413089502",
+      "name": "HANANING SUMANINGDIAH LARASATI"
+    },
+    {
+      "nidn": "0410129005",
+      "name": "IKA SETIAWAN"
+    },
+    {
+      "nidn": "0431059104",
+      "name": "LENI SUSANTI"
+    },
+    {
+      "nidn": "0419109701",
+      "name": "MUFIDAH KARIMAH"
+    },
+    {
+      "nidn": "0410127105",
+      "name": "RAHMAT HARTONO"
+    },
+    {
+      "nidn": "0417069204",
+      "name": "RIZKY FAUZI"
+    },
+    {
+      "nidn": "0416049203",
+      "name": "SAMSO SUPRIYATNA"
+    },
+    {
+      "nidn": "0408078104",
+      "name": "SUBARKAH ABDULLAH"
+    },
+    {
+      "nidn": "0411108704",
+      "name": "ADE SUMAEDI"
+    },
+    {
+      "nidn": "0409108605",
+      "name": "AMIN WIDODO"
+    },
+    {
+      "nidn": "0428089302",
+      "name": "ASEP SURYADI"
+    },
+    {
+      "nidn": "8851323419",
+      "name": "HAYADI HAMUDA"
+    },
+    {
+      "nidn": "0408088503",
+      "name": "AGUS SUHENDI"
+    },
+    {
+      "nidn": "0427039304",
+      "name": "CISKA DAMERIA"
+    },
+    {
+      "nidn": "0403089303",
+      "name": "ENENG SUSILISTIA AGUSTINI"
+    },
+    {
+      "nidn": "0422029603",
+      "name": "IRFAN FATHONI"
+    },
+    {
+      "nidn": "0403019601",
+      "name": "RIKIL AMRI"
+    },
+    {
+      "nidn": "0403019302",
+      "name": "YUSUF NUR FAISAL"
+    },
+    {
+      "nidn": "0424109003",
+      "name": "BARRU ARROSYID"
+    },
+    {
+      "nidn": "0428097501",
+      "name": "HERI KUSNADI"
+    },
+    {
+      "nidn": "0410118706",
+      "name": "NURUL HULUQ"
+    },
+    {
+      "nidn": "0429058604",
+      "name": "ROMDHONI"
+    },
+    {
+      "nidn": "0429068703",
+      "name": "AHMAD RAMADHAN"
+    },
+    {
+      "nidn": "0423028302",
+      "name": "FIRMAN AMIR"
+    },
+    {
+      "nidn": "0404059005",
+      "name": "MARDIANSYAH"
+    },
+    {
+      "nidn": "0425037101",
+      "name": "ANDI SULASMI"
+    },
+    {
+      "nidn": "0414087904",
+      "name": "DONIE AGUS ARDIANTO"
+    },
+    {
+      "nidn": "0420127701",
+      "name": "EDWAR MUALLIM ST MT"
+    },
+    {
+      "nidn": "0428019101",
+      "name": "ELFIRZA ROSIANA"
+    },
+    {
+      "nidn": "0402089401",
+      "name": "ERIK AGUSTIAN YULANDA"
+    },
+    {
+      "nidn": "0401048203",
+      "name": "FAHMI ISLAMI SU’UD"
+    },
+    {
+      "nidn": "0413108102",
+      "name": "GAGUK FIRASANTO"
+    },
+    {
+      "nidn": "0408099203",
+      "name": "JOKO TRI SUSILO"
+    },
+    {
+      "nidn": "0416105903",
+      "name": "JUHANA"
+    },
+    {
+      "nidn": "0431057207",
+      "name": "KISWANTA"
+    },
+    {
+      "nidn": "8896000016",
+      "name": "KOES INDRAKOESOEMA"
+    },
+    {
+      "nidn": "0428088403",
+      "name": "LILI SOLIHIN"
+    },
+    {
+      "nidn": "0427068102",
+      "name": "OJAK ABDUL ROZAK"
+    },
+    {
+      "nidn": "0404108105",
+      "name": "OKY SUPRIADI"
+    },
+    {
+      "nidn": "0403018109",
+      "name": "PRANOTO BUDI LAKSONO"
+    },
+    {
+      "nidn": "0426038103",
+      "name": "SITI ROKHMANILA"
+    },
+    {
+      "nidn": "8897900016",
+      "name": "SUMARKANTINI"
+    },
+    {
+      "nidn": "0406046002",
+      "name": "WAWAN GUNAWAN"
+    },
+    {
+      "nidn": "0428108709",
+      "name": "WORO AGUS NURTIYANTO"
+    },
+    {
+      "nidn": "8855630017",
+      "name": "YUNINES YANTI"
+    },
+    {
+      "nidn": "0431128404",
+      "name": "ABDURAHMAN"
+    },
+    {
+      "nidn": "0413088802",
+      "name": "AGUS SETIAWAN"
+    },
+    {
+      "nidn": "0405088701",
+      "name": "ARIPIN TRIYANTO"
+    },
+    {
+      "nidn": "0410108208",
+      "name": "ARIYAWAN SUNARDI"
+    },
+    {
+      "nidn": "8835200016",
+      "name": "EDY SUMARNO"
+    },
+    {
+      "nidn": "0311028201",
+      "name": "IRAWATI"
+    },
+    {
+      "nidn": "8831620016",
+      "name": "JAMAL A. RACHMAN SAPRIN"
+    },
+    {
+      "nidn": "8874700016",
+      "name": "JAN SETIAWAN"
+    },
+    {
+      "nidn": "0310087303",
+      "name": "KARTIKA SEKARSARI"
+    },
+    {
+      "nidn": "0430096101",
+      "name": "KUSSIGIT SANTOSA"
+    },
+    {
+      "nidn": "0426108804",
+      "name": "LUKI UTOMO"
+    },
+    {
+      "nidn": "0427088706",
+      "name": "MARFIN"
+    },
+    {
+      "nidn": "0427098001",
+      "name": "SEFLAHIR DINATA"
+    },
+    {
+      "nidn": "0409088502",
+      "name": "SUMINTO"
+    },
+    {
+      "nidn": "0405048202",
+      "name": "SUNARDI"
+    },
+    {
+      "nidn": "0422047304",
+      "name": "YOYOK DWI SETYO PAMBUDI"
+    },
+    {
+      "nidn": "0406059005",
+      "name": "ABDUL FATAH"
+    },
+    {
+      "nidn": "0407128603",
+      "name": "ADITYA PRIMA DANNY"
+    },
+    {
+      "nidn": "0403089205",
+      "name": "AGI TAMA"
+    },
+    {
+      "nidn": "0412068603",
+      "name": "AHMAD RAJANI"
+    },
+    {
+      "nidn": "0412058702",
+      "name": "ANGGORO PRIMADIANTO"
+    },
+    {
+      "nidn": "0413047601",
+      "name": "ANTO CARMANTO"
+    },
+    {
+      "nidn": "0417129102",
+      "name": "AWALUDDIN SAPUTRA"
+    },
+    {
+      "nidn": "0419127902",
+      "name": "BAMBANG IWAN SURYANA"
+    },
+    {
+      "nidn": "0413028402",
+      "name": "BRIAN FERNANDO"
+    },
+    {
+      "nidn": "0410039201",
+      "name": "DEDE ZAENAL"
+    },
+    {
+      "nidn": "0420116903",
+      "name": "DWI ANIE GUNASTUTI"
+    },
+    {
+      "nidn": "0428069002",
+      "name": "DWI PRAYOGO"
+    },
+    {
+      "nidn": "0405128505",
+      "name": "EKO SULISTIONO"
+    },
+    {
+      "nidn": "0406027603",
+      "name": "FARAIDA NAFIRI"
+    },
+    {
+      "nidn": "0419118102",
+      "name": "FERDI SANOFEL"
+    },
+    {
+      "nidn": "0410017203",
+      "name": "FREDY DWIFANTO"
+    },
+    {
+      "nidn": "8808900016",
+      "name": "HERANUDIN"
+    },
+    {
+      "nidn": "8805500016",
+      "name": "HIMMA FIRDAUS"
+    },
+    {
+      "nidn": "0429069003",
+      "name": "IVAN HENDRAWAN"
+    },
+    {
+      "nidn": "0413126205",
+      "name": "KADARUSMANTO"
+    },
+    {
+      "nidn": "0420089101",
+      "name": "M. SYEKHUROHIM"
+    },
+    {
+      "nidn": "0417017905",
+      "name": "M. TORIQUL AMIEN"
+    },
+    {
+      "nidn": "0411088306",
+      "name": "MADIKA SUDARKASA"
+    },
+    {
+      "nidn": "8847430017",
+      "name": "MUHAMMAD SUBEKTI"
+    },
+    {
+      "nidn": "0402069101",
+      "name": "NUR ABDI INSANI"
+    },
+    {
+      "nidn": "0407119201",
+      "name": "NURKAHFI IRWANSYAH"
+    },
+    {
+      "nidn": "0429059301",
+      "name": "PUTRI PERTIWI WANAJAYA"
+    },
+    {
+      "nidn": "0417058004",
+      "name": "RIFA’I HARAHAP"
+    },
+    {
+      "nidn": "0408057806",
+      "name": "RINI ASTUTI"
+    },
+    {
+      "nidn": "0405108203",
+      "name": "SARI AMALIA"
+    },
+    {
+      "nidn": "8805570018",
+      "name": "SIGIT SANTOSO"
+    },
+    {
+      "nidn": "0417026101",
+      "name": "SUGENG"
+    },
+    {
+      "nidn": "0427086503",
+      "name": "SYAMSUL MARLIN"
+    },
+    {
+      "nidn": "0410018803",
+      "name": "TENDI RAHAYU"
+    },
+    {
+      "nidn": "0419117506",
+      "name": "TOTO RAHARJO"
+    },
+    {
+      "nidn": "0415068404",
+      "name": "UBAIDILLAH"
+    },
+    {
+      "nidn": "0404017909",
+      "name": "VERY IRAWAN"
+    },
+    {
+      "nidn": "0419068706",
+      "name": "ACHMAD CHAERUL MUSLIM"
+    },
+    {
+      "nidn": "0428098903",
+      "name": "ADI CANDRA"
+    },
+    {
+      "nidn": "0406017809",
+      "name": "AGUS MULYONO"
+    },
+    {
+      "nidn": "0402088603",
+      "name": "AGUS NURROKHMAN"
+    },
+    {
+      "nidn": "0428077002",
+      "name": "AGUS SYAHABUDDIN"
+    },
+    {
+      "nidn": "0408099301",
+      "name": "ANDRY SEPTIANTO"
+    },
+    {
+      "nidn": "0408107105",
+      "name": "ANTHON RUDY WARDIYANTO"
+    },
+    {
+      "nidn": "0431128207",
+      "name": "AOD ABDUL JAWAD"
+    },
+    {
+      "nidn": "0411047906",
+      "name": "BUDI APRINA"
+    },
+    {
+      "nidn": "0402037306",
+      "name": "DWI SURYANTO"
+    },
+    {
+      "nidn": "8973550022",
+      "name": "ESTININGSIH TRIHANDAYANI"
+    },
+    {
+      "nidn": "0426128108",
+      "name": "FRANKA HENDRA SUKMA"
+    },
+    {
+      "nidn": "0427049002",
+      "name": "GILANG ARDI PRATAMA"
+    },
+    {
+      "nidn": "0401077031",
+      "name": "IIP MUHLISIN"
+    },
+    {
+      "nidn": "0416067005",
+      "name": "JUNAEDI"
+    },
+    {
+      "nidn": "0414068303",
+      "name": "JUNAENAH"
+    },
+    {
+      "nidn": "8887750017",
+      "name": "KARYA SUBARMAN"
+    },
+    {
+      "nidn": "0428068402",
+      "name": "KHAIRUNNISA"
+    },
+    {
+      "nidn": "0409108705",
+      "name": "KHASBUNALLOH"
+    },
+    {
+      "nidn": "0402118703",
+      "name": "MARJUKI ZULZIAR"
+    },
+    {
+      "nidn": "0418098804",
+      "name": "MOHAMAD KHAERUL UMAM"
+    },
+    {
+      "nidn": "0427088903",
+      "name": "MUHAMMAD SHOBUR"
+    },
+    {
+      "nidn": "0429069205",
+      "name": "NIA KURNIASIH"
+    },
+    {
+      "nidn": "0422028803",
+      "name": "NIERA FEBLIDIYANTI"
+    },
+    {
+      "nidn": "0415068803",
+      "name": "NOVA WISNIANINGSIH"
+    },
+    {
+      "nidn": "0419059101",
+      "name": "NURHAYATI"
+    },
+    {
+      "nidn": "0428098404",
+      "name": "PATRIA ADHISTIAN"
+    },
+    {
+      "nidn": "0429037901",
+      "name": "RUSMALAH"
+    },
+    {
+      "nidn": "0411079203",
+      "name": "SUDIMAN"
+    },
+    {
+      "nidn": "0430126701",
+      "name": "SUPRIYONO"
+    },
+    {
+      "nidn": "0423129401",
+      "name": "SYAHREEN NURMUTIA"
+    },
+    {
+      "nidn": "0421088706",
+      "name": "TAHTA ANEDEA"
+    },
+    {
+      "nidn": "0403077404",
+      "name": "TAUFIK"
+    },
+    {
+      "nidn": "0409097908",
+      "name": "WAHYU"
+    },
+    {
+      "nidn": "0429088805",
+      "name": "WAKHIT AHMAD FAHRUDIN"
+    },
+    {
+      "nidn": "0415077401",
+      "name": "WANTO SARWOKO"
+    },
+    {
+      "nidn": "0415068304",
+      "name": "YUDI MAULANA"
+    },
+    {
+      "nidn": "0421078002",
+      "name": "DYAH PUSPITASARI SUNARYO PUTRI"
+    },
+    {
+      "nidn": "0413098204",
+      "name": "EDI SUPRIYADI"
+    },
+    {
+      "nidn": "0418038102",
+      "name": "RINI ALFATIYAH"
+    },
+    {
+      "nidn": "0412048204",
+      "name": "RUSPENDI"
+    },
+    {
+      "nidn": "0401098204",
+      "name": "SOFIAN BASTUTI"
+    },
+    {
+      "nidn": "0405018302",
+      "name": "TEDI DAHNIAR"
+    },
+    {
+      "nidn": "0402127503",
+      "name": "AGUS TAUFIK"
+    },
+    {
+      "nidn": "0402128002",
+      "name": "ANDRI KHAIRUL ANWAR"
+    },
+    {
+      "nidn": "0427118405",
+      "name": "ANTONI MAULANA"
+    },
+    {
+      "nidn": "0423088202",
+      "name": "ARIF KRISBUDIMAN"
+    },
+    {
+      "nidn": "0414028901",
+      "name": "BAYU EKA FEBRYANSYAH"
+    },
+    {
+      "nidn": "8814500016",
+      "name": "CEPI RAHMANSAH"
+    },
+    {
+      "nidn": "0429107801",
+      "name": "DIDI NURHADI"
+    },
+    {
+      "nidn": "8893500016",
+      "name": "EDI ISWANTO WILOSO"
+    },
+    {
+      "nidn": "0429108303",
+      "name": "EDI SUPRAPTO"
+    },
+    {
+      "nidn": "0409116602",
+      "name": "EFFENDI"
+    },
+    {
+      "nidn": "0401018208",
+      "name": "FACHRI AGUNG"
+    },
+    {
+      "nidn": "0413069201",
+      "name": "FREDY DWI IBNU SAPUTRA"
+    },
+    {
+      "nidn": "8885200016",
+      "name": "HARRY BUDIMAN"
+    },
+    {
+      "nidn": "0405128801",
+      "name": "HERI MURYANTO"
+    },
+    {
+      "nidn": "8815500016",
+      "name": "I GEDE MAHATMA YUDA BAKTI"
+    },
+    {
+      "nidn": "8916730021",
+      "name": "IHSAN SUPONO"
+    },
+    {
+      "nidn": "0425107405",
+      "name": "IRLAN NIARA"
+    },
+    {
+      "nidn": "0430117804",
+      "name": "IRMA NOVIANTI"
+    },
+    {
+      "nidn": "0405048007",
+      "name": "LAILY MAKNIN ZUBAEDAH"
+    },
+    {
+      "nidn": "0427028705",
+      "name": "MAHYAR"
+    },
+    {
+      "nidn": "0428038601",
+      "name": "MIRANTI MAYANGSARI"
+    },
+    {
+      "nidn": "0431107105",
+      "name": "MOCHAMAD IMRON"
+    },
+    {
+      "nidn": "0402118803",
+      "name": "MOHAMAD MAHPUD"
+    },
+    {
+      "nidn": "0422118702",
+      "name": "MUHAMMAD YUSUF"
+    },
+    {
+      "nidn": "0420097707",
+      "name": "NANANG KUSNANDAR"
+    },
+    {
+      "nidn": "8854700016",
+      "name": "NIMAS AYU UNTARIYATI"
+    },
+    {
+      "nidn": "0427099102",
+      "name": "NURSELVI, S.T.P.,M.SC"
+    },
+    {
+      "nidn": "0401038402",
+      "name": "PRAYOGA ANGGUN PURNAMA"
+    },
+    {
+      "nidn": "8877750017",
+      "name": "PRAYOGA BAKTI"
+    },
+    {
+      "nidn": "8806200016",
+      "name": "PRIYO WIBOWO"
+    },
+    {
+      "nidn": "8844500016",
+      "name": "PUJIMAN"
+    },
+    {
+      "nidn": "0429087004",
+      "name": "R.A. VICTORIA VIJAYALAKSMI SUWARNI"
+    },
+    {
+      "nidn": "8818100016",
+      "name": "RAM ARIFF"
+    },
+    {
+      "nidn": "0420049202",
+      "name": "RIANTO ADITAMA"
+    },
+    {
+      "nidn": "0426059002",
+      "name": "RIZKI AINA AS SYAHADAT"
+    },
+    {
+      "nidn": "0402068606",
+      "name": "SOLEH SOFYAN"
+    },
+    {
+      "nidn": "0420059201",
+      "name": "SUDEWO"
+    },
+    {
+      "nidn": "0415128203",
+      "name": "SUPADI"
+    },
+    {
+      "nidn": "0425076701",
+      "name": "SURASA"
+    },
+    {
+      "nidn": "0412107505",
+      "name": "SYAHBUDI ST MT"
+    },
+    {
+      "nidn": "0403057203",
+      "name": "WAHYUDIN"
+    },
+    {
+      "nidn": "8855201019",
+      "name": "WENI WIJATMOKO HARJOPRAYITNO"
+    },
+    {
+      "nidn": "0411067604",
+      "name": "WUGUH PITONO"
+    },
+    {
+      "nidn": "0407019302",
+      "name": "YANTI SUPRIYANTI"
+    },
+    {
+      "nidn": "0404108404",
+      "name": "YUSUP PURWANTO"
+    },
+    {
+      "nidn": "0403059102",
+      "name": "A. NURUL ANWAR"
+    },
+    {
+      "nidn": "0408108408",
+      "name": "ABDULLAH MUHAJIR"
+    },
+    {
+      "nidn": "0430128003",
+      "name": "ACHMAD BISRI"
+    },
+    {
+      "nidn": "0409039301",
+      "name": "ACHMAD LUTFI FUADI"
+    },
+    {
+      "nidn": "0403039103",
+      "name": "ADAM MUIZ"
+    },
+    {
+      "nidn": "0428088701",
+      "name": "AGUNG PERDANANTO"
+    },
+    {
+      "nidn": "0425128805",
+      "name": "AGUS HERI YUNIAL"
+    },
+    {
+      "nidn": "0431087305",
+      "name": "AGUS WIRANTO"
+    },
+    {
+      "nidn": "0429128701",
+      "name": "AHMAD"
+    },
+    {
+      "nidn": "0413077403",
+      "name": "AHMAD ARI MASYHURI"
+    },
+    {
+      "nidn": "8818500016",
+      "name": "AHMAD ARIFIN"
+    },
+    {
+      "nidn": "8856223419",
+      "name": "AHMAD FAUZI"
+    },
+    {
+      "nidn": "0413018602",
+      "name": "AHMAD FIKRI ZULFIKAR"
+    },
+    {
+      "nidn": "0415068504",
+      "name": "AHMAD MUNAWARUZAMAN"
+    },
+    {
+      "nidn": "0425018609",
+      "name": "AHMAD MUSYAFA"
+    },
+    {
+      "nidn": "0411066301",
+      "name": "ALVANO YULIAN"
+    },
+    {
+      "nidn": "0421108302",
+      "name": "ALVINO OCTAVIANO"
+    },
+    {
+      "nidn": "0414059202",
+      "name": "AMIN HIDAYAT"
+    },
+    {
+      "nidn": "0427098703",
+      "name": "ANGGA SURYADI"
+    },
+    {
+      "nidn": "0422127503",
+      "name": "ANIS MIRZA"
+    },
+    {
+      "nidn": "8999500020",
+      "name": "ARDIANTO"
+    },
+    {
+      "nidn": "0406028802",
+      "name": "ARI SYARIPUDIN"
+    },
+    {
+      "nidn": "0409047703",
+      "name": "ARIES SAIFUDIN"
+    },
+    {
+      "nidn": "0402096402",
+      "name": "ATANG SUSILA"
+    },
+    {
+      "nidn": "0411028903",
+      "name": "BAGAS SETIYAKI WICAKSONO"
+    },
+    {
+      "nidn": "0403056302",
+      "name": "BAMBANG SANTOSO"
+    },
+    {
+      "nidn": "0317037906",
+      "name": "BAMBANG WISNU WIDAGDO"
+    },
+    {
+      "nidn": "0429097505",
+      "name": "BANI"
+    },
+    {
+      "nidn": "0421088902",
+      "name": "BOBI AGUSTIAN"
+    },
+    {
+      "nidn": "0401066805",
+      "name": "BODI SANTOSO"
+    },
+    {
+      "nidn": "0416048002",
+      "name": "BUDI APRIYANTO"
+    },
+    {
+      "nidn": "0404069002",
+      "name": "DANI"
+    },
+    {
+      "nidn": "0404037105",
+      "name": "DARMAWATI"
+    },
+    {
+      "nidn": "0415077108",
+      "name": "DEANNA DURBIN HUTAGALUNG"
+    },
+    {
+      "nidn": "0412079003",
+      "name": "DEDE HANDAYANI"
+    },
+    {
+      "nidn": "8998070023",
+      "name": "DEDE SAHRUL BAHRI"
+    },
+    {
+      "nidn": "0418028604",
+      "name": "DEDE SUNANDAR"
+    },
+    {
+      "nidn": "0403079003",
+      "name": "DEDE SUPIYAN"
+    },
+    {
+      "nidn": "0423117904",
+      "name": "DENA WULANDARI"
+    },
+    {
+      "nidn": "0412129201",
+      "name": "DEVI DAMAYANTI"
+    },
+    {
+      "nidn": "0412069006",
+      "name": "DEVI YUNITA"
+    },
+    {
+      "nidn": "0402118602",
+      "name": "DIMAS ABISONO PUNKASTYO"
+    },
+    {
+      "nidn": "0412027108",
+      "name": "DINDIN"
+    },
+    {
+      "nidn": "0407018303",
+      "name": "DOLA IRWANTO"
+    },
+    {
+      "nidn": "0404047406",
+      "name": "ELFI FAUZIAH"
+    },
+    {
+      "nidn": "0424016703",
+      "name": "ENDAR NIRMALA"
+    },
+    {
+      "nidn": "0409057804",
+      "name": "ENTIS SUTRISNA"
+    },
+    {
+      "nidn": "0404059103",
+      "name": "FADLY ARIADI"
+    },
+    {
+      "nidn": "0405028604",
+      "name": "FAJAR AGUNG NUGROHO"
+    },
+    {
+      "nidn": "0409098901",
+      "name": "FAJAR SEPTIAN"
+    },
+    {
+      "nidn": "0403077303",
+      "name": "FIFI JULFIATI"
+    },
+    {
+      "nidn": "0430109201",
+      "name": "FIRMAN PRATAMA"
+    },
+    {
+      "nidn": "0311099102",
+      "name": "GALUH SAPUTRI"
+    },
+    {
+      "nidn": "0401066503",
+      "name": "HADI ZAKARIA"
+    },
+    {
+      "nidn": "0402078601",
+      "name": "HARDIANSYAH"
+    },
+    {
+      "nidn": "0406107802",
+      "name": "HERDYANTO"
+    },
+    {
+      "nidn": "0418079002",
+      "name": "HERWIS GULTOM"
+    },
+    {
+      "nidn": "0409028904",
+      "name": "HIDAYATULLAH AL ISLAMI"
+    },
+    {
+      "nidn": "0324027802",
+      "name": "I MADE SUGI ARDANA"
+    },
+    {
+      "nidn": "0409128902",
+      "name": "INDRA CAHYA FIRDAUS"
+    },
+    {
+      "nidn": "8876200016",
+      "name": "INDRA SYAHRIAL"
+    },
+    {
+      "nidn": "0401028605",
+      "name": "INTAN KUMALASARI"
+    },
+    {
+      "nidn": "0411109001",
+      "name": "IRPAN KUSYADI"
+    },
+    {
+      "nidn": "0409099002",
+      "name": "ITA HANDAYANI"
+    },
+    {
+      "nidn": "0404049101",
+      "name": "IWAN GIRI WALUYO"
+    },
+    {
+      "nidn": "0403128603",
+      "name": "JAKA SUTRESNA"
+    },
+    {
+      "nidn": "0404108502",
+      "name": "JOKO PRIANBODO"
+    },
+    {
+      "nidn": "0404078507",
+      "name": "JOKO SUWARNO"
+    },
+    {
+      "nidn": "0409029006",
+      "name": "JURI PEBRIANTO"
+    },
+    {
+      "nidn": "0414117803",
+      "name": "KASIH"
+    },
+    {
+      "nidn": "0415039001",
+      "name": "KHAERUL MA’MUR"
+    },
+    {
+      "nidn": "0406059202",
+      "name": "KHANIF FAOZI"
+    },
+    {
+      "nidn": "0424119202",
+      "name": "KHOIRUNNISYA"
+    },
+    {
+      "nidn": "0411068104",
+      "name": "KUSUMAWATI"
+    },
+    {
+      "nidn": "0406018807",
+      "name": "LELY PANCA ANDRIYANTO"
+    },
+    {
+      "nidn": "0414028003",
+      "name": "MAULANA ARDHIANSYAH"
+    },
+    {
+      "nidn": "0428048906",
+      "name": "MAULANA FANSYURI"
+    },
+    {
+      "nidn": "0430108805",
+      "name": "MAULANA MUHAMAD SULAIMAN"
+    },
+    {
+      "nidn": "0428058803",
+      "name": "MEIDY FAJAR WAHYU"
+    },
+    {
+      "nidn": "0421116701",
+      "name": "MOHADIB"
+    },
+    {
+      "nidn": "0424078902",
+      "name": "MUHAMAD ARIEF YULIANTO"
+    },
+    {
+      "nidn": "0423068901",
+      "name": "MUHAMAD MEKY FRINDO"
+    },
+    {
+      "nidn": "0410038801",
+      "name": "MUHAMAD YASSER ARAFAT"
+    },
+    {
+      "nidn": "0414088706",
+      "name": "MUHAMMAD ANIS"
+    },
+    {
+      "nidn": "0405018002",
+      "name": "MUHAMMAD FEIZAL"
+    },
+    {
+      "nidn": "0418018104",
+      "name": "MUKHAMAD KHOTIB ARIFAI"
+    },
+    {
+      "nidn": "0402048301",
+      "name": "MUNALDI"
+    },
+    {
+      "nidn": "0412077710",
+      "name": "NANANG"
+    },
+    {
+      "nidn": "0414068301",
+      "name": "NARDIONO"
+    },
+    {
+      "nidn": "0405079101",
+      "name": "NUR NAJIBAH SUKMAWATI"
+    },
+    {
+      "nidn": "0405107605",
+      "name": "NUR ROFIQ"
+    },
+    {
+      "nidn": "0430099202",
+      "name": "NURHASANAH"
+    },
+    {
+      "nidn": "0428059005",
+      "name": "NURHAYATI"
+    },
+    {
+      "nidn": "0405078502",
+      "name": "NURJAYA"
+    },
+    {
+      "nidn": "0425098902",
+      "name": "PARI PURNANINGSIH"
+    },
+    {
+      "nidn": "0407108801",
+      "name": "PETRICIA OKTAVIA"
+    },
+    {
+      "nidn": "0430117306",
+      "name": "PUJI RAHARJO YUWONO"
+    },
+    {
+      "nidn": "0428059301",
+      "name": "RADITIA VINDUA"
+    },
+    {
+      "nidn": "0403089301",
+      "name": "RAHMAWATI"
+    },
+    {
+      "nidn": "0415038603",
+      "name": "REDI DARMAWAN"
+    },
+    {
+      "nidn": "0409058502",
+      "name": "RENGGA HERDIANSYAH"
+    },
+    {
+      "nidn": "0402108703",
+      "name": "RESTI AMALIA"
+    },
+    {
+      "nidn": "0417048902",
+      "name": "RESTI ISNAENI"
+    },
+    {
+      "nidn": "0416069301",
+      "name": "RIKY SUSANTO"
+    },
+    {
+      "nidn": "0428026901",
+      "name": "RISWAL HANAFI SIREGAR"
+    },
+    {
+      "nidn": "0410128904",
+      "name": "ROESLAN DJUTALOV"
+    },
+    {
+      "nidn": "0425039103",
+      "name": "ROMI ANDRIANTO"
+    },
+    {
+      "nidn": "0428118701",
+      "name": "RUSYDA MAULIDA"
+    },
+    {
+      "nidn": "0416089207",
+      "name": "SANTI RAHAYU"
+    },
+    {
+      "nidn": "8868900016",
+      "name": "SARENO"
+    },
+    {
+      "nidn": "0405079103",
+      "name": "SAVITRI"
+    },
+    {
+      "nidn": "0431018601",
+      "name": "SHANDI NORIS"
+    },
+    {
+      "nidn": "0429058202",
+      "name": "SOFA SOFIANA"
+    },
+    {
+      "nidn": "8858900016",
+      "name": "SOFYAN MUFTI PRASETIYO"
+    },
+    {
+      "nidn": "0404029102",
+      "name": "SRI RAMA PUTRI"
+    },
+    {
+      "nidn": "0416118504",
+      "name": "SRI WAHYUNI"
+    },
+    {
+      "nidn": "0410059101",
+      "name": "SUHANDA SAPUTRA"
+    },
+    {
+      "nidn": "0425047603",
+      "name": "SURTIKANTI"
+    },
+    {
+      "nidn": "0414077407",
+      "name": "SURYANINGRAT"
+    },
+    {
+      "nidn": "0430128103",
+      "name": "TETI DESYANI"
+    },
+    {
+      "nidn": "0425018701",
+      "name": "TITA PUSPITASARI"
+    },
+    {
+      "nidn": "0401039204",
+      "name": "TRI PRASETYO"
+    },
+    {
+      "nidn": "0403109401",
+      "name": "ULIYATUNISA"
+    },
+    {
+      "nidn": "0411117803",
+      "name": "WASIS HARYONO"
+    },
+    {
+      "nidn": "0425069102",
+      "name": "WIDYAH NOVIANA"
+    },
+    {
+      "nidn": "0401099301",
+      "name": "WILLIS PUSPITA SARI"
+    },
+    {
+      "nidn": "0431129101",
+      "name": "WIWIN WINARTI"
+    },
+    {
+      "nidn": "0418088902",
+      "name": "YOLEN PERDANA SARI"
+    },
+    {
+      "nidn": "0420028403",
+      "name": "YONO CAHYONO"
+    },
+    {
+      "nidn": "0406069401",
+      "name": "YUDA SAMUDRA"
+    },
+    {
+      "nidn": "0430079201",
+      "name": "YULIANTI"
+    },
+    {
+      "nidn": "0429058303",
+      "name": "ACHMAD UDIN ZAILANI"
+    },
+    {
+      "nidn": "0403098804",
+      "name": "ANGGA SEPTIAN MN"
+    },
+    {
+      "nidn": "0307026203",
+      "name": "BOGE SATRIO"
+    },
+    {
+      "nidn": "0409078802",
+      "name": "FARIDA NURLAILA"
+    },
+    {
+      "nidn": "0416049101",
+      "name": "FITRI YANTI"
+    },
+    {
+      "nidn": "0401038601",
+      "name": "HENDRI ARDIANSYAH"
+    },
+    {
+      "nidn": "0403028306",
+      "name": "HERI HAERUDIN"
+    },
+    {
+      "nidn": "0416109001",
+      "name": "INES HEIDIANI IKASARI"
+    },
+    {
+      "nidn": "0403128901",
+      "name": "JOHAN SYAHBRUDIN"
+    },
+    {
+      "nidn": "0409029002",
+      "name": "JOKO RIYANTO"
+    },
+    {
+      "nidn": "0421049102",
+      "name": "KECITAAN HAREFA"
+    },
+    {
+      "nidn": "0424049005",
+      "name": "LISDA FITRIANA MASITOH"
+    },
+    {
+      "nidn": "0401056704",
+      "name": "MERI SUHARTINI"
+    },
+    {
+      "nidn": "0414088505",
+      "name": "MOCHAMAD ADHARI ADIGUNA"
+    },
+    {
+      "nidn": "0427069101",
+      "name": "MOCHAMMAD BAGOES SATRIA JUNIANTO"
+    },
+    {
+      "nidn": "0402089004",
+      "name": "MUNAWAROH"
+    },
+    {
+      "nidn": "0424119101",
+      "name": "NIKI RATAMA"
+    },
+    {
+      "nidn": "0424038802",
+      "name": "PERANI ROSYANI"
+    },
+    {
+      "nidn": "0417038903",
+      "name": "RINNA RACHMATIKA"
+    },
+    {
+      "nidn": "0407086204",
+      "name": "ROKHMADI"
+    },
+    {
+      "nidn": "0431127505",
+      "name": "SAMSONI"
+    },
+    {
+      "nidn": "0408069601",
+      "name": "SAPRUDIN"
+    },
+    {
+      "nidn": "0424058703",
+      "name": "SARTIKA LINA MULANI SITIO"
+    },
+    {
+      "nidn": "0411056602",
+      "name": "SRI MULYATI"
+    },
+    {
+      "nidn": "0423078901",
+      "name": "SUSANNA DWI YULIANTI KUSUMA"
+    },
+    {
+      "nidn": "0410098801",
+      "name": "TRI HIDAYATI"
+    },
+    {
+      "nidn": "0419099102",
+      "name": "YAN MITHA DJAKSANA"
+    },
+    {
+      "nidn": "0418128803",
+      "name": "AA. KURNIAWAN"
+    },
+    {
+      "nidn": "8897500016",
+      "name": "ABU KHALID RIVAI"
+    },
+    {
+      "nidn": "0431059106",
+      "name": "ACHMAD SEHAN"
+    },
+    {
+      "nidn": "0429129202",
+      "name": "ADE NAPILA"
+    },
+    {
+      "nidn": "0423019006",
+      "name": "ADE PUTRA PRIMA SUHENDRI"
+    },
+    {
+      "nidn": "0424049201",
+      "name": "ADE SYAWAL SAPUTRA"
+    },
+    {
+      "nidn": "0306069102",
+      "name": "AGUNG SISWOPRANOTO"
+    },
+    {
+      "nidn": "0427088404",
+      "name": "AGUS BUDI PRASETYO"
+    },
+    {
+      "nidn": "0409088503",
+      "name": "AGUS SEPTIMA RIDWAN"
+    },
+    {
+      "nidn": "0402086905",
+      "name": "AGUSTINUS SETIJANTO"
+    },
+    {
+      "nidn": "0428109501",
+      "name": "AHMAD HUNAEPI"
+    },
+    {
+      "nidn": "0415028805",
+      "name": "AHMAD NURSODIQ"
+    },
+    {
+      "nidn": "0314067602",
+      "name": "AKHMAD AVRON"
+    },
+    {
+      "nidn": "0414077801",
+      "name": "AKROM"
+    },
+    {
+      "nidn": "0422099001",
+      "name": "ALDI FERIDANTO"
+    },
+    {
+      "nidn": "0411088903",
+      "name": "ANDI"
+    },
+    {
+      "nidn": "0418048904",
+      "name": "ANDI ROHMANA SAPUTRA"
+    },
+    {
+      "nidn": "0425039203",
+      "name": "ANDIN EKA SAFITRI"
+    },
+    {
+      "nidn": "0407059301",
+      "name": "ANDRIAN HIDAYAT"
+    },
+    {
+      "nidn": "0408029202",
+      "name": "ANGGREITA TIARA PUTRI"
+    },
+    {
+      "nidn": "0403038901",
+      "name": "ANIQ ASTOFA"
+    },
+    {
+      "nidn": "0321106203",
+      "name": "ANTONIUS I KOROMPIS"
+    },
+    {
+      "nidn": "0420048605",
+      "name": "APRINIA HANDAYANI"
+    },
+    {
+      "nidn": "0425029101",
+      "name": "ARIANI INDRAWATI"
+    },
+    {
+      "nidn": "0427028303",
+      "name": "ARIEF BUDIMAN"
+    },
+    {
+      "nidn": "8875660018",
+      "name": "ARIF MULYANA"
+    },
+    {
+      "nidn": "0407128410",
+      "name": "ASEP ERLAN MAULANA"
+    },
+    {
+      "nidn": "0317099203",
+      "name": "AULIA IKHSAN"
+    },
+    {
+      "nidn": "8831520016",
+      "name": "BADRI GATOT SANTOSO"
+    },
+    {
+      "nidn": "0418128902",
+      "name": "BADRIAH NURSAKINAH"
+    },
+    {
+      "nidn": "8825630017",
+      "name": "BAGJA MULYA"
+    },
+    {
+      "nidn": "8861800016",
+      "name": "BAMBANG HADI PURNOMO"
+    },
+    {
+      "nidn": "0405089102",
+      "name": "BRAM PURNOMO"
+    },
+    {
+      "nidn": "0404068502",
+      "name": "CARYOTO"
+    },
+    {
+      "nidn": "0406028908",
+      "name": "CENDRA HARMON"
+    },
+    {
+      "nidn": "0421019401",
+      "name": "CHANDRA ALIM"
+    },
+    {
+      "nidn": "0428088006",
+      "name": "CHOLIS HANIFUROHMAN"
+    },
+    {
+      "nidn": "8825360018",
+      "name": "DANI RAMDANI"
+    },
+    {
+      "nidn": "0410129201",
+      "name": "DEBBY RAHADIAN BASKHARA"
+    },
+    {
+      "nidn": "0419129301",
+      "name": "DEDE EKO SAPUTRO"
+    },
+    {
+      "nidn": "0417127004",
+      "name": "DEDIN FATHUDIN"
+    },
+    {
+      "nidn": "0425038802",
+      "name": "DHONY SETIAWAN"
+    },
+    {
+      "nidn": "0429066701",
+      "name": "DIAH RUFAIDA"
+    },
+    {
+      "nidn": "0401049501",
+      "name": "DIKI RASAPTA"
+    },
+    {
+      "nidn": "0415118404",
+      "name": "DWI SETIADI NUGROHO"
+    },
+    {
+      "nidn": "0402057807",
+      "name": "DZIKRIL HAKIM NUR HISYAM"
+    },
+    {
+      "nidn": "0430059102",
+      "name": "EDI MARIYANTO"
+    },
+    {
+      "nidn": "0408069502",
+      "name": "EKA SRI RAHAYU"
+    },
+    {
+      "nidn": "0401068804",
+      "name": "EKA YUNI TITIK ARTANINGSIH"
+    },
+    {
+      "nidn": "0419107805",
+      "name": "EKO SUTONO"
+    },
+    {
+      "nidn": "8872500016",
+      "name": "ENCEP SAEPUDIN"
+    },
+    {
+      "nidn": "0404067806",
+      "name": "ENJAM HERMAWAN"
+    },
+    {
+      "nidn": "0403068304",
+      "name": "ERDI SUTRIYATNA"
+    },
+    {
+      "nidn": "0404078706",
+      "name": "ERLANGGA TRIANTARA PUTRA"
+    },
+    {
+      "nidn": "0401029302",
+      "name": "FATIA AFRA TSURAYA"
+    },
+    {
+      "nidn": "8962120021",
+      "name": "FERHAT AZIZ"
+    },
+    {
+      "nidn": "0415079503",
+      "name": "GIGIH AMRILLAH IBNURHUS"
+    },
+    {
+      "nidn": "0425099204",
+      "name": "HADI SEPRIA"
+    },
+    {
+      "nidn": "0303107603",
+      "name": "HAM IDRIS TUMENGGUNG SIS"
+    },
+    {
+      "nidn": "0427047201",
+      "name": "HARI SETYAWAN"
+    },
+    {
+      "nidn": "0429029201",
+      "name": "HARUMI WIDIHASTUTI"
+    },
+    {
+      "nidn": "8835360018",
+      "name": "HENDRI FIRMAN WINDARTO"
+    },
+    {
+      "nidn": "0416079301",
+      "name": "ICA ETIKASARI"
+    },
+    {
+      "nidn": "0412088506",
+      "name": "ICHSAN RAMDHANI"
+    },
+    {
+      "nidn": "0320039201",
+      "name": "IIS AISYAH"
+    },
+    {
+      "nidn": "0418059501",
+      "name": "IIS ISTIQOMAH"
+    },
+    {
+      "nidn": "0429127202",
+      "name": "INDRA KRISTIANTO"
+    },
+    {
+      "nidn": "0428087302",
+      "name": "JALALUDIN"
+    },
+    {
+      "nidn": "8857520016",
+      "name": "JAMALUDIN"
+    },
+    {
+      "nidn": "0312027003",
+      "name": "JOKO HARYANTO"
+    },
+    {
+      "nidn": "0426109102",
+      "name": "JUPRON"
+    },
+    {
+      "nidn": "0401077303",
+      "name": "KAHFI HERYANDI SURADIRADJA"
+    },
+    {
+      "nidn": "8864700016",
+      "name": "KARNO NANO"
+    },
+    {
+      "nidn": "0405048904",
+      "name": "KHAIRUDIN"
+    },
+    {
+      "nidn": "0412066501",
+      "name": "LUCKY DJUNIFAR"
+    },
+    {
+      "nidn": "0419119102",
+      "name": "MUHAMAD RIZKI AKBAR"
+    },
+    {
+      "nidn": "0423018403",
+      "name": "MUHAMAD ROSDIANA"
+    },
+    {
+      "nidn": "0408018208",
+      "name": "MUHAMAD SANTOSO"
+    },
+    {
+      "nidn": "0402029305",
+      "name": "MUHAMMAD BAHREIN"
+    },
+    {
+      "nidn": "0425017402",
+      "name": "MUHAMMAD CORDIAZ"
+    },
+    {
+      "nidn": "0417019301",
+      "name": "MUHAMMAD FADHIL"
+    },
+    {
+      "nidn": "8804410016",
+      "name": "MUHAMMAD ROSYID RIDLO"
+    },
+    {
+      "nidn": "0425058803",
+      "name": "MUHAMMAD SYUKRI"
+    },
+    {
+      "nidn": "0414068105",
+      "name": "MUHAMMAD TAUFIK"
+    },
+    {
+      "nidn": "0430119001",
+      "name": "NANA HERMANSYAH"
+    },
+    {
+      "nidn": "0406047902",
+      "name": "NARKIM NURHAKIM"
+    },
+    {
+      "nidn": "0410129103",
+      "name": "NASRUL HIDAYAH"
+    },
+    {
+      "nidn": "0423028404",
+      "name": "NENENG MISLIYAH"
+    },
+    {
+      "nidn": "0422059701",
+      "name": "NILOVAR ASYIAH"
+    },
+    {
+      "nidn": "0412049103",
+      "name": "NINI MARLIANA"
+    },
+    {
+      "nidn": "0303066804",
+      "name": "NINIK RETNO PUJATWATI"
+    },
+    {
+      "nidn": "0421119101",
+      "name": "NOVI FITRIANI"
+    },
+    {
+      "nidn": "0328116804",
+      "name": "NOVITA ADRIANI SINTAWATI"
+    },
+    {
+      "nidn": "0407068902",
+      "name": "NURFIQIH"
+    },
+    {
+      "nidn": "0407059602",
+      "name": "NURHASANAH"
+    },
+    {
+      "nidn": "0421099302",
+      "name": "NURHIDAYATULOH"
+    },
+    {
+      "nidn": "8844410016",
+      "name": "NURNANINGSIH"
+    },
+    {
+      "nidn": "8867230017",
+      "name": "NUROKHIM"
+    },
+    {
+      "nidn": "0405109203",
+      "name": "OCTAVIANA ANUGRAH ADE PURNAMA"
+    },
+    {
+      "nidn": "0405108703",
+      "name": "OKE HARIANSYAH"
+    },
+    {
+      "nidn": "0424119203",
+      "name": "OKKY PRASETIA"
+    },
+    {
+      "nidn": "0428109401",
+      "name": "OKTA IRAWATI"
+    },
+    {
+      "nidn": "0426049303",
+      "name": "PANDU WILIANTORO"
+    },
+    {
+      "nidn": "0420108804",
+      "name": "PRIO OKTAVIANTO"
+    },
+    {
+      "nidn": "0425058109",
+      "name": "PURNAMAWATI NINGSIH"
+    },
+    {
+      "nidn": "0404039302",
+      "name": "RAHMAT HIDAYAT"
+    },
+    {
+      "nidn": "0431126402",
+      "name": "RESMI"
+    },
+    {
+      "nidn": "0424089205",
+      "name": "REZA SAPUTRA"
+    },
+    {
+      "nidn": "0426069301",
+      "name": "RIA ESTER"
+    },
+    {
+      "nidn": "0403119103",
+      "name": "RIFKY NOVRIAN KAHAR"
+    },
+    {
+      "nidn": "0422098402",
+      "name": "RIO HENDRA"
+    },
+    {
+      "nidn": "0417129601",
+      "name": "RIYANCO ZOLA"
+    },
+    {
+      "nidn": "0412108406",
+      "name": "SAHLAN"
+    },
+    {
+      "nidn": "0406118703",
+      "name": "SANTOSO BUDIMAN"
+    },
+    {
+      "nidn": "0413099601",
+      "name": "SEPTA"
+    },
+    {
+      "nidn": "0425118802",
+      "name": "SHELVI EKA TASSIA"
+    },
+    {
+      "nidn": "0404068004",
+      "name": "SHOLIHIN S.KOM MM"
+    },
+    {
+      "nidn": "8851760018",
+      "name": "SIMON SIMARMATA"
+    },
+    {
+      "nidn": "0422018801",
+      "name": "SONASA RINUSANTORO"
+    },
+    {
+      "nidn": "0429069401",
+      "name": "SOPIYAN APANDI"
+    },
+    {
+      "nidn": "0410058907",
+      "name": "SRI WAHYUNI"
+    },
+    {
+      "nidn": "8855500016",
+      "name": "SUDARNO"
+    },
+    {
+      "nidn": "0409086701",
+      "name": "SULASIH"
+    },
+    {
+      "nidn": "0323127504",
+      "name": "SULISTYAWAN"
+    },
+    {
+      "nidn": "0416059006",
+      "name": "SURYA HARIYADI"
+    },
+    {
+      "nidn": "0408058203",
+      "name": "SURYA PRADHANA"
+    },
+    {
+      "nidn": "0417107501",
+      "name": "SUTRISNO"
+    },
+    {
+      "nidn": "0429058204",
+      "name": "SUTRIYONO"
+    },
+    {
+      "nidn": "0416058204",
+      "name": "SYAEFUL MACHFUD"
+    },
+    {
+      "nidn": "0317047206",
+      "name": "SYAFRIL CHAIRIANSYAH"
+    },
+    {
+      "nidn": "0428037003",
+      "name": "SYAIFULLAH"
+    },
+    {
+      "nidn": "0416079601",
+      "name": "SYNDHE QUMARUW SYTY"
+    },
+    {
+      "nidn": "0422088602",
+      "name": "TAMSIL MUTAKIN"
+    },
+    {
+      "nidn": "0407088401",
+      "name": "TAUFIQ DAMARJATI"
+    },
+    {
+      "nidn": "0422049003",
+      "name": "TEDI PURWANTO"
+    },
+    {
+      "nidn": "0407089202",
+      "name": "TIO ANDRIAN"
+    },
+    {
+      "nidn": "0423108203",
+      "name": "TOMI HARDI"
+    },
+    {
+      "nidn": "0428128706",
+      "name": "TOMI HIDAYAT"
+    },
+    {
+      "nidn": "0413037705",
+      "name": "TRI ASTO CAHYONO"
+    },
+    {
+      "nidn": "0404028901",
+      "name": "TRIONO"
+    },
+    {
+      "nidn": "0421048406",
+      "name": "TUBAGUS RAFI KUSUMA"
+    },
+    {
+      "nidn": "8872600016",
+      "name": "WAWAN BUDIARTO"
+    },
+    {
+      "nidn": "0302107106",
+      "name": "WEDY LIM"
+    },
+    {
+      "nidn": "0412019101",
+      "name": "WILLI CHRISTIANTO"
+    },
+    {
+      "nidn": "0429097804",
+      "name": "YUDI KURNIAWAN"
+    },
+    {
+      "nidn": "0415079202",
+      "name": "YULIANA"
+    },
+    {
+      "nidn": "0401128002",
+      "name": "ZAINUDIN"
+    },
+    {
+      "nidn": "8802480018",
+      "name": "ZAKARIA"
+    },
+    {
+      "nidn": "0415079106",
+      "name": "ZURNAN ALFIAN"
+    },
+    {
+      "nidn": "0419067102",
+      "name": "ACHMAD HINDASYAH"
+    },
+    {
+      "nidn": "0401126808",
+      "name": "MAKHSUN"
+    },
+    {
+      "nidn": "8811620016",
+      "name": "AGUNG BUDI SUSANTO"
+    },
+    {
+      "nidn": "8894600016",
+      "name": "JONI PRASETYO"
+    },
+    {
+      "nidn": "0312076006",
+      "name": "MARDIYANTO"
+    },
+    {
+      "nidn": "0421127402",
+      "name": "SYAIFUL BAKHRI"
+    },
+    {
+      "nidn": "8867050017",
+      "name": "TASWANDA TARYO"
+    },
+    {
+      "nidn": "0423058704",
+      "name": "THOYYIBAH. T"
+    },
+    {
+      "nidn": "8898211019",
+      "name": "TUKIYAT"
+    },
+    {
+      "nidn": "8897050017",
+      "name": "ACHMAD HANAFI SETIAWAN"
+    },
+    {
+      "nidn": "0424047906",
+      "name": "ARYA ADHYAKSA WASKITA"
+    },
+    {
+      "nidn": "0421108703",
+      "name": "SAJARWO ANGGAI"
+    },
+    {
+      "nidn": "8980670023",
+      "name": "WINARNI"
+    },
+    {
+      "nidn": "0417097304",
+      "name": "AGUS SALIM AFROZI"
+    },
+    {
+      "nidn": "0421088703",
+      "name": "AGUSTINA DYAH SETYOWATI"
+    },
+    {
+      "nidn": "8863500016",
+      "name": "AHMAD WIBISANA"
+    },
+    {
+      "nidn": "0406066603",
+      "name": "IRMAN ANSARI"
+    },
+    {
+      "nidn": "0425048205",
+      "name": "JUFRINALDI"
+    },
+    {
+      "nidn": "0410058802",
+      "name": "RHAHMASARI ISMET"
+    },
+    {
+      "nidn": "8827200016",
+      "name": "SUDIYARMANTO"
+    },
+    {
+      "nidn": "0407096401",
+      "name": "SUWOTO"
+    },
+    {
+      "nidn": "0417048904",
+      "name": "ZAKKI ROSMI MUBAROK"
+    },
+    {
+      "nidn": "0426057801",
+      "name": "BUDHI INDRAWIJAYA"
+    },
+    {
+      "nidn": "0422098803",
+      "name": "DIDIK ISWADI"
+    },
+    {
+      "nidn": "0429036203",
+      "name": "WIWIK INDRAWATI"
+    },
+    {
+      "nidn": "8817430017",
+      "name": "DICKY TRI JATMIKO"
+    },
+    {
+      "nidn": "0406119402",
+      "name": "DINA ADELINA"
+    },
+    {
+      "nidn": "0412118402",
+      "name": "IRWAN MULYADI"
+    },
+    {
+      "nidn": "0426028803",
+      "name": "MAYA LUKITA"
+    },
+    {
+      "nidn": "0416069002",
+      "name": "MAYANG GITTA PAWITRA"
+    },
+    {
+      "nidn": "0401098501",
+      "name": "MUDZAKIR"
+    },
+    {
+      "nidn": "0421069503",
+      "name": "MUFIID FATKHURRAHMAN"
+    },
+    {
+      "nidn": "8833033420",
+      "name": "MURNI HANDAYANI"
+    },
+    {
+      "nidn": "8867750017",
+      "name": "MURYANTO"
+    },
+    {
+      "nidn": "0418079201",
+      "name": "RIFKAH AKMALINA"
+    },
+    {
+      "nidn": "0429069301",
+      "name": "RUSNIA JUNITA HAKIM"
+    },
+    {
+      "nidn": "0405078707",
+      "name": "UNTUNG NUGROHO HARWANTO"
+    },
+    {
+      "nidn": "0410119302",
+      "name": "SYAIFUL ARIF"
+    },
+    {
+      "nidn": "0430048706",
+      "name": "ALFIAN ADY SAPUTRA"
+    },
+    {
+      "nidn": "0405059502",
+      "name": "ANSOR SALIM SIREGAR"
+    },
+    {
+      "nidn": "0407099302",
+      "name": "BAMBANG ALI GUNAWAN"
+    },
+    {
+      "nidn": "0411029502",
+      "name": "JONI ARIF"
+    },
+    {
+      "nidn": "0405098303",
+      "name": "PUNGKAS PRAYITNO"
+    },
+    {
+      "nidn": "0426109203",
+      "name": "SABIQUNASSABIQUN"
+    },
+    {
+      "nidn": "0410097101",
+      "name": "SYAIFUL RIZAL"
+    },
+    {
+      "nidn": "0402088703",
+      "name": "UBAIDILLAH"
+    },
+    {
+      "nidn": "0424128404",
+      "name": "ACHMAD MAULANA SOEHADA SEBAYANG"
+    },
+    {
+      "nidn": "0427028606",
+      "name": "ADE IRAWAN"
+    },
+    {
+      "nidn": "0408078501",
+      "name": "ANDRI LESMANA"
+    },
+    {
+      "nidn": "0403067406",
+      "name": "BAMBANG HERLAMBANG"
+    },
+    {
+      "nidn": "0422117204",
+      "name": "FARID WAZDI"
+    },
+    {
+      "nidn": "0428037304",
+      "name": "GIYANTO"
+    },
+    {
+      "nidn": "0425107002",
+      "name": "IRIYANTI"
+    },
+    {
+      "nidn": "0420059004",
+      "name": "IRWAN ARANDA"
+    },
+    {
+      "nidn": "0407077406",
+      "name": "JAIM"
+    },
+    {
+      "nidn": "0401018605",
+      "name": "JAJA MIHARJA"
+    },
+    {
+      "nidn": "0413047405",
+      "name": "MOHAMAD NASRUN"
+    },
+    {
+      "nidn": "0430038501",
+      "name": "MUHAMMAD AWWALUDDIN"
+    },
+    {
+      "nidn": "0402098404",
+      "name": "NAILUL ATIFAH"
+    },
+    {
+      "nidn": "0428067702",
+      "name": "NUR ROHMAT"
+    },
+    {
+      "nidn": "0406058706",
+      "name": "NURJAYA"
+    },
+    {
+      "nidn": "0402057703",
+      "name": "SA’ADAH MEILUFI"
+    },
+    {
+      "nidn": "0426119101",
+      "name": "SILVIANA SIMBOLON"
+    },
+    {
+      "nidn": "8896530017",
+      "name": "SUGIONO"
+    },
+    {
+      "nidn": "0409038206",
+      "name": "SUHAERI"
+    },
+    {
+      "nidn": "0418128403",
+      "name": "SUJIANTO"
+    },
+    {
+      "nidn": "0412068901",
+      "name": "SULANJARI"
+    },
+    {
+      "nidn": "0413017904",
+      "name": "THOHIRUDIN"
+    },
+    {
+      "nidn": "0411128702",
+      "name": "YOHAN"
+    },
+    {
+      "nidn": "0417037804",
+      "name": "ABDUL CHOLIQ"
+    },
+    {
+      "nidn": "0430048802",
+      "name": "FIFIT ASTUTI"
+    },
+    {
+      "nidn": "0412046209",
+      "name": "HERY ADRIAL"
+    },
+    {
+      "nidn": "0402058702",
+      "name": "IHAT SOLIHAT"
+    },
+    {
+      "nidn": "0415098505",
+      "name": "JOKO SETIYONO"
+    },
+    {
+      "nidn": "0426085901",
+      "name": "SUKANDAR"
+    },
+    {
+      "nidn": "0414057404",
+      "name": "ACHMAD ZAKKY RIDWAN"
+    },
+    {
+      "nidn": "0404128504",
+      "name": "ADIMAS WICAKSANA"
+    },
+    {
+      "nidn": "0414038604",
+      "name": "ADIN"
+    },
+    {
+      "nidn": "8848200016",
+      "name": "AGUS BUDI PRASETYO"
+    },
+    {
+      "nidn": "8853500016",
+      "name": "AHMAD ROYANI"
+    },
+    {
+      "nidn": "8816200016",
+      "name": "AHSONUL ANAM"
+    },
+    {
+      "nidn": "0428026802",
+      "name": "ARI SATMOKO DIPL. ING DEA"
+    },
+    {
+      "nidn": "0410126602",
+      "name": "ARIE SEBASTIAN PANGEMANAN"
+    },
+    {
+      "nidn": "0425036303",
+      "name": "BUDI KALIWANTO"
+    },
+    {
+      "nidn": "8873500016",
+      "name": "CAHYA SUTOWO"
+    },
+    {
+      "nidn": "0401057405",
+      "name": "CATUR KURNIAWAN"
+    },
+    {
+      "nidn": "8821520016",
+      "name": "DEDEN ROSID WALTAM"
+    },
+    {
+      "nidn": "0421036803",
+      "name": "DEDI SURYAMAN"
+    },
+    {
+      "nidn": "8804500016",
+      "name": "EDI TRI ASTUTI"
+    },
+    {
+      "nidn": "8851530017",
+      "name": "FENDY ROKHMANTO"
+    },
+    {
+      "nidn": "8884500016",
+      "name": "GADANG PRIYOTOMO"
+    },
+    {
+      "nidn": "8812570018",
+      "name": "HERU SANTOSA"
+    },
+    {
+      "nidn": "8813500016",
+      "name": "IKA KARTIKA"
+    },
+    {
+      "nidn": "8802210016",
+      "name": "IWAN SETIAWAN"
+    },
+    {
+      "nidn": "8867501019",
+      "name": "KUSDI PRIJONO"
+    },
+    {
+      "nidn": "8818920016",
+      "name": "LATIFA HANUM LALASARI"
+    },
+    {
+      "nidn": "8835500016",
+      "name": "LUSIANA"
+    },
+    {
+      "nidn": "8888500016",
+      "name": "MOCH. SYAIFUL ANWAR"
+    },
+    {
+      "nidn": "8881800016",
+      "name": "MOHAMAD SJAHMANTO"
+    },
+    {
+      "nidn": "0419068906",
+      "name": "MUHAMAD CAHYADI"
+    },
+    {
+      "nidn": "0407028902",
+      "name": "MUHAMMAD ISRO DIYANTO"
+    },
+    {
+      "nidn": "8858500016",
+      "name": "MUSTASYAR PERKASA"
+    },
+    {
+      "nidn": "8833500016",
+      "name": "NONO DARSONO"
+    },
+    {
+      "nidn": "8895500016",
+      "name": "NURHAYATI INDAH CIPTASARI"
+    },
+    {
+      "nidn": "0419077705",
+      "name": "RAHARJO"
+    },
+    {
+      "nidn": "0428076101",
+      "name": "RAHMAT DADANG"
+    },
+    {
+      "nidn": "0421038401",
+      "name": "RATNA PERMATA SARI"
+    },
+    {
+      "nidn": "0417078701",
+      "name": "RESON WIBOWO"
+    },
+    {
+      "nidn": "8865500016",
+      "name": "SIGIT ARIANTO"
+    },
+    {
+      "nidn": "0411108703",
+      "name": "SLAMET RAHARDIAN"
+    },
+    {
+      "nidn": "8847540017",
+      "name": "SUHENDI"
+    },
+    {
+      "nidn": "0402109302",
+      "name": "SUNNY INEZA PUTRI"
+    },
+    {
+      "nidn": "0408108504",
+      "name": "SURYADI"
+    },
+    {
+      "nidn": "8897200016",
+      "name": "TARNO"
+    },
+    {
+      "nidn": "0407027209",
+      "name": "TATANG SURYANA"
+    },
+    {
+      "nidn": "8898100016",
+      "name": "TRI PUSPA KARTIKA WARDANI"
+    },
+    {
+      "nidn": "8803500016",
+      "name": "YULINDA LESTARI"
+    }
+  ]
+}
