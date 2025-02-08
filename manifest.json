@@ -4,17 +4,19 @@
   "version": "1.0",
   "description": "Run JavaScript files in browser console",
   "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+
   "content_scripts": [
     {
       "matches": [
         "http://simkatmawa.kemdikbud.go.id/v5/kegiatan_mhs/non_lomba/*"
       ],
-      "js": ["hide_form.js", "json_input.js", "style.js"],
+      "js": ["hide_form.js", "json_input.js", "cari_dosen.js", "style.js"],
       "run_at": "document_idle"
     },
     {
       "matches": ["https://sispema.unpam.ac.id/*"],
-      "js": ["blob_download.js"],
+      "js": ["blob_download.js", "id_change.js"],
       "run_at": "document_idle"
     }
   ],
@@ -22,9 +24,10 @@
   "action": {
     "default_title": "Console Runner"
   },
+
   "web_accessible_resources": [
     {
-      "resources": ["sispema.js"],
+      "resources": ["sispema.js", "data_dosen.json"],
       "matches": ["<all_urls>"]
     }
   ]
