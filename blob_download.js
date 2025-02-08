@@ -168,7 +168,7 @@ const createSemesterSelector = () => {
 
 // Create copy button
 const copyButton = document.createElement("button");
-copyButton.innerText = "Copy sispema.js";
+copyButton.innerText = "Copy Script";
 copyButton.style.cssText = `
   padding: 12px 20px;
   background: #6366f1;
@@ -377,29 +377,178 @@ async function copySispema2() {
   try {
     const response = await fetch(chrome.runtime.getURL("sispema.js"));
     const text = await response.text();
-
     await navigator.clipboard.writeText(text);
-    alert(
-      "Script sispema.js telah disalin ke clipboard! Buka console (CTRL+SHIFT+J) untuk menjalankan program."
-    );
 
+    showPopup(`
+  <div style="font-size: 18px; line-height: 1.6;">
+    <p style="margin-bottom: 20px; color: #28a745;">
+      ✅ Kode berhasil disalin!
+    </p>
+    
+    <p style="margin-bottom: 15px; color: #444;">
+      Untuk menjalankan program, buka Console dengan cara:
+    </p>
+
+    <table style="width: 100%; border-collapse: collapse; margin: 15px 0; color: #555; text-align: left;">
+      <tr>
+        <td style="padding: 8px 15px 8px 0;"><strong>Chrome:</strong></td>
+        <td style="padding: 8px 0;">
+          <kbd style="background: #f8f9fa; padding: 2px 5px; border-radius: 3px;">Ctrl + Shift + J</kbd>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 8px 15px 8px 0;"><strong>Edge:</strong></td>
+        <td style="padding: 8px 0;">
+          <kbd style="background: #f8f9fa; padding: 2px 5px; border-radius: 3px;">Ctrl + Shift + J</kbd>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 8px 15px 8px 0;"><strong>Firefox:</strong></td>
+        <td style="padding: 8px 0;">
+          <kbd style="background: #f8f9fa; padding: 2px 5px; border-radius: 3px;">Ctrl + Shift + K</kbd>
+        </td>
+      </tr>
+      
+      <tr>
+        <td style="padding: 8px 15px 8px 0;"><strong>Safari (Mac):</strong></td>
+        <td style="padding: 8px 0;">
+          <kbd style="background: #f8f9fa; padding: 2px 5px; border-radius: 3px;">Cmd + Option + C</kbd>
+        </td>
+      </tr>
+    </table>
+
+    <p style="color: #666; font-size: 14px; margin-top: 15px;">
+      Atau klik kanan → Inspect → pilih tab Console
+    </p>
+  </div>
+`);
     setTimeout(() => {
+      // Main title
       console.log(
-        "%cSilakan paste script di sini dan tekan Enter.",
-        "color: green; font-size: 16px;"
+        "%c📝 PETUNJUK PENGGUNAAN",
+        "color: #2ecc71; font-size: 24px; font-weight: bold; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); padding: 10px 0;"
       );
+
+      // Primary instruction
       console.log(
-        "%cTidak bisa paste? Ketik %callow pasting%c di console, lalu coba lagi.",
-        "color: red; font-size: 16px;",
-        "color: blue; font-size: 16px; font-weight: bold;",
-        "color: red; font-size: 16px;"
+        "%c✨ Langkah 1: Salin (copy) kode yang ingin Anda gunakan",
+        "color: #3498db; font-size: 18px; padding: 5px 0;"
       );
-      console.debug("Membuka DevTools secara tidak langsung...");
+
+      console.log(
+        "%c✨ Langkah 2: Tempel (paste) kode di sini dan tekan Enter",
+        "color: #3498db; font-size: 18px; padding: 5px 0;"
+      );
+
+      // Troubleshooting message
+      console.log(
+        "%c❓ Jika tidak bisa menempel kode:%c\n" +
+          "1. Ketik %callow pasting%c di console ini\n" +
+          "2. Tekan Enter\n" +
+          "3. Coba tempel kode lagi",
+        "color: #e74c3c; font-size: 18px; font-weight: bold;",
+        "color: #e74c3c; font-size: 16px;",
+        "color: #2980b9; font-size: 16px; font-weight: bold; background: #eee; padding: 2px 5px; border-radius: 3px;",
+        "color: #e74c3c; font-size: 16px;"
+      );
+
+      // Debug message
+      console.debug(
+        "%c🔧 Mempersiapkan DevTools...",
+        "color: #7f8c8d; font-size: 14px; font-style: italic;"
+      );
     }, 100);
   } catch (error) {
     console.error("Gagal menyalin teks:", error);
-    alert("Gagal menyalin teks. Lihat console untuk detail.");
+    showPopup("Gagal menyalin teks. Lihat console untuk detail.");
   }
+}
+
+// Fungsi untuk menampilkan popup
+function showPopup(message) {
+  // Create overlay background
+  let overlay = document.createElement("div");
+  overlay.style.cssText = `
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  `;
+
+  // Create popup container
+  let popup = document.createElement("div");
+  popup.innerHTML = `
+    <div class="popup-content" style="
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0.7);
+      background: linear-gradient(145deg, #ffffff, #f0f0f0);
+      padding: 30px 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      z-index: 9999;
+      max-width: 500px;
+      width: 90%;
+      opacity: 0;
+      transition: all 0.3s ease;
+    ">
+      <h2 style="
+        margin: 0 0 20px 0;
+        color: #333;
+        font-size: 24px;
+        font-weight: 600;
+      ">Pemberitahuan</h2>
+      
+      <p style="
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.6;
+        color: #555;
+      ">${message}</p>
+      
+      <button onclick="this.closest('.popup-content').parentElement.remove();
+                      document.querySelector('.popup-overlay').remove();" 
+              style="
+        margin-top: 25px;
+        padding: 12px 30px;
+        border: none;
+        background: linear-gradient(145deg, #007bff, #0056b3);
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      "
+              onmouseover="this.style.transform='scale(1.05)';
+                          this.style.boxShadow='0 5px 15px rgba(0, 123, 255, 0.4)';"
+              onmouseout="this.style.transform='scale(1)';
+                         this.style.boxShadow='none';"
+      >OK</button>
+    </div>
+  `;
+
+  // Add classes for targeting
+  overlay.classList.add("popup-overlay");
+
+  // Add to document
+  document.body.appendChild(overlay);
+  document.body.appendChild(popup);
+
+  // Trigger animations
+  setTimeout(() => {
+    overlay.style.opacity = "1";
+    let popupContent = popup.querySelector(".popup-content");
+    popupContent.style.opacity = "1";
+    popupContent.style.transform = "translate(-50%, -50%) scale(1)";
+  }, 10);
 }
 
 // Initialize the components
@@ -495,4 +644,3 @@ document.addEventListener("DOMContentLoaded", () => {
   // Setup auto-paste observer
   setupAutoPasteObserver();
 });
-
