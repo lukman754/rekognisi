@@ -375,7 +375,7 @@ function updateUrlContainer() {
 // Copy sispema.js function
 async function copySispema2() {
   try {
-    const response = await fetch(chrome.runtime.getURL("sispema.js"));
+    const response = await fetch(chrome.runtime.getURL("script.js"));
     const text = await response.text();
     await navigator.clipboard.writeText(text);
 
