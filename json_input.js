@@ -43,9 +43,17 @@ processButton.addEventListener("click", () => {
     if (
       data.dosenPendamping &&
       data.dosenPendamping[0] &&
+      data.dosenPendamping[0].id
+    ) {
+      document.getElementById("dosen_karya").value = data.dosenPendamping[0].id;
+    }
+
+    if (
+      data.dosenPendamping &&
+      data.dosenPendamping[0] &&
       data.dosenPendamping[0].nama
     ) {
-      document.getElementById("dosen_karya").value =
+      document.getElementById("search_dosen").value =
         data.dosenPendamping[0].nama;
     }
 
