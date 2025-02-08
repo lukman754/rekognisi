@@ -27,7 +27,7 @@
 
   "web_accessible_resources": [
     {
-      "resources": ["sispema.js", "data_dosen.json"],
+      "resources": ["script.js", "data_dosen.json"],
       "matches": ["<all_urls>"]
     }
   ]
