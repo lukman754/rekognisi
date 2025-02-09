@@ -86,11 +86,11 @@ Dokumentasi ini akan memandu Anda dalam menggunakan ekstensi Rekognisi untuk men
 ### Langkah-langkah
 1. Buka website Simkatmawa
 2. Salin isi file JSON dari Folder Organizer
-3. Tempel ke kotak input di Simkatmawa
+3. Tempel ke kotak input di Simkatmawa lalu klik "Proses"
 4. Data akan terisi otomatis
 
 ### Auto-Input File
-1. Klik "Start Auto-Input" di Simkatmawa
+1. Klik "Start Auto-Input" di Folder Organizer
 2. Pilih file di Folder Organizer:
    - PDF/PNG: Menyalin path file
    - TXT/JSON: Menyalin isi file
