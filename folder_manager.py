@@ -343,9 +343,11 @@ class FolderOrganizerGUI(ctk.CTk):
         categories = defaultdict(lambda: {"total": 0, "done": 0, "pending": 0})
         
         for folder_name in self.folder_frames.keys():
-            category = re.split(r'__\d{9,}', folder_name)[0].strip()
-            if category.startswith("ZZZ_DONE_"):
-                category = category[5:]
+            # Remove ZZZ_DONE_ prefix if it exists before getting category
+            clean_name = folder_name.replace("ZZZ_DONE_", "")
+            category = re.split(r'__\d{9,}', clean_name)[0].strip()
+            
+            if folder_name.startswith("ZZZ_DONE_"):
                 categories[category]["done"] += 1
             else:
                 categories[category]["pending"] += 1
@@ -376,7 +378,7 @@ class FolderOrganizerGUI(ctk.CTk):
                 text=str(stats["pending"]),
                 font=("Segoe UI", 12)
             ).grid(row=i, column=3, padx=5, pady=2)
-
+            
     def export_csv(self):
         """Export table data as CSV"""
         if not self.selected_directory:
@@ -384,9 +386,11 @@ class FolderOrganizerGUI(ctk.CTk):
         
         categories = defaultdict(lambda: {"total": 0, "done": 0, "pending": 0})
         for folder_name in self.folder_frames.keys():
-            category = re.split(r'__\d{9,}', folder_name)[0].strip()
-            if category.startswith("ZZZ_DONE_"):
-                category = category[5:]
+            # Remove ZZZ_DONE_ prefix if it exists before getting category
+            clean_name = folder_name.replace("ZZZ_DONE_", "")
+            category = re.split(r'__\d{9,}', clean_name)[0].strip()
+            
+            if folder_name.startswith("ZZZ_DONE_"):
                 categories[category]["done"] += 1
             else:
                 categories[category]["pending"] += 1
