@@ -10,7 +10,7 @@ Tutorial ini akan memandu Anda dalam **menggunakan ekstensi Rekognisi untuk meng
 Pastikan Anda sudah mengunduh alat berikut sebelum memulai:  
 
 1. **Folder Organizer**  
-   - 📥 **[Download Folder Organizer (Folder_manager.exe)](https://drive.google.com/file/d/1Ygt_G9NL4kiqUIUaRb0ZqDGkJ-t_1lJP/view?usp=sharing)**  
+   - 📥 **[Download Folder Organizer (Folder_manager.exe)](https://drive.google.com/file/d/1eBH52lpUrliAttj9rBNc6uPQXuCbTbly/view?usp=sharing)**  
 
 2. **Ekstensi Rekognisi**  
    - 📥 **[Download Ekstensi Rekognisi](https://github.com/lukman754/rekognisi/archive/refs/heads/main.zip)**  
