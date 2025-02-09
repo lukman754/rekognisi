@@ -1,7 +1,7 @@
 # Dokumentasi Ekstensi Rekognisi & Folder Organizer
 
 ## Pendahuluan
-Dokumentasi ini akan memandu Anda dalam menggunakan ekstensi Rekognisi untuk mengekstrak data dari website Sistema, mengelola file secara otomatis dengan Folder Organizer, dan melakukan input data otomatis ke Simkatmawa.
+Dokumentasi ini akan memandu Anda dalam menggunakan ekstensi Rekognisi untuk mengekstrak data dari website Sispema, mengelola file secara otomatis dengan Folder Organizer, dan melakukan input data otomatis ke Simkatmawa.
 
 ## Daftar Isi
 1. [Persiapan Awal](#persiapan-awal)
@@ -68,7 +68,7 @@ Dokumentasi ini akan memandu Anda dalam menggunakan ekstensi Rekognisi untuk men
    - Cara penggunaan: Klik tombol "Copy Script"
 
 ### Cara Menggunakan
-1. Buka website Sistema
+1. Buka website Sispema
 2. Jalankan script di konsol browser:
    - Windows: Tekan F12 atau Ctrl + Shift + J
    - Mac: Tekan Cmd + Option + J
