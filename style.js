@@ -1,6 +1,6 @@
 // Style the form elements
 const styles = `
-.col-sm-12 {
+    .col-sm-12 {
         background: #f9f9f9;
         padding: 20px;
         border-radius: 10px;
@@ -53,70 +53,124 @@ const styles = `
     tbody tr:nth-child(even) {
         background: #f2f2f2;
     }
-.form-control {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 14px;
-    transition: border-color 0.3s ease;
-}
-
-.form-control:focus {
-    border-color: #2196F3;
-    outline: none;
-    box-shadow: 0 0 5px rgba(33, 150, 243, 0.3);
-}
-
-.btn {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
-
-.btn-primary {
-    background-color: #2196F3;
-    color: white;
-}
-
-.btn-success {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.file-upload {
-    margin: 10px 0;
-    padding: 15px;
-    border: 2px dashed #ddd;
-    border-radius: 4px;
-    position: relative;
-}
-
-.file-name {
-    margin-top: 8px;
-    font-size: 14px;
-    color: #666;
-}
-
-.required-field {
-    border-color: #ff4444;
-}
-
-.error-message {
-    color: #ff4444;
-    font-size: 12px;
-    margin-top: 5px;
-}`;
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: border-color 0.3s ease;
+    }
+    .form-control:focus {
+        border-color: #2196F3;
+        outline: none;
+        box-shadow: 0 0 5px rgba(33, 150, 243, 0.3);
+    }
+    .btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+    .btn-primary {
+        background-color: #2196F3;
+        color: white;
+    }
+    .btn-success {
+        background-color: #4CAF50;
+        color: white;
+    }
+    .btn-danger {
+        background-color: #ff4444;
+        color: white;
+    }
+    .file-upload {
+        margin: 10px 0;
+        padding: 15px;
+        border: 2px dashed #ddd;
+        border-radius: 4px;
+        position: relative;
+    }
+    .file-name {
+        margin-top: 8px;
+        font-size: 14px;
+        color: #666;
+    }
+    .required-field {
+        border-color: #ff4444;
+    }
+    .error-message {
+        color: #ff4444;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.7);
+        z-index: 1000;
+        overflow-y: auto;
+    }
+    .modal-content {
+        position: relative;
+        margin: 2% auto;
+        padding: 20px;
+        width: 90%;
+        max-width: 800px;
+        background: white;
+        border-radius: 8px;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+    .close-modal {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 24px;
+        cursor: pointer;
+        color: #333;
+        z-index: 1001;
+    }
+    .preview-container {
+        margin-top: 10px;
+        max-height: 70vh;
+        overflow-y: auto;
+    }
+    .preview-actions {
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+    }
+    .file-info {
+        margin-top: 10px;
+        padding: 10px;
+        background: #f5f5f5;
+        border-radius: 4px;
+    }
+`;
 
 // Add styles to document
 const styleSheet = document.createElement("style");
 styleSheet.textContent = styles;
 document.head.appendChild(styleSheet);
 
-// Make file inputs required and add file name display
+// Create modal container
+const modalHTML = `
+<div id="previewModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div id="previewContent"></div>
+    </div>
+</div>`;
+document.body.insertAdjacentHTML("beforeend", modalHTML);
+
+// File input handling
 const fileInputs = [
   "non_lomba3",
   "non_lomba5",
@@ -127,32 +181,110 @@ const fileInputs = [
 fileInputs.forEach((inputId) => {
   const input = document.getElementById(inputId);
   if (input) {
-    // Make input required
     input.setAttribute("required", "required");
 
-    // Create file name display element
-    const fileNameDisplay = document.createElement("div");
-    fileNameDisplay.className = "file-name";
-    fileNameDisplay.id = `${inputId}-filename`;
-    input.parentNode.appendChild(fileNameDisplay);
+    // Create containers
+    const fileInfoContainer = document.createElement("div");
+    fileInfoContainer.className = "file-info";
+    fileInfoContainer.style.display = "none";
+    fileInfoContainer.innerHTML = `
+            <div class="file-name"></div>
+            <div class="preview-actions">
+                <button class="preview-btn btn btn-primary" style="z-index: 999;">Preview File</button>
+                <button class="remove-file btn btn-danger" style="z-index: 999;">Remove</button>
+            </div>
+        `;
 
-    // Add change event listener
+    input.parentNode.appendChild(fileInfoContainer);
+    input.parentNode.classList.add("file-upload");
+
+    // Handle file selection
     input.addEventListener("change", function (e) {
-      const fileName = e.target.files[0]?.name || "No file selected";
-      fileNameDisplay.textContent = `Selected file: ${fileName}`;
+      const file = e.target.files[0];
+      if (!file) return;
 
-      // Validate file size (5MB limit)
-      if (e.target.files[0]?.size > 5 * 1024 * 1024) {
+      // Validate file size
+      if (file.size > 5 * 1024 * 1024) {
         alert("File size must be less than 5MB");
         e.target.value = "";
-        fileNameDisplay.textContent = "No file selected";
+        fileInfoContainer.style.display = "none";
+        return;
       }
-    });
 
-    // Style the parent container
-    input.parentNode.classList.add("file-upload");
+      // Update file info display
+      fileInfoContainer.style.display = "block";
+      fileInfoContainer.querySelector(
+        ".file-name"
+      ).textContent = `Selected file: ${file.name}`;
+
+      // Preview button handler
+      fileInfoContainer.querySelector(".preview-btn").onclick = () =>
+        showPreview(file);
+
+      // Remove button handler
+      fileInfoContainer.querySelector(".remove-file").onclick = () => {
+        input.value = "";
+        fileInfoContainer.style.display = "none";
+      };
+    });
   }
 });
+
+// Preview handling function
+function showPreview(file) {
+  const modal = document.getElementById("previewModal");
+  const previewContent = document.getElementById("previewContent");
+  previewContent.innerHTML = "";
+
+  if (file.type.startsWith("image/")) {
+    // Image preview
+    const img = document.createElement("img");
+    img.style.maxWidth = "100%";
+    img.style.height = "auto";
+    const reader = new FileReader();
+    reader.onload = (e) => (img.src = e.target.result);
+    reader.readAsDataURL(file);
+    previewContent.appendChild(img);
+  } else if (file.type === "application/pdf") {
+    // PDF preview
+    const iframe = document.createElement("iframe");
+    iframe.style.width = "100%";
+    iframe.style.height = "80vh";
+    iframe.style.border = "none";
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const pdfUrl = URL.createObjectURL(file);
+      iframe.src = pdfUrl;
+    };
+    reader.readAsArrayBuffer(file);
+    previewContent.appendChild(iframe);
+  } else {
+    // Other file types
+    previewContent.innerHTML = `
+            <div style="text-align: center; padding: 20px;">
+                <p>Preview not available for this file type</p>
+                <p>File name: ${file.name}</p>
+                <p>File type: ${file.type || "Unknown"}</p>
+                <p>File size: ${(file.size / 1024).toFixed(2)} KB</p>
+            </div>
+        `;
+  }
+
+  modal.style.display = "block";
+}
+
+// Modal close handlers
+document.querySelector(".close-modal").onclick = function () {
+  document.getElementById("previewModal").style.display = "none";
+};
+
+window.onclick = function (event) {
+  const modal = document.getElementById("previewModal");
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
+};
 
 // Form validation before submit
 document.querySelector("form").addEventListener("submit", function (e) {
@@ -164,7 +296,6 @@ document.querySelector("form").addEventListener("submit", function (e) {
       isValid = false;
       input.classList.add("required-field");
 
-      // Add error message if not exists
       let errorMsg = input.parentNode.querySelector(".error-message");
       if (!errorMsg) {
         errorMsg = document.createElement("div");
@@ -181,13 +312,8 @@ document.querySelector("form").addEventListener("submit", function (e) {
   }
 });
 
-// Add button click handlers for student data
-// Hapus event listener yang lama (jika ada)
-const oldButton = document.querySelector(".add-row");
-const newButton = oldButton.cloneNode(true);
-oldButton.parentNode.replaceChild(newButton, oldButton);
-
-// Tambahkan event listener baru
+// Student data handling
+const newButton = document.querySelector(".add-row");
 newButton.addEventListener("click", function () {
   const nim = document.getElementById("nim").value;
   const nama = document.getElementById("nama").value;
@@ -214,17 +340,11 @@ newButton.addEventListener("click", function () {
   }
 });
 
-// Perbaiki juga event handler untuk delete
-const table = document.querySelector("#example");
-const newTable = table.cloneNode(true);
-table.parentNode.replaceChild(newTable, table);
-
-newTable.addEventListener("click", function (e) {
+// Delete row handler
+document.querySelector("#example").addEventListener("click", function (e) {
   if (e.target.classList.contains("delete-row")) {
     if (confirm("Apakah Anda yakin ingin menghapus data ini?")) {
       e.target.closest("tr").remove();
     }
   }
 });
-
-console.log("Event listeners have been fixed successfully!");
