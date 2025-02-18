@@ -80,7 +80,7 @@ function clickButtonsWithDelay() {
             resolve();
           }, 700); // Delay 700ms sebelum mengklik tombol ketiga
         }, 700); // Delay 700ms sebelum mengklik tombol kedua
-      }, 700); // Delay 700ms sebelum mengklik tombol pertama
+      }, 1000); // Delay 700ms sebelum mengklik tombol pertama
     }
 
     // Polling untuk memeriksa ketersediaan tombol
