@@ -15,8 +15,20 @@
       "run_at": "document_idle"
     },
     {
+      "matches": [
+        "http://simkatmawa.kemdikbud.go.id/v5/kegiatan_mhs/lihat_non_lomba"
+      ],
+      "js": ["style_2.js"],
+      "run_at": "document_idle"
+    },
+    {
       "matches": ["https://sispema.unpam.ac.id/*"],
-      "js": ["blob_download.js", "id_change.js"],
+      "js": ["blob_download.js", "id_change.js", "no_table.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://sispema.unpam.ac.id/rekognisi/validasi-rekognisi"],
+      "js": ["auto_click.js"],
       "run_at": "document_idle"
     }
   ],
@@ -27,7 +39,7 @@
 
   "web_accessible_resources": [
     {
-      "resources": ["script.js", "data_dosen.json"],
+      "resources": ["sispema.js", "data_dosen.json"],
       "matches": ["<all_urls>"]
     }
   ]
