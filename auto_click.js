@@ -1,5 +1,5 @@
-// Fungsi untuk mengklik tombol-tombol setelah halaman dimuat atau delay tertentu
-function clickButtonsAfterLoad() {
+// Fungsi untuk mengklik tombol-tombol dengan delay 700ms
+function clickButtonsWithDelay() {
   return new Promise((resolve) => {
     // Menunggu hingga semua tombol tersedia di DOM atau timeout setelah 1,5 detik
     const timeoutMs = 1500; // 1,5 detik
@@ -22,7 +22,9 @@ function clickButtonsAfterLoad() {
 
     // Fungsi untuk mengklik tombol dengan delay
     function clickButtons() {
-      console.log("Preparing to click buttons with 700ms delays...");
+      console.log(
+        `[${new Date().toLocaleTimeString()}] Preparing to click buttons with 700ms delays...`
+      );
 
       // Delay 700ms sebelum mengklik tombol pertama
       setTimeout(() => {
@@ -32,9 +34,13 @@ function clickButtonsAfterLoad() {
         );
         if (ganjilButton) {
           ganjilButton.click();
-          console.log("Clicked GANJIL 24/25 button");
+          console.log(
+            `[${new Date().toLocaleTimeString()}] Clicked GANJIL 24/25 button`
+          );
         } else {
-          console.log("GANJIL 24/25 button not found");
+          console.log(
+            `[${new Date().toLocaleTimeString()}] GANJIL 24/25 button not found`
+          );
         }
 
         // Delay 700ms sebelum mengklik tombol kedua
@@ -45,9 +51,13 @@ function clickButtonsAfterLoad() {
           );
           if (validatedButton) {
             validatedButton.click();
-            console.log("Clicked VALIDATED button");
+            console.log(
+              `[${new Date().toLocaleTimeString()}] Clicked VALIDATED button`
+            );
           } else {
-            console.log("VALIDATED button not found");
+            console.log(
+              `[${new Date().toLocaleTimeString()}] VALIDATED button not found`
+            );
           }
 
           // Delay 700ms sebelum mengklik tombol ketiga
@@ -58,14 +68,18 @@ function clickButtonsAfterLoad() {
             );
             if (conferenceButton) {
               conferenceButton.click();
-              console.log("Clicked CONFERENCE button");
+              console.log(
+                `[${new Date().toLocaleTimeString()}] Clicked CONFERENCE button`
+              );
             } else {
-              console.log("CONFERENCE button not found");
+              console.log(
+                `[${new Date().toLocaleTimeString()}] CONFERENCE button not found`
+              );
             }
 
             resolve();
-          }, 500); // Delay 700ms sebelum mengklik tombol ketiga
-        }, 500); // Delay 700ms sebelum mengklik tombol kedua
+          }, 700); // Delay 700ms sebelum mengklik tombol ketiga
+        }, 700); // Delay 700ms sebelum mengklik tombol kedua
       }, 700); // Delay 700ms sebelum mengklik tombol pertama
     }
 
@@ -83,14 +97,52 @@ function clickButtonsAfterLoad() {
     const timeout = setTimeout(() => {
       clearInterval(interval);
       if (!buttonsReady) {
-        console.log("Timeout reached, attempting to click buttons anyway");
+        console.log(
+          `[${new Date().toLocaleTimeString()}] Timeout reached, attempting to click buttons anyway`
+        );
         clickButtons();
       }
     }, timeoutMs);
   });
 }
 
-// Jalankan fungsi
-clickButtonsAfterLoad().then(() => {
-  console.log("All buttons clicked or attempted");
-});
+// Variabel untuk menyimpan URL saat ini
+let currentUrl = window.location.href;
+
+// Fungsi untuk memeriksa perubahan URL dan menjalankan clickButtonsWithDelay
+function monitorUrlAndClickButtons() {
+  console.log(`[${new Date().toLocaleTimeString()}] Starting URL monitor...`);
+  console.log(
+    `[${new Date().toLocaleTimeString()}] Initial URL: ${currentUrl}`
+  );
+
+  // Jalankan sekali di awal
+  clickButtonsWithDelay().then(() => {
+    console.log(
+      `[${new Date().toLocaleTimeString()}] Initial button clicks completed`
+    );
+  });
+
+  // Mengamati perubahan URL dengan setInterval
+  setInterval(() => {
+    if (currentUrl !== window.location.href) {
+      const previousUrl = currentUrl;
+      currentUrl = window.location.href;
+      console.log(`[${new Date().toLocaleTimeString()}] URL changed!`);
+      console.log(`[${new Date().toLocaleTimeString()}] From: ${previousUrl}`);
+      console.log(`[${new Date().toLocaleTimeString()}] To: ${currentUrl}`);
+
+      // Tunggu sedikit setelah perubahan URL untuk memastikan halaman dimuat
+      setTimeout(() => {
+        clickButtonsWithDelay().then(() => {
+          console.log(
+            `[${new Date().toLocaleTimeString()}] Button clicks completed after URL change`
+          );
+        });
+      }, 500);
+    }
+  }, 1000); // Cek perubahan URL setiap 1 detik
+}
+
+// Mulai monitoring URL
+monitorUrlAndClickButtons();
