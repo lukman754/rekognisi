@@ -10,6 +10,12 @@ buttonContainer.style.cssText = `
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 90vw;
 `;
 
 // Cache management for file downloader
@@ -77,49 +83,55 @@ function setupAutoPasteObserver() {
   });
 }
 
-// Function untuk semester selector
-const createSemesterSelector = () => {
-  const isDropdownOpen = () => {
-    return document.querySelector(".q-menu.scroll") !== null;
-  };
-
-  const trySelectSemester = (semester, maxAttempts = 10) => {
-    let attempts = 0;
-    const attempt = () => {
-      if (attempts >= maxAttempts) {
-        console.log("Gagal memilih semester setelah", maxAttempts, "percobaan");
-        return;
-      }
-      const items = document.querySelectorAll(".q-item__label span");
-      const targetItem = Array.from(items).find(
-        (item) => item.textContent === semester
-      );
-      if (targetItem && isDropdownOpen()) {
-        targetItem.closest(".q-item").click();
-      } else {
-        attempts++;
-        setTimeout(attempt, 100);
-      }
+// Generic selector function
+const createCustomSelector = (
+  inputSelector,
+  targetValue,
+  buttonText,
+  bgColor,
+  hoverColor
+) => {
+  const selectValue = () => {
+    const isDropdownOpen = () => {
+      return document.querySelector(".q-menu.scroll") !== null;
     };
-    attempt();
-  };
 
-  const pilihSemesterLengkap = (semester) => {
-    const semesterInput = document.querySelector(
-      'input[aria-label="Semester Registrasi"]'
-    );
-    if (semesterInput) {
-      const dropdownIcon = semesterInput
+    const trySelect = (value, maxAttempts = 10) => {
+      let attempts = 0;
+      const attempt = () => {
+        if (attempts >= maxAttempts) {
+          console.log("Failed to select after", maxAttempts, "attempts");
+          return;
+        }
+        const items = document.querySelectorAll(".q-item__label span");
+        const targetItem = Array.from(items).find(
+          (item) => item.textContent === value
+        );
+        if (targetItem && isDropdownOpen()) {
+          targetItem.closest(".q-item").click();
+        } else {
+          attempts++;
+          setTimeout(attempt, 100);
+        }
+      };
+      attempt();
+    };
+
+    const input = document.querySelector(inputSelector);
+    if (input) {
+      const dropdownIcon = input
         .closest(".q-field")
         .querySelector(".q-select__dropdown-icon");
       if (dropdownIcon) {
         dropdownIcon.click();
-        setTimeout(() => trySelectSemester(semester), 100);
+        setTimeout(() => trySelect(targetValue), 100);
       }
     }
   };
 
-  const baseStyle = `
+  const button = document.createElement("button");
+  button.textContent = buttonText;
+  button.style.cssText = `
     padding: 12px 20px;
     color: white;
     border: none;
@@ -129,42 +141,59 @@ const createSemesterSelector = () => {
     cursor: pointer;
     transition: background 0.2s;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: ${bgColor};
   `;
 
-  const buttonGenap = document.createElement("button");
-  buttonGenap.textContent = "GENAP 23/24";
-  buttonGenap.style.cssText = baseStyle;
-  buttonGenap.style.backgroundColor = "#3b82f6";
-  buttonGenap.addEventListener(
+  button.addEventListener(
     "mouseover",
-    () => (buttonGenap.style.backgroundColor = "#2563eb")
+    () => (button.style.backgroundColor = hoverColor)
   );
-  buttonGenap.addEventListener(
+  button.addEventListener(
     "mouseout",
-    () => (buttonGenap.style.backgroundColor = "#3b82f6")
+    () => (button.style.backgroundColor = bgColor)
   );
-  buttonGenap.addEventListener("click", () =>
-    pilihSemesterLengkap("GENAP 2023/2024")
-  );
+  button.addEventListener("click", selectValue);
 
-  const buttonGanjil = document.createElement("button");
-  buttonGanjil.textContent = "GANJIL 24/25";
-  buttonGanjil.style.cssText = baseStyle;
-  buttonGanjil.style.backgroundColor = "#ef4444";
-  buttonGanjil.addEventListener(
-    "mouseover",
-    () => (buttonGanjil.style.backgroundColor = "#dc2626")
-  );
-  buttonGanjil.addEventListener(
-    "mouseout",
-    () => (buttonGanjil.style.backgroundColor = "#ef4444")
-  );
-  buttonGanjil.addEventListener("click", () =>
-    pilihSemesterLengkap("GANJIL 2024/2025")
-  );
-
-  return [buttonGenap, buttonGanjil];
+  return button;
 };
+
+// Create all selector buttons
+const buttons = [
+  // Semester buttons
+  createCustomSelector(
+    'input[aria-label="Semester Registrasi"]',
+    "GENAP 2023/2024",
+    "GENAP 23/24",
+    "#3b82f6",
+    "#2563eb"
+  ),
+  createCustomSelector(
+    'input[aria-label="Semester Registrasi"]',
+    "GANJIL 2024/2025",
+    "GANJIL 24/25",
+    "#ef4444",
+    "#dc2626"
+  ),
+  // Validation status button
+  createCustomSelector(
+    'input[aria-label="Status Validasi"]',
+    "TELAH DIVALIDASI ADMIN",
+    "VALIDATED",
+    "#10b981",
+    "#059669"
+  ),
+  // Recognition category button
+  createCustomSelector(
+    'input[aria-label="Kategori Rekognisi"]',
+    "Conference/Seminar sebagai Pemakalah pada seminar Nasional",
+    "CONFERENCE",
+    "#8b5cf6",
+    "#7c3aed"
+  ),
+];
+
+// Add all buttons to container
+buttons.forEach((button) => buttonContainer.appendChild(button));
 
 // Create copy button
 const copyButton = document.createElement("button");
@@ -190,11 +219,12 @@ copyButton.addEventListener("mouseout", () => {
   copyButton.style.background = "#6366f1";
 });
 
+buttonContainer.appendChild(copyButton);
+
 // Create and insert file downloader card
-// Modified file downloader creation and insertion
 const createFileDownloader = () => {
   const fileDownloader = document.createElement("div");
-  fileDownloader.id = "sispema-file-downloader"; // Add unique identifier
+  fileDownloader.id = "sispema-file-downloader";
   fileDownloader.className = "col-lg-12 col-md-12 col-sm-12 col-xs-12";
   fileDownloader.innerHTML = `
     <div class="q-card bodi-content" style="margin-bottom: 16px; visibility: visible; opacity: 1;">
@@ -221,30 +251,23 @@ const createFileDownloader = () => {
     </div>
   `;
 
-  // Enhanced insertion logic
   const insertFileDownloader = () => {
     const targetRow = document.querySelector(".row.q-col-gutter-sm");
     if (targetRow) {
-      // Remove any existing downloader first
       const existingDownloader = document.getElementById(
         "sispema-file-downloader"
       );
       if (existingDownloader) {
         existingDownloader.remove();
       }
-
-      // Insert new downloader
       targetRow.insertBefore(fileDownloader, targetRow.firstChild);
     } else {
-      // Retry insertion after a short delay if row not found
       setTimeout(insertFileDownloader, 500);
     }
   };
 
-  // Initial and repeated insertion attempts
   insertFileDownloader();
 
-  // Additional fallback mechanism
   const mutationObserver = new MutationObserver((mutations) => {
     const targetRow = document.querySelector(".row.q-col-gutter-sm");
     if (targetRow && !document.getElementById("sispema-file-downloader")) {
@@ -260,20 +283,9 @@ const createFileDownloader = () => {
   return fileDownloader;
 };
 
-// Modify initialization to ensure robust insertion
-function initializeFileDownloader() {
-  const existingDownloader = document.getElementById("sispema-file-downloader");
-  if (!existingDownloader) {
-    createFileDownloader();
-  }
-}
-
-// Multiple insertion attempts
-document.addEventListener("DOMContentLoaded", initializeFileDownloader);
-window.addEventListener("load", initializeFileDownloader);
-
-// Periodic check for insertion
-setInterval(initializeFileDownloader, 1000);
+// Initialize components
+document.body.appendChild(buttonContainer);
+const fileDownloader = createFileDownloader();
 
 // Store URLs and file names
 let currentFiles = [];
@@ -367,69 +379,48 @@ function updateUrlContainer() {
 
   document.getElementById("downloadAllBtn").disabled =
     currentFiles.length === 0;
-
-  // Save state after update
   FileDownloaderCache.saveState();
 }
 
-// Copy sispema.js function
+// Copy script function
 async function copySispema2() {
   try {
-    const response = await fetch(chrome.runtime.getURL("script.js"));
+    const response = await fetch(chrome.runtime.getURL("sispema.js"));
     const text = await response.text();
     await navigator.clipboard.writeText(text);
 
     showPopup(`
-  <div style="font-size: 18px; line-height: 1.6;">
-    <p style="margin-bottom: 20px; color: #28a745;">
-      ✅ Kode berhasil disalin!
-    </p>
-    
-    <p style="margin-bottom: 15px; color: #444;">
-      Untuk menjalankan program, buka Console dengan cara:
-    </p>
+      <div style="font-size: 18px; line-height: 1.6;">
+        <p style="margin-bottom: 20px; color: #28a745;">✅ Kode berhasil disalin!</p>
+        <p style="margin-bottom: 15px; color: #444;">Untuk menjalankan program, buka Console dengan cara:</p>
+        <table style="width: 100%; border-collapse: collapse; margin: 15px 0; color: #555; text-align: left;">
+          <tr>
+            <td style="padding: 8px 15px 8px 0;"><strong>Chrome:</strong></td>
+            <td style="padding: 8px 0;"><kbd style="background: #f8f9fa; padding: 2px 5px; border-radius: 3px;">Ctrl + Shift + J</kbd></td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 15px 8px 0;"><strong>Edge:</strong></td>
+            <td style="padding: 8px 0;"><kbd style="background: #f8f9fa; padding: 2px 5px; border-radius: 3px;">Ctrl + Shift + J</kbd></td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 15px 8px 0;"><strong>Firefox:</strong></td>
+            <td style="padding: 8px 0;"><kbd style="background: #f8f9fa; padding: 2px 5px; border-radius: 3px;">Ctrl + Shift + K</kbd></td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 15px 8px 0;"><strong>Safari (Mac):</strong></td>
+            <td style="padding: 8px 0;"><kbd style="background: #f8f9fa; padding: 2px 5px; border-radius: 3px;">Cmd + Option + C</kbd></td>
+          </tr>
+        </table>
+        <p style="color: #666; font-size: 14px; margin-top: 15px;">Atau klik kanan → Inspect → pilih tab Console</p>
+      </div>
+    `);
 
-    <table style="width: 100%; border-collapse: collapse; margin: 15px 0; color: #555; text-align: left;">
-      <tr>
-        <td style="padding: 8px 15px 8px 0;"><strong>Chrome:</strong></td>
-        <td style="padding: 8px 0;">
-          <kbd style="background: #f8f9fa; padding: 2px 5px; border-radius: 3px;">Ctrl + Shift + J</kbd>
-        </td>
-      </tr>
-      <tr>
-        <td style="padding: 8px 15px 8px 0;"><strong>Edge:</strong></td>
-        <td style="padding: 8px 0;">
-          <kbd style="background: #f8f9fa; padding: 2px 5px; border-radius: 3px;">Ctrl + Shift + J</kbd>
-        </td>
-      </tr>
-      <tr>
-        <td style="padding: 8px 15px 8px 0;"><strong>Firefox:</strong></td>
-        <td style="padding: 8px 0;">
-          <kbd style="background: #f8f9fa; padding: 2px 5px; border-radius: 3px;">Ctrl + Shift + K</kbd>
-        </td>
-      </tr>
-      
-      <tr>
-        <td style="padding: 8px 15px 8px 0;"><strong>Safari (Mac):</strong></td>
-        <td style="padding: 8px 0;">
-          <kbd style="background: #f8f9fa; padding: 2px 5px; border-radius: 3px;">Cmd + Option + C</kbd>
-        </td>
-      </tr>
-    </table>
-
-    <p style="color: #666; font-size: 14px; margin-top: 15px;">
-      Atau klik kanan → Inspect → pilih tab Console
-    </p>
-  </div>
-`);
     setTimeout(() => {
-      // Main title
       console.log(
         "%c📝 PETUNJUK PENGGUNAAN",
         "color: #2ecc71; font-size: 24px; font-weight: bold; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); padding: 10px 0;"
       );
 
-      // Primary instruction
       console.log(
         "%c✨ Langkah 1: Salin (copy) kode yang ingin Anda gunakan",
         "color: #3498db; font-size: 18px; padding: 5px 0;"
@@ -440,7 +431,6 @@ async function copySispema2() {
         "color: #3498db; font-size: 18px; padding: 5px 0;"
       );
 
-      // Troubleshooting message
       console.log(
         "%c❓ Jika tidak bisa menempel kode:%c\n" +
           "1. Ketik %callow pasting%c di console ini\n" +
@@ -452,7 +442,6 @@ async function copySispema2() {
         "color: #e74c3c; font-size: 16px;"
       );
 
-      // Debug message
       console.debug(
         "%c🔧 Mempersiapkan DevTools...",
         "color: #7f8c8d; font-size: 14px; font-style: italic;"
@@ -464,9 +453,8 @@ async function copySispema2() {
   }
 }
 
-// Fungsi untuk menampilkan popup
+// Show popup function
 function showPopup(message) {
-  // Create overlay background
   let overlay = document.createElement("div");
   overlay.style.cssText = `
     position: fixed;
@@ -480,7 +468,6 @@ function showPopup(message) {
     transition: opacity 0.3s ease;
   `;
 
-  // Create popup container
   let popup = document.createElement("div");
   popup.innerHTML = `
     <div class="popup-content" style="
@@ -499,34 +486,24 @@ function showPopup(message) {
       opacity: 0;
       transition: all 0.3s ease;
     ">
-      <h2 style="
-        margin: 0 0 20px 0;
-        color: #333;
-        font-size: 24px;
-        font-weight: 600;
-      ">Pemberitahuan</h2>
-      
-      <p style="
-        margin: 0;
-        font-size: 18px;
-        line-height: 1.6;
-        color: #555;
-      ">${message}</p>
-      
+      <h2 style="margin: 0 0 20px 0; color: #333; font-size: 24px; font-weight: 600;">
+        Pemberitahuan
+      </h2>
+      <p style="margin: 0; font-size: 18px; line-height: 1.6; color: #555;">${message}</p>
       <button onclick="this.closest('.popup-content').parentElement.remove();
                       document.querySelector('.popup-overlay').remove();" 
               style="
-        margin-top: 25px;
-        padding: 12px 30px;
-        border: none;
-        background: linear-gradient(145deg, #007bff, #0056b3);
-        color: white;
-        font-size: 16px;
-        font-weight: 500;
-        cursor: pointer;
-        border-radius: 10px;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-      "
+                margin-top: 25px;
+                padding: 12px 30px;
+                border: none;
+                background: linear-gradient(145deg, #007bff, #0056b3);
+                color: white;
+                font-size: 16px;
+                font-weight: 500;
+                cursor: pointer;
+                border-radius: 10px;
+                transition: transform 0.2s ease, box-shadow 0.2s ease;
+              "
               onmouseover="this.style.transform='scale(1.05)';
                           this.style.boxShadow='0 5px 15px rgba(0, 123, 255, 0.4)';"
               onmouseout="this.style.transform='scale(1)';
@@ -535,14 +512,10 @@ function showPopup(message) {
     </div>
   `;
 
-  // Add classes for targeting
   overlay.classList.add("popup-overlay");
-
-  // Add to document
   document.body.appendChild(overlay);
   document.body.appendChild(popup);
 
-  // Trigger animations
   setTimeout(() => {
     overlay.style.opacity = "1";
     let popupContent = popup.querySelector(".popup-content");
@@ -550,13 +523,6 @@ function showPopup(message) {
     popupContent.style.transform = "translate(-50%, -50%) scale(1)";
   }, 10);
 }
-
-// Initialize the components
-document.body.appendChild(buttonContainer);
-const semesterButtons = createSemesterSelector();
-semesterButtons.forEach((button) => buttonContainer.appendChild(button));
-buttonContainer.appendChild(copyButton);
-const fileDownloader = createFileDownloader();
 
 // Initialize event handlers
 document
@@ -594,7 +560,6 @@ document.getElementById("jsonText").addEventListener("input", () => {
 });
 
 // Download all files handler
-// Download all files handler (continued)
 document
   .getElementById("downloadAllBtn")
   .addEventListener("click", async () => {
@@ -633,14 +598,11 @@ document
     }
   });
 
-// Copy sispema.js button event listener
+// Copy script button event listener
 copyButton.addEventListener("click", copySispema2);
 
 // Initial setup after page load
 document.addEventListener("DOMContentLoaded", () => {
-  // Restore cached state
   FileDownloaderCache.restoreState();
-
-  // Setup auto-paste observer
   setupAutoPasteObserver();
 });
