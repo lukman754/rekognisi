@@ -55,6 +55,7 @@ function getPageInfo() {
 }
 
 // Function to add number column to table
+// Function to add number column to table
 async function addNumberColumn() {
   try {
     await waitForTable();
@@ -82,12 +83,24 @@ async function addNumberColumn() {
       tableHeader.insertBefore(numberHeader, tableHeader.firstChild);
     }
 
-    // Get current page info for numbering
-    const { currentPage, rowsPerPage } = getPageInfo();
-    let startNumber = (currentPage - 1) * rowsPerPage + 1;
+    // Get pagination text to extract real start number
+    const paginationElement = document.querySelector(
+      ".q-table__bottom-item:nth-child(2)"
+    );
+    let startNumber = 1;
+
+    if (paginationElement) {
+      const paginationText = paginationElement.textContent;
+      const matches = paginationText.match(/(\d+)-(\d+) of (\d+)/);
+
+      if (matches && matches[1]) {
+        // Use actual start number from pagination text
+        startNumber = parseInt(matches[1]);
+      }
+    }
 
     // Add or update numbers for each row
-    tableRows.forEach((row) => {
+    tableRows.forEach((row, index) => {
       // Check if number cell already exists
       let numberCell = row.querySelector("td.row-number-cell");
 
@@ -100,13 +113,12 @@ async function addNumberColumn() {
       }
 
       // Update number
-      numberCell.textContent = startNumber++;
+      numberCell.textContent = startNumber + index;
     });
   } catch (error) {
     console.error("Error adding row numbers:", error);
   }
 }
-
 // Function to handle any table changes
 async function handleTableChange() {
   await addNumberColumn();
@@ -194,7 +206,7 @@ async function setupWithRetry(maxRetries = 5, currentTry = 1) {
     window.addEventListener("load", handleTableChange);
 
     // Set up periodic check (every 5 seconds) as a fallback
-    setInterval(handleTableChange, 1000);
+    setInterval(handleTableChange, 500);
 
     console.log("Row numbering system initialized successfully");
   } catch (error) {
