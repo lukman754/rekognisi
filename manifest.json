@@ -23,7 +23,7 @@
     },
     {
       "matches": ["https://sispema.unpam.ac.id/*"],
-      "js": ["blob_download.js", "id_change.js", "no_table.js"],
+      "js": ["blob_download.js", "id_change.js"],
       "run_at": "document_idle"
     },
     {
