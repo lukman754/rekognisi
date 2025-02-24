@@ -25,11 +25,6 @@
       "matches": ["https://sispema.unpam.ac.id/*"],
       "js": ["blob_download.js", "id_change.js"],
       "run_at": "document_idle"
-    },
-    {
-      "matches": ["https://sispema.unpam.ac.id/rekognisi/validasi-rekognisi"],
-      "js": ["auto_click.js"],
-      "run_at": "document_idle"
     }
   ],
 
