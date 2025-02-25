@@ -1,4 +1,4 @@
-// Path Manager Script - Minimalist Version with Batch Input
+// Path Manager Script - With Enhanced Multi-word Search Feature
 (async function () {
   // Helper function for delay
   function delay(ms) {
@@ -19,23 +19,37 @@
     }
   });
 
-  console.log("Initializing Path Manager with Batch Input...");
+  console.log(
+    "Initializing Path Manager with Enhanced Multi-word Search Feature..."
+  );
 
   const pathManagerHTML = `
-  <div class="path-manager-container">
-    <h5>Path Manager</h5>
-    
-    <div class="path-input-section">
-      <div class="input-group input-group-sm mb-2">
-        <textarea class="form-control path-value" placeholder="Paste path(s) here (one per line)"></textarea>
-        <div class="input-group-append">
-          <button class="btn btn-sm btn-primary add-path-btn">+</button>
+  <div class="path-manager-container card">
+    <div class="card-header">
+      <h5 class="m-0">Surat Tugas</h5>
+    </div>
+    <div class="card-body">
+      <div class="row mb-2">
+        <div class="col-12">
+          <div class="input-group">
+            <input type="text" class="form-control search-input" placeholder="Search multiple words..." aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary clear-search-btn" type="button">×</button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    
-    <div class="path-list-container">
-      <ul class="path-list list-group"></ul>
+      
+      <div class="input-group mb-3">
+        <textarea class="form-control path-value" placeholder="Paste path(s) here (one per line)" rows="3"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-primary add-path-btn">+</button>
+        </div>
+      </div>
+      
+      <div class="path-list-container">
+        <ul class="list-group path-list"></ul>
+      </div>
     </div>
     
     <!-- Hidden textarea for fallback copy method -->
@@ -43,79 +57,56 @@
   </div>
   `;
 
-  // Check if the target element exists
-  const targetElement = document.querySelector(
-    ".form-group.form-float .col-sm-12.file-upload"
-  );
-  if (!targetElement) {
-    console.error("Target element not found. Waiting for 1 more second...");
-    await delay(1000);
+  // Change the target element to place it above upload_dosen_karya
+  const targetElement = document.getElementById("upload_dosen_karya");
 
-    const retryTarget = document.querySelector(
-      ".form-group.form-float .col-sm-12.file-upload"
+  if (!targetElement) {
+    console.error(
+      "Target upload_dosen_karya element not found. Trying alternative..."
     );
-    if (!retryTarget) {
-      console.error("Target element still not found after retry. Aborting.");
-      return;
+    const altTarget = document.querySelector(
+      ".form-group.form-float .col-sm-12.form-line"
+    );
+
+    if (!altTarget) {
+      console.error(
+        "Alternative target element not found. Waiting for 1 more second..."
+      );
+      await delay(1000);
+
+      const retryTarget = document.querySelector(
+        ".form-group.form-float .col-sm-12.form-line"
+      );
+
+      if (!retryTarget) {
+        console.error("Target element still not found after retry. Aborting.");
+        return;
+      } else {
+        console.log("Alternative target element found after retry!");
+        retryTarget.insertAdjacentHTML("afterend", pathManagerHTML);
+      }
     } else {
-      console.log("Target element found after retry!");
-      retryTarget.insertAdjacentHTML("beforebegin", pathManagerHTML);
+      console.log("Alternative target element found!");
+      altTarget.insertAdjacentHTML("afterend", pathManagerHTML);
     }
   } else {
-    console.log("Target element found!");
+    console.log("Target upload_dosen_karya element found!");
     targetElement.insertAdjacentHTML("beforebegin", pathManagerHTML);
   }
 
-  // Add some styles
+  // Add custom styles with scrollable path list
   const styles = document.createElement("style");
   styles.textContent = `
     .path-manager-container {
+      margin-top: 15px;
       margin-bottom: 15px;
-      padding: 10px;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      background-color: #f9f9f9;
-      font-size: 0.9rem;
+      z-index: 999999999;
     }
     .path-list-container {
-      margin-top: 10px;
-    }
-    .path-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 4px;
-      padding: 5px 8px;
-      font-size: 0.85rem;
-    }
-    .path-content {
-      flex-grow: 1;
-      margin-right: 5px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      max-width: calc(100% - 90px);
-    }
-    .path-actions {
-      display: flex;
-      gap: 2px;
-    }
-    .path-value-display {
-      cursor: pointer;
-      padding: 2px 5px;
-      background-color: #f0f0f0;
-      border-radius: 3px;
-      word-break: break-all;
-      position: relative;
-    }
-    .edit-mode input {
-      margin-bottom: 4px;
-      font-size: 0.85rem;
-    }
-    .btn-path {
-      padding: 1px 5px;
-      font-size: 0.75rem;
-      min-width: 28px;
+      max-height: 300px;
+      overflow-y: auto;
+      border: 1px solid #ddd;
+      border-radius: 4px;
     }
     .toast-notification {
       position: fixed;
@@ -128,14 +119,37 @@
       z-index: 9999;
       opacity: 0;
       transition: opacity 0.3s;
-      font-size: 0.9rem;
     }
     .toast-notification.show {
       opacity: 1;
     }
-    .path-value {
-      min-height: 38px;
-      max-height: 100px;
+    .path-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .path-filename {
+      flex-grow: 1;
+      margin-right: 5px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: pointer;
+    }
+    .path-filename:hover {
+      text-decoration: underline;
+      color: #007bff;
+    }
+    .path-actions {
+      white-space: nowrap;
+    }
+    .clear-search-btn {
+      font-size: 1.5rem;
+      line-height: 1;
+      padding: 0.1rem 0.5rem;
+    }
+    .highlight {
+      background-color: #ffff99;
+      font-weight: bold;
     }
   `;
   document.head.appendChild(styles);
@@ -143,6 +157,44 @@
   // State management
   let paths = [];
   const STORAGE_KEY = "savedPaths";
+  let searchTerms = [];
+
+  // Helper function to extract metadata from path
+  function extractMetadata(path) {
+    try {
+      // Get filename from path (handle both / and \ path separators)
+      const filename = path.split(/[/\\]/).pop();
+
+      // Extract program and month using regex
+      // This pattern looks for text before and within parentheses
+      const pattern = /(.+?)\s*\(\s*([^)]+)\s*\)/i;
+      const match = filename.match(pattern);
+
+      if (match && match.length >= 3) {
+        const program = match[1].trim();
+        const month = match[2].trim();
+
+        return {
+          program,
+          month,
+          filename: filename,
+        };
+      }
+
+      return {
+        program: "Unknown",
+        month: "Unknown",
+        filename: filename || path,
+      };
+    } catch (err) {
+      console.error("Error extracting metadata:", err);
+      return {
+        program: "Unknown",
+        month: "Unknown",
+        filename: path,
+      };
+    }
+  }
 
   // Load saved paths from localStorage
   function loadSavedPaths() {
@@ -150,11 +202,27 @@
     if (savedPaths) {
       try {
         paths = JSON.parse(savedPaths);
-        // Remove titles from existing paths
-        paths = paths.map((path) => ({
-          path: path.path,
-          id: path.id || Date.now(),
-        }));
+
+        // Process and ensure all paths have metadata
+        paths = paths.map((path) => {
+          // If path is a string, convert to object format
+          if (typeof path === "string") {
+            return {
+              path,
+              id: Date.now(),
+              ...extractMetadata(path),
+            };
+          }
+          // If path is object but no metadata, add it
+          else if (!path.program || !path.month) {
+            return {
+              ...path,
+              ...extractMetadata(path.path),
+            };
+          }
+          return path;
+        });
+
         renderPaths();
       } catch (err) {
         console.error("Error parsing saved paths:", err);
@@ -187,7 +255,15 @@
       const cleanedPath = line.trim().replace(/^"(.*)"$/, "$1");
 
       if (cleanedPath) {
-        paths.push({ path: cleanedPath, id: Date.now() + addedCount });
+        // Extract metadata before adding
+        const metadata = extractMetadata(cleanedPath);
+
+        paths.push({
+          path: cleanedPath,
+          id: Date.now() + addedCount,
+          ...metadata,
+        });
+
         addedCount++;
       }
     });
@@ -200,41 +276,9 @@
     }
   }
 
-  // Add single path
-  function addPath(path) {
-    if (!path) return;
-
-    // Check if it might be a batch input
-    if (
-      path.includes("\n") ||
-      (path.includes('"') && path.trim().startsWith('"'))
-    ) {
-      processBatchInput(path);
-      return;
-    }
-
-    // Single path case
-    paths.push({ path, id: Date.now() });
-    savePaths();
-    renderPaths();
-    document.querySelector(".path-value").value = "";
-  }
-
   // Delete path
   function deletePath(id) {
     paths = paths.filter((item) => item.id !== id);
-    savePaths();
-    renderPaths();
-  }
-
-  // Update path
-  function updatePath(id, path) {
-    paths = paths.map((item) => {
-      if (item.id === id) {
-        return { ...item, path };
-      }
-      return item;
-    });
     savePaths();
     renderPaths();
   }
@@ -325,6 +369,52 @@
     );
   }
 
+  // Enhanced Search function for multiple words
+  function searchPaths() {
+    const searchInput = document
+      .querySelector(".search-input")
+      .value.trim()
+      .toLowerCase();
+
+    // Split search input by spaces to get individual search terms
+    searchTerms = searchInput.split(/\s+/).filter((term) => term.length > 0);
+
+    renderPaths();
+  }
+
+  // Clear search
+  function clearSearch() {
+    document.querySelector(".search-input").value = "";
+    searchTerms = [];
+    renderPaths();
+  }
+
+  // Helper function to highlight search terms in text
+  function highlightSearchTerms(text, terms) {
+    if (!terms.length) return text;
+
+    let highlightedText = text;
+
+    // Sort terms by length (longest first) to avoid highlighting issues
+    const sortedTerms = [...terms].sort((a, b) => b.length - a.length);
+
+    for (const term of sortedTerms) {
+      // Escape special characters in the search term
+      const escapedTerm = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+      // Create a regex with the escaped term
+      const regex = new RegExp(`(${escapedTerm})`, "gi");
+
+      // Replace matches with highlighted version
+      highlightedText = highlightedText.replace(
+        regex,
+        '<span class="highlight">$1</span>'
+      );
+    }
+
+    return highlightedText;
+  }
+
   // Render paths list
   function renderPaths() {
     const listElement = document.querySelector(".path-list");
@@ -335,92 +425,89 @@
 
     listElement.innerHTML = "";
 
-    if (paths.length === 0) {
-      listElement.innerHTML =
-        '<li class="list-group-item text-center text-muted py-1" style="font-size: 0.8rem;">Belum ada path yang disimpan</li>';
+    // Apply search filter with multi-word capability
+    let filteredPaths = paths;
+
+    if (searchTerms.length > 0) {
+      filteredPaths = filteredPaths.filter((item) => {
+        // Search in filename, program, month and full path
+        const filename = (item.filename || "").toLowerCase();
+        const program = (item.program || "").toLowerCase();
+        const month = (item.month || "").toLowerCase();
+        const fullPath = (item.path || "").toLowerCase();
+
+        // Concatenate all searchable text
+        const searchableText = `${filename} ${program} ${month} ${fullPath}`;
+
+        // Check if ALL search terms are found in the searchable text
+        return searchTerms.every((term) => searchableText.includes(term));
+      });
+    }
+
+    if (filteredPaths.length === 0) {
+      const message =
+        paths.length === 0
+          ? "Belum ada path yang disimpan"
+          : "Tidak ada path yang sesuai dengan pencarian";
+
+      listElement.innerHTML = `<li class="list-group-item text-center text-muted">${message}</li>`;
       return;
     }
 
-    paths.forEach((item) => {
+    filteredPaths.forEach((item) => {
       const li = document.createElement("li");
-      li.className = "path-item list-group-item py-1 px-2";
+      li.className = "list-group-item path-item";
       li.dataset.id = item.id;
 
+      // Extract just the filename for display
+      const filename = item.filename || item.path.split(/[/\\]/).pop();
+
+      // Highlight search terms if present
+      const highlightedFilename =
+        searchTerms.length > 0
+          ? highlightSearchTerms(filename, searchTerms)
+          : filename;
+
       li.innerHTML = `
-        <div class="path-content">
-          <div class="path-value-display" title="Klik untuk menyalin">${item.path}</div>
-        </div>
+        <div class="path-filename" title="${item.path}">${highlightedFilename}</div>
         <div class="path-actions">
-          <button class="btn btn-sm btn-info btn-path" title="Salin">Copy</button>
-          <button class="btn btn-sm btn-warning btn-path" title="Edit">Edit</button>
-          <button class="btn btn-sm btn-danger btn-path" title="Hapus">X</button>
+          <button class="btn btn-sm btn-outline-primary mr-1" title="Salin Path">Copy</button>
+          <button class="btn btn-sm btn-outline-danger" title="Hapus">X</button>
         </div>
       `;
 
       listElement.appendChild(li);
 
-      // Add click event to copy path (on the display element)
-      li.querySelector(".path-value-display").addEventListener("click", () => {
+      // Add click event to filename to copy path
+      li.querySelector(".path-filename").addEventListener("click", () => {
         copyPath(item.path);
       });
 
       // Add click event to copy button
-      li.querySelector(".btn-info").addEventListener("click", (e) => {
-        e.stopPropagation();
-        copyPath(item.path);
+      li.querySelector(".btn-outline-primary").addEventListener(
+        "click",
+        (e) => {
+          e.stopPropagation();
+          copyPath(item.path);
 
-        // Change button text temporarily
-        const copyBtn = e.target.closest(".btn-info");
-        const originalText = copyBtn.textContent;
-        copyBtn.textContent = "✓";
-        copyBtn.classList.remove("btn-info");
-        copyBtn.classList.add("btn-success");
+          // Change button text temporarily
+          const copyBtn = e.target.closest(".btn-outline-primary");
+          const originalText = copyBtn.textContent;
+          copyBtn.textContent = "✓";
+          copyBtn.classList.remove("btn-outline-primary");
+          copyBtn.classList.add("btn-success");
 
-        setTimeout(() => {
-          copyBtn.textContent = originalText;
-          copyBtn.classList.remove("btn-success");
-          copyBtn.classList.add("btn-info");
-        }, 2000);
-      });
+          setTimeout(() => {
+            copyBtn.textContent = originalText;
+            copyBtn.classList.remove("btn-success");
+            copyBtn.classList.add("btn-outline-primary");
+          }, 1000);
+        }
+      );
 
       // Delete button event
-      li.querySelector(".btn-danger").addEventListener("click", () => {
+      li.querySelector(".btn-outline-danger").addEventListener("click", () => {
         deletePath(item.id);
-      });
-
-      // Edit button event
-      li.querySelector(".btn-warning").addEventListener("click", function () {
-        const pathItem = this.closest(".path-item");
-        const pathContent = pathItem.querySelector(".path-content");
-        const currentPath = item.path;
-
-        pathContent.innerHTML = `
-          <div class="edit-mode">
-            <input type="text" class="form-control form-control-sm edit-path" value="${currentPath}" placeholder="Path URL/Location">
-            <div class="mt-1">
-              <button class="btn btn-sm btn-success btn-path save-edit-btn">✓</button>
-              <button class="btn btn-sm btn-secondary btn-path cancel-edit-btn">×</button>
-            </div>
-          </div>
-        `;
-
-        // Save button event
-        pathContent
-          .querySelector(".save-edit-btn")
-          .addEventListener("click", () => {
-            const newPath = pathContent.querySelector(".edit-path").value;
-
-            if (newPath) {
-              updatePath(item.id, newPath);
-            }
-          });
-
-        // Cancel button event
-        pathContent
-          .querySelector(".cancel-edit-btn")
-          .addEventListener("click", () => {
-            renderPaths();
-          });
       });
     });
   }
@@ -450,17 +537,31 @@
     });
   }
 
-  // Auto-expand textarea as needed
-  pathValueInput.addEventListener("input", function () {
-    this.style.height = "auto";
-    const maxHeight = 100; // Maximum height in pixels
-    const scrollHeight = this.scrollHeight;
-    this.style.height = Math.min(scrollHeight, maxHeight) + "px";
-  });
+  // Set up search events
+  const searchInput = document.querySelector(".search-input");
+  if (searchInput) {
+    searchInput.addEventListener("input", searchPaths);
+    searchInput.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        clearSearch();
+      }
+    });
+
+    // Add placeholder hint for multi-word search
+    searchInput.setAttribute("placeholder", "Ketik beberapa kata kunci...");
+  }
+
+  // Set up clear search button
+  const clearSearchBtn = document.querySelector(".clear-search-btn");
+  if (clearSearchBtn) {
+    clearSearchBtn.addEventListener("click", clearSearch);
+  }
 
   // Load saved paths
   console.log("Loading saved paths...");
   loadSavedPaths();
 
-  console.log("Path Manager with Batch Input initialized successfully!");
+  console.log(
+    "Path Manager with Enhanced Multi-word Search initialized successfully!"
+  );
 })();

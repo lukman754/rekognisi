@@ -11,7 +11,13 @@
       "matches": [
         "http://simkatmawa.kemdikbud.go.id/v5/kegiatan_mhs/non_lomba/*"
       ],
-      "js": ["hide_form.js", "json_input.js", "cari_dosen.js", "style.js", "path.js"],
+      "js": [
+        "hide_form.js",
+        "json_input.js",
+        "cari_dosen.js",
+        "style.js",
+        "path.js"
+      ],
       "run_at": "document_idle"
     },
     {
@@ -24,6 +30,11 @@
     {
       "matches": ["https://sispema.unpam.ac.id/*"],
       "js": ["blob_download.js", "id_change.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://sispema.unpam.ac.id/rekognisi/validasi-rekognisi"],
+      "js": ["auto_click.js"],
       "run_at": "document_idle"
     }
   ],
